@@ -1,6 +1,5 @@
 package com.epam.pricecheckercore.service.excel;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.junit.jupiter.api.Test;
@@ -31,61 +30,61 @@ class ExcelImplTest {
     private Sheet sheet;
 
     @Test
-    void shouldContainsOneRowWhenExcelXlsxContainsOneRow() throws IOException, InvalidFormatException {
+    void shouldContainsOneRowWhenExcelXlsxContainsOneRow() throws IOException {
         List<List<String>> table = excel.read(getBytes("file/xls/oneField.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SAG060003, AGENT PROVOCATEUR FATALE EDP 50 ml spray, 6, 3760264453741]]");
+        assertThat(table.toString()).hasToString("[[SAG060003, AGENT PROVOCATEUR FATALE EDP 50 ml spray, 6, 3760264453741]]");
     }
 
     @Test
-    void shouldContainsOneRowWhenExcelXlsContainsOneRow() throws IOException, InvalidFormatException {
+    void shouldContainsOneRowWhenExcelXlsContainsOneRow() throws IOException {
         List<List<String>> table = excel.read(getBytes("file/xls/oneField.xls"));
 
-        assertThat(table.toString()).isEqualTo("[[SAZ010009, AZZARO CHROME EDT TESTER 100 ml spray]]");
+        assertThat(table.toString()).hasToString("[[SAZ010009, AZZARO CHROME EDT TESTER 100 ml spray]]");
     }
 
     @Test
-    void shouldContainsTwoRowsWhenExcelContainsTwoRows() throws IOException, InvalidFormatException {
+    void shouldContainsTwoRowsWhenExcelContainsTwoRows() throws IOException {
         List<List<String>> table = excel.read(getBytes("file/xls/twoField.xlsx"));
 
 
-        assertThat(table.toString()).isEqualTo("[[SAB070001, ANNA SUI ROMANTICA EDT TESTER 75 ml spray, 10], " +
+        assertThat(table.toString()).hasToString("[[SAB070001, ANNA SUI ROMANTICA EDT TESTER 75 ml spray, 10], " +
                 "[SAB070002, ANNA SUI ROMANTICA EDT 30 ml spray, 42]]");
     }
 
     @Test
-    void shouldContainsOneRowWithSpacesWhenExcelContainsOneRowWithSpace() throws IOException, InvalidFormatException {
+    void shouldContainsOneRowWithSpacesWhenExcelContainsOneRowWithSpace() throws IOException {
         List<List<String>> table = excel.read(getBytes("file/xls/oneFieldWithSpace.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SBA030010, , 34]]");
+        assertThat(table.toString()).hasToString("[[SBA030010, , 34]]");
     }
 
     @Test
     void shouldContainsTwoRowsWhenExcelContainsTwoRowsFirstShorter() throws Exception {
         List<List<String>> table = excel.read(getBytes("file/xls/twoFieldDifferentSizeFirstShorter.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SOT440001, 3760260453042], [SOT190003, 3760260451994, 50 ml, U]]");
+        assertThat(table.toString()).hasToString("[[SOT440001, 3760260453042], [SOT190003, 3760260451994, 50 ml, U]]");
     }
 
     @Test
     void shouldContainsTwoRowWhenExcelContainsTwoRowSecondShorter() throws Exception {
         List<List<String>> table = excel.read(getBytes("file/xls/twoFieldDifferentSizeSecondShorter.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042]]");
+        assertThat(table.toString()).hasToString("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042]]");
     }
 
     @Test
     void shouldContainsOneRowWithSpacesWhenExcelContainsOneRowWithSpaces() throws Exception {
         List<List<String>> table = excel.read(getBytes("file/xls/oneFieldSpacesAtBeginningAndAtMiddle.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[, , SOT440001, , , 3760260453042]]");
+        assertThat(table.toString()).hasToString("[[, , SOT440001, , , 3760260453042]]");
     }
 
     @Test
     void shouldContainsThreeRowsDifferentSizeWhenExcelContainsThreeRowsDifferentSize() throws Exception {
         List<List<String>> table = excel.read(getBytes("file/xls/threeFieldDifferentSize.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042], " +
+        assertThat(table.toString()).hasToString("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042], " +
                 "[SOT470001, 3760260623042, 100 ml, M, EDP]]");
     }
 
@@ -93,12 +92,12 @@ class ExcelImplTest {
     void shouldContainsFiveRowsWhenExcelContainsFiveSheetsWithFiveRows() throws Exception {
         List<List<String>> table = excel.read(getBytes("file/xls/fiveSheets.xlsx"));
 
-        assertThat(table.toString()).isEqualTo("[[SBA030010, , 34], [SOT190003, 3760260451994, 50 ml, U, ], " +
+        assertThat(table.toString()).hasToString("[[SBA030010, , 34], [SOT190003, 3760260451994, 50 ml, U, ], " +
                 "[SOT440001, 3760260453042, , , ], [SOT470001, 3760260623042, 100 ml, M, EDP]]");
     }
 
     @Test
-    void shouldCreateWorkbookWithOneRowWhenTableContainsOneRow() throws IOException {
+    void shouldCreateWorkbookWithOneRowWhenTableContainsOneRow() {
         List<List<String>> table = createTable(createList("SBA160002", "8411061784273",
                 "ANTONIO BANDERAS KING OF SEDUCTION  MAN EDT 100 ml spray", "100", "EDT", "М", "15,30"));
 
@@ -110,7 +109,7 @@ class ExcelImplTest {
     }
 
     @Test
-    void shouldCreateWorkbookWithTwoRowWhenTableContainsTwoRowSameSize() throws Exception {
+    void shouldCreateWorkbookWithTwoRowWhenTableContainsTwoRowSameSize() {
         List<List<String>> table = createTable(createList("SBA160002", "8411061784273",
                 "ANTONIO BANDERAS KING OF SEDUCTION  MAN EDT 100 ml spray", "100", "EDT", "М", "15,30"),
                 createList("SAN020002", "8427395660206",
@@ -126,7 +125,7 @@ class ExcelImplTest {
     }
 
     @Test
-    void shouldCreateWorkbookWithTwoRowWithHiddenColumnWhenTableContainsTwoRowWithBlankColumn() throws Exception {
+    void shouldCreateWorkbookWithTwoRowWithHiddenColumnWhenTableContainsTwoRowWithBlankColumn() {
         List<List<String>> table = createTable(createList("SBA160002", "8411061784273",
                 "", "100", "EDT", "М", "15,30"),
                 createList("SAN020002", "8427395660206", "", "125", "EDT", "М", "16,40"));
@@ -142,7 +141,7 @@ class ExcelImplTest {
 
         int columnCount = excel.getColumnCount(sheet);
 
-        assertThat(columnCount).isEqualTo(0);
+        assertThat(columnCount).isZero();
     }
 
     private byte[] getBytes(String fileName) {
