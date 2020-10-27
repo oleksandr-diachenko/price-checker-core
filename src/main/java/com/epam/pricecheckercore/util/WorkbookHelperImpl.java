@@ -1,6 +1,7 @@
 package com.epam.pricecheckercore.util;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException;
 import org.apache.poi.ss.usermodel.Workbook;
 
 import java.io.ByteArrayOutputStream;
@@ -16,7 +17,7 @@ public class WorkbookHelperImpl implements WorkbookHelper {
             return os.toByteArray();
         } catch (IOException e) {
             log.error("Can't read bytes from workbook!");
-            throw new RuntimeException("Can't read bytes from workbook!", e);
+            throw new NotOfficeXmlFileException("Can't read bytes from workbook!", e);
         }
     }
 }

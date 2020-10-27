@@ -22,7 +22,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
-public class PriceCheckerServiceTest {
+class PriceCheckerServiceTest {
 
     private static final String URL = "http://www.site.com/product";
     private static final byte[] BYTES = {1, 2, 3};
