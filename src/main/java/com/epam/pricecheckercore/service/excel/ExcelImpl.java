@@ -11,9 +11,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * @author Alexander Diachenko.
- */
 public class ExcelImpl implements Excel {
 
     @Override

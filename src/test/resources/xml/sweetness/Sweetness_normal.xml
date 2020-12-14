@@ -1,31 +1,33 @@
 <div class="row" style="position: relative;">
     <div id="center_column" class="center_column col-xs-12 col-sm-12">
-        <div itemscope="">
+        <div class="">
             <div class="primary_block row">
                 <div class="container"></div>
                 <div class="pb-left-column col-xs-12 col-sm-6 col-md-5" style="margin-bottom:20px;">
                     <div id="image-block" class="clearfix">
+                        <span class="new-box">
+                            <span class="new-label">Новое</span>
+                        </span>
                         <span id="view_full_size">
-                            <img id="bigpic" itemprop="image"
-                                 src="https://sweetness.com.ua/4010-large_default/the-saem-fresh-bamboo-soothing-gel-99-bambukovyj-uvlazhnyayushhij-gel.jpg"
-                                 title="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель"
-                                 alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель" width="458"
-                                 height="458"/>
+                            <img id="bigpic"
+                                 src="https://sweetness.com.ua/13260-large_default/medi-peel-herbal-peel-tox-wash-off-type-cream-mask.jpg"
+                                 title="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask"
+                                 alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask" width="458" height="458">
                             <span class="span_link no-print">Увеличить</span>
                         </span>
                     </div>
                     <div id="views_block" class="clearfix hidden">
                         <div id="thumbs_list">
                             <ul id="thumbs_list_frame" style="width: 90px;">
-                                <li id="thumbnail_4010" class="last">
-                                    <a href="https://sweetness.com.ua/4010-thickbox_default/the-saem-fresh-bamboo-soothing-gel-99-bambukovyj-uvlazhnyayushhij-gel.jpg"
+                                <li id="thumbnail_13260" class="last">
+                                    <a href="https://sweetness.com.ua/13260-thickbox_default/medi-peel-herbal-peel-tox-wash-off-type-cream-mask.jpg"
                                        data-fancybox-group="other-views" class="fancybox shown"
-                                       title="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель">
-                                        <img class="img-responsive" id="thumb_4010"
-                                             src="https://sweetness.com.ua/4010-cart_default/the-saem-fresh-bamboo-soothing-gel-99-bambukovyj-uvlazhnyayushhij-gel.jpg"
-                                             alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель"
-                                             title="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель"
-                                             height="80" width="80" itemprop="image"/>
+                                       title="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask">
+                                        <img class="img-responsive" id="thumb_13260"
+                                             src="https://sweetness.com.ua/13260-cart_default/medi-peel-herbal-peel-tox-wash-off-type-cream-mask.jpg"
+                                             alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask"
+                                             title="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask" height="80"
+                                             width="80">
                                     </a>
                                 </li>
                             </ul>
@@ -33,22 +35,18 @@
                     </div>
                 </div>
                 <div class="pb-center-column col-xs-12 col-sm-6 col-md-4">
-                    <h1 itemprop="name"
-                        style="text-transform:uppercase; font: normal 16px/20px 'Helvica', 'Arial', sans-serif; color: #333333;">
-                        The Saem Fresh Bamboo Soothing Gel 99%
+                    <h1 style="text-transform:uppercase; font: normal 16px/20px 'Helvica', 'Arial', sans-serif; color: #333333;">
+                        MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask
                     </h1>
                     <span>
-                        <p>Бамбуковый увлажняющий гель, 260мл.</p>
+                        <p>Очищающая маска-пилинг с эффектом детокса, 120 мл</p>
                     </span>
                     <div class="top-hr"></div>
                     <div class="content_prices clearfix">
-                        <div class="content_prices_row">
-                            <span class="content_prices_item our_price_display" itemprop="offers" itemscope="">
-                                <link itemprop="availability" href="http://schema.org/InStock"/>
+                        <div class="content_prices_row ">
+                            <span class="content_prices_item our_price_display">
                                 <span id="price_word">Цена:</span>
-                                <span id="our_price_display" class="price">175 грн</span>
-                                <meta itemprop="price" content="175"/>
-                                <meta itemprop="priceCurrency" content="UAH"/>
+                                <span id="our_price_display" class="price">530 грн</span>
                             </span>
                             <span class="content_prices_item" id="old_price">
                                 <span id="old_price_display"></span>
@@ -60,22 +58,31 @@
                                 <span id="reduction_amount_display"></span>
                             </span>
                         </div>
+                        <input type="hidden" class="gtag-product-id" value="8721">
+                        <input type="hidden" class="gtag-product-attr-id" value="0">
+                        <input type="hidden" class="gtag-product-name"
+                               value="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask">
+                        <input type="hidden" class="gtag-product-brand" value="MEDI-PEEL">
+                        <input type="hidden" class="gtag-product-category" value="Лицо/Маски для лица/Регулярная маска">
+                        <input type="hidden" class="gtag-product-price" value="530">
+                        <input type="hidden" class="gtag-product-variant" value="">
+                        <script type="text/template" class="gtag-all-product-variants">[]</script>
                         <div class="clear"></div>
                     </div>
                     <div class="top-hr"></div>
                     <p id="product_reference">
                         <label>Артикул</label>
-                        <span class="editable" itemprop="sku">BD301100112</span>
+                        <span class="editable">8809409345673</span>
                     </p>
                     <p id="manufacturer">
                         <label>Производитель:</label>
-                        <a href="https://sweetness.com.ua/30_the-saem">
-                            <span itemprop="brand">The Saem</span>
+                        <a href="https://sweetness.com.ua/103_medi-peel">
+                            <span>MEDI-PEEL</span>
                         </a>
                     </p>
                     <p id="product-series">
                         <label>Серия:</label>
-                        <a href="https://sweetness.com.ua/search?tag=Saem+Fresh+Bamboo">Saem Fresh Bamboo,</a>
+                        <a href="https://sweetness.com.ua/search?tag=MEDI-PEEL+TOX">MEDI-PEEL TOX,</a>
                     </p>
                     <p id="availability_statut" style="display: none;">
                         <label>Наличие:</label>
@@ -84,21 +91,7 @@
                     <div id="oosHook" style="display: none;">
                         <p class="form-group">
                             <input type="email" id="oos_customer_email" name="customer_email" size="20"
-                                   placeholder="укажите@ваш.адрес" class="mailalerts_oos_email form-control" title="overall type: EMAIL_ADDRESS
-server type: EMAIL_ADDRESS
-heuristic type: UNKNOWN_TYPE
-label: укажите@ваш.адрес
-parseable name: customer_email
-section: customer_email_1-default
-field signature: 2184366486
-form signature: 15448957608704714962" autofill-information="overall type: EMAIL_ADDRESS
-server type: EMAIL_ADDRESS
-heuristic type: UNKNOWN_TYPE
-label: укажите@ваш.адрес
-parseable name: customer_email
-section: customer_email_1-default
-field signature: 2184366486
-form signature: 15448957608704714962" autofill-prediction="EMAIL_ADDRESS"/>
+                                   placeholder="укажите@ваш.адрес" class="mailalerts_oos_email form-control">
                         </p>
                         <a href="#" title="Сообщите мне, когда товар появится в продаже" id="mailalert_link"
                            rel="nofollow">Сообщите мне, когда товар появится в продаже
@@ -114,7 +107,7 @@ form signature: 15448957608704714962" autofill-prediction="EMAIL_ADDRESS"/>
                     </p>
                     <div id="short_description_block" style="display:none;">
                         <div class="top-hr"></div>
-                        <div id="short_description_content" class="rte align_justify" itemprop="description"></div>
+                        <div id="short_description_content" class="rte align_justify"></div>
                         <p class="buttons_bottom_block">
                             <a href="javascript:{}" class="button">Подробнее</a>
                         </p>
@@ -122,30 +115,16 @@ form signature: 15448957608704714962" autofill-prediction="EMAIL_ADDRESS"/>
                     <div class="top-hr"></div>
                     <form id="buy_block" action="https://sweetness.com.ua/cart" method="post">
                         <p class="hidden">
-                            <input type="hidden" name="token" value="08424b53658b798f4b20916d8d6bec0e"/>
-                            <input type="hidden" name="id_product" value="1494" id="product_page_product_id"/>
-                            <input type="hidden" name="add" value="1"/>
-                            <input type="hidden" name="id_product_attribute" id="idCombination" value=""/>
+                            <input type="hidden" name="token" value="08424b53658b798f4b20916d8d6bec0e">
+                            <input type="hidden" name="id_product" value="8721" id="product_page_product_id">
+                            <input type="hidden" name="add" value="1">
+                            <input type="hidden" name="id_product_attribute" id="idCombination" value="">
                         </p>
                         <div class="box-info-product">
                             <div class="product_attributes clearfix">
                                 <p id="quantity_wanted_p">
                                     <label>Количество</label>
-                                    <input type="text" name="qty" id="quantity_wanted" class="text" value="1" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Количество
-parseable name: qty
-section: qty_1-default
-field signature: 3166992832
-form signature: 11711262986969540499" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Количество
-parseable name: qty
-section: qty_1-default
-field signature: 3166992832
-form signature: 11711262986969540499" autofill-prediction="UNKNOWN_TYPE"/>
+                                    <input type="text" name="qty" id="quantity_wanted" class="text" value="1">
                                     <a href="#" data-field-qty="qty"
                                        class="btn btn-default button-minus product_quantity_down">
                                         <span>
@@ -173,7 +152,7 @@ form signature: 11711262986969540499" autofill-prediction="UNKNOWN_TYPE"/>
                                         </button>
                                     </div>
                                     <button type="button" href="#" class="exclusive"
-                                            onclick="WishlistCart('wishlist_block_list', 'add', '1494', $('#idCombination').val(), document.getElementById('quantity_wanted').value); return false;"
+                                            onclick="WishlistCart('wishlist_block_list', 'add', '8721', $('#idCombination').val(), document.getElementById('quantity_wanted').value); return false;"
                                             rel="nofollow" title="В избранное">
                                         <em class="icon-heart" id="icon-heart"></em>
                                         <span>В ЖЕлание</span>
@@ -182,53 +161,33 @@ form signature: 11711262986969540499" autofill-prediction="UNKNOWN_TYPE"/>
                             </div>
                         </div>
                     </form>
-                    <span itemprop="aggregateRating" itemscope="">
-                        <div class="rating_block_product_page">
-                            <p class="average-heading-title">
-                                <label style="font-size: 13px;">Оценки и отзывы</label>
-                            </p>
-                            <div class="mycomments-comment">
-                                <div class="star-rating"></div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 80%;"></div>
-                                        <input value="4" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Four Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Four Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-primary">Four Stars</span>
-                                    </div>
-                                </div>
-                                <span itemprop="ratingValue" style="display: none;">4</span>
-                                <span class="rating_list" itemprop="reviewCount">19</span>
-                                <span style="font-size: 10px;">голос(ов)</span>
-                            </div>
-                            <a class="button btn btn-default" style="color: white;" href="javascript:void(0);"
-                               onclick="$.scrollTo('#mymodcomments-content-tab', 1200);">Посмотреть отзывы
-                            </a>
-                        </div>
-                    </span>
                 </div>
                 <div id="cmsinfo_block" class="col-sm-12 col-md-3" style="border:0;">
                     <div class="pb-right-column" style="width: 100%;">
                         <ul class="advantages">
+                            <li>
+                                <em class="icon-truck" id="icon-truck"></em>
+                                <div class="type-text">
+                                    <h3>БЕСПЛАТНАЯ ДОСТАВКА!</h3>
+                                    <p>Заказы <b style="color:#333; font-size:110%;">от 599 грн</b> отправляем на
+                                        отделение Новой Почты за счет магазина
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="icon-money" id="icon-money"></em>
+                                <div class="type-text">
+                                    <h3>НАЛОЖКА БЕЗ КОМИССИИ!</h3>
+                                    <p>При заказе наложенным платежом отсутствует комиссия</p>
+                                </div>
+                            </li>
+                            <li>
+                                <em class="icon-gift" id="icon-gift"></em>
+                                <div class="type-text">
+                                    <h3>ПОЛУЧИТЕ ПОДАРКИ!</h3>
+                                    <p>Бесплатные пробники в каждом заказе^^</p>
+                                </div>
+                            </li>
                             <li>
                                 <em class="icon-thumbs-up-alt" id="icon-thumbs-up-alt"></em>
                                 <div class="type-text">
@@ -240,32 +199,11 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                                     </p>
                                 </div>
                             </li>
-                            <li>
-                                <em class="icon-gift" id="icon-gift"></em>
-                                <div class="type-text">
-                                    <h3>ПОЛУЧИТЕ ПОДАРКИ!</h3>
-                                    <p>Бесплатные пробники в каждом заказе^^</p>
-                                </div>
-                            </li>
-                            <li>
-                                <em class="icon-truck" id="icon-truck"></em>
-                                <div class="type-text">
-                                    <h3>Быстрая доставка!</h3>
-                                    <p>Отправка в 14.00 каждый день, кроме выходных.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <em class="icon-money" id="icon-money"></em>
-                                <div class="type-text">
-                                    <h3>НАЛОЖЕННЫЙ ПЛАТЕЖ</h3>
-                                    <p>Возможность оплаты при получении заказа на отделении Новой Почты</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div id="center_column" class="center_column col-xs-12 col-sm-9">
+            <div class="content-column center_column col-xs-12 col-sm-9">
                 <section class="page-product-box">
                     <h3 class="page-product-heading">Характеристики</h3>
                     <table class="table-data-sheet">
@@ -274,7 +212,7 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                                 <td>Срок реализации:</td>
                                 <td>
                                     <div>
-                                        <div>до 2021-11-18</div>
+                                        <div>до 2023-09-23</div>
                                     </div>
                                     <p class="expire-info-link">
                                         <a target="_blank"
@@ -329,101 +267,169 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                                 </td>
                             </tr>
                             <tr class="odd">
-                                <td>Объем</td>
-                                <td>260 мл</td>
+                                <td>Я ХОЧУ!</td>
+                                <td>Омолодить</td>
                             </tr>
                             <tr class="even">
                                 <td>Активный ингредиент</td>
-                                <td>Бамбук</td>
+                                <td>Пептиды</td>
                             </tr>
                         </tbody>
                     </table>
                 </section>
-                <section class="page-product-box">
+                <section class="page-product-box page-product-box-description">
                     <h3 class="page-product-heading">Описание</h3>
                     <div class="rte">
-                        <div>
-                            <p class="p1">Фото-отзыв №1 на бамбуковый гель</p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-1.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 1 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-2.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 2 | Sweetness"
-                                     width="700" height="700"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-3.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 3 | Sweetness"
-                                     width="700" height="700"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-4.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 4 | Sweetness"
-                                     width="700" height="700"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-5.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 5 | Sweetness"
-                                     width="700" height="462"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-6.jpg"
-                                     alt="" width="700" height="448"/>
-                            </p>
-                            <h2 class="p1">Фото-отзыв №2</h2>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-7.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 6 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-8.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 7 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-9.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 8 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-10.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 9 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <p class="p1">
-                                <img src="https://sweetness.com.ua/img/cms/the-saem/bamboo/soothing-gel-99/the-saem-fresh-bamboo-soothing-gel-99-11.jpg"
-                                     alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 10 | Sweetness"
-                                     width="700" height="467"/>
-                            </p>
-                            <h2 class="p1">Фото упаковки: полная версия и миниатюра</h2>
-                            <img src="https://sweetness.com.ua/img/cms/the-saem/Saem-bamboo_gel_99.jpg"
-                                 alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 11 | Sweetness"
-                                 width="700" height="700" style="margin-left:auto;margin-right:auto;"/>
-                        </div>
-                        <div></div>
-                        <div>
-                            <img src="https://sweetness.com.ua/img/cms/the-saem/Saem-bamboo_gel_99-02.jpg"
-                                 alt="The Saem Fresh Bamboo Soothing Gel 99% Бамбуковый увлажняющий гель фото 12 | Sweetness"
-                                 width="607" height="1080" style="margin-left:auto;margin-right:auto;"/>
-                        </div>
-                        <div></div>
-                        <div>Универсальный гель для лица и тела на основе сока бамбука (99% в составе). Сок бамбука
-                            смягчает, успокаивает и освежает кожу, наполняет ее влагой, делает мягкой и бархатистой.
-                            Также средство борется с первыми признаками старения, при этом препятствует появлению
-                            различных несовершенств, дарит коже ощущение свежести и комфорта. Сок бамбука способствуют
-                            рассасыванию отеков и гематом, борется с растяжками и целлюлитом. Идеально подходит для
-                            регулярного применения для максимального увлажнения кожи. Имеет легкий ненавязчивый аромат.
-                        </div>
-                        <div></div>
-                        <div>Использование: нанесите на чистую кожу и равномерно распределите легкими похлопывающими
-                            движениями. Гель можно использовать на коже вокруг глаз, подходит для всех типов кожи.
-                        </div>
-                        <div></div>
-                        <div>Объем: 260 мл.</div>
+                        <p>
+                            <img src="https://sweetness.com.ua/img/cms/medipeel/herbal-peel-tox-wash-off-type-cream-mask/medi-peel-herbal-peel-tox-wash-off-type-cream-mask-1-.jpg"
+                                 alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask Очищающая маска-пилинг с эффектом детокса фото 1 / Sweetness"
+                                 width="700" height="700">
+                        </p>
+                        <p>
+                            <img src="https://sweetness.com.ua/img/cms/medipeel/herbal-peel-tox-wash-off-type-cream-mask/medi-peel-herbal-peel-tox-wash-off-type-cream-mask-2-.jpg"
+                                 alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask Очищающая маска-пилинг с эффектом детокса фото 2 / Sweetness"
+                                 width="700" height="700">
+                        </p>
+                        <p>
+                            <img src="https://sweetness.com.ua/img/cms/medipeel/herbal-peel-tox-wash-off-type-cream-mask/medi-peel-herbal-peel-tox-wash-off-type-cream-mask-3-.jpg"
+                                 alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask Очищающая маска-пилинг с эффектом детокса фото 3 / Sweetness"
+                                 width="700" height="700">
+                        </p>
+                        <p>
+                            <img src="https://sweetness.com.ua/img/cms/medipeel/herbal-peel-tox-wash-off-type-cream-mask/medi-peel-herbal-peel-tox-wash-off-type-cream-mask-4-.jpg"
+                                 alt="MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask Очищающая маска-пилинг с эффектом детокса фото 4 / Sweetness"
+                                 width="700" height="700">
+                        </p>
+                        <p>Маска с эффектом детокса <strong>MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask</strong> выполняет
+                            функции трёх средств:
+                        </p>
+                        <p>очищающего средства, маски и пилинга. В состав маски входят
+                            <strong>пептиды, кислоты и экстракты 30-ти растений.</strong>
+                        </p>
+                        <p>
+                            <strong>Активные компоненты пилинг-маски обладают множеством полезных свойств для твоей
+                                кожи.
+                            </strong>
+                        </p>
+                        <p>Отшелушивают роговой слой.</p>
+                        <p>Удаляют мертвые клетки.</p>
+                        <p>Очищают поры от глубоких загрязнений.</p>
+                        <p>Абсорбируют излишки кожного жира.</p>
+                        <p>Борются с возрастными изменениями.</p>
+                        <p>Препятствуют старению кожи.</p>
+                        <p>Снимают оксидативный стресс.</p>
+                        <p>Нормализуют клеточный обмен.</p>
+                        <p>Обогащают кожу витаминами, минералами и антиоксидантами.</p>
+                        <p>
+                            <strong>Детокс-маска даёт мгновенный видимый эффект уже после первого применения. При
+                                регулярном использовании результат накапливается, твоя кожа оздоравливается и
+                                преображается.
+                            </strong>
+                        </p>
+                        <p>Разглаживаются морщины.</p>
+                        <p>Сокращаются глубокие носогубные и лобные складки.</p>
+                        <p>Процесс увядания кожи замедляется.</p>
+                        <p>Овал лица подтягивается.</p>
+                        <p>Выравнивается и освежается тон кожи.</p>
+                        <p>Исчезают черные точки.</p>
+                        <p>Уходят прыщи и угревая сыпь.</p>
+                        <p>Снижается жирный блеск.</p>
+                        <p>Маска содержит сильные anti-age компоненты и подходит увядающей коже с признаками старения.
+                            Возрастной рейтинг 27+ условный: маска-пилинг отлично работает и на зрелой коже с ярко
+                            выраженными морщинами, и на более молодой, только столкнувшейся с потерей упругости и
+                            первыми складочками.
+                        </p>
+                        <p>Компоненты маски помогут тебе убрать уже имеющиеся следы возраста на лице и предотвратить
+                            дальнейшее увядание кожи.
+                        </p>
+                        <p>
+                            <strong>Пептиды 12-ти видов</strong>
+                            активируют естественное восстановление и обновление кожи. Эти микроскопические белки
+                            обладают мощными омолаживающими свойствами, разглаживают морщины, делают кожу более упругой
+                            и тормозят старение.
+                        </p>
+                        <p>Один из самых сильных <strong>пептидов</strong> — <strong>ацетил гексапептид-8,
+                        </strong> или<strong>аргирелин</strong>. Он имитирует действие ботулотоксина и считается хорошей
+                            альтернативой уколам ботокса. Аргирелин снимает напряжение лицевых мышц, расслабляет мимику
+                            и тем самым продлевает молодость кожи надолго.
+                        </p>
+                        <p>
+                            <strong>Центелла азиатская&nbsp;</strong>
+                            эффективно справляется с морщинами, восполняет недостаток влаги в эпидермисе, придает коже
+                            ровный тон, борется с акне и угревой болезнью.
+                        </p>
+                        <p>Маска содержит не только обычный <strong>экстракт центеллы</strong>, но и две особые формы
+                            растения —
+                            <strong>азиатикозид и мадекассовую кислоту.</strong>
+                        </p>
+                        <p>Эти два компонента представляют собой концентрированные выдержки центеллы, которые
+                            максимально сохраняют полезные свойства растения.
+                        </p>
+                        <p>
+                            <strong>Порошок спикулы морских губок</strong>
+                            отвечает за отшелушивающее действие маски. Он деликатно удаляет ороговевшие клетки кожи,
+                            стимулирует обновление и восстановление тканей, а также насыщает эпидермис полезными
+                            минералами и аминокислотами.
+                        </p>
+                        <p>
+                            <strong>Экстракты брахми, винограда</strong>
+                            и <strong>гамамелиса</strong> — сильные природные антиоксиданты. Они блокируют пагубное
+                            действие свободных радикалов, снимают оксидативный стресс кожи и тормозят старение.
+                        </p>
+                        <p>
+                            <strong>Экстракт золотарника</strong>
+                            обладает регенерирующими свойствами, заживляет ранки и рубцы на коже.
+                        </p>
+                        <p>
+                            <strong>Экстракты артемизии, лакрицы</strong>
+                            и <strong>пиона</strong> устраняют воспалительные элементы, нейтрализуют действие
+                            болезнетворных бактерий и препятствуют развитию акне.
+                        </p>
+                        <p>
+                            <strong>Экстракт испанской солодки</strong>
+                            осветляет тон кожи и борется с пигментными пятнами.
+                        </p>
+                        <p>
+                            <strong>Экстракты зеленого чая</strong>
+                            и <strong>мяты</strong> успокаивают кожу, снимают раздражение, зуд и красноту, а также
+                            помогают в лечении акне.
+                        </p>
+                        <p>Маска подходит коже всех типов в увядающем состоянии. Не рекомендуется применять маску во
+                            время беременности и лактации, а также сочетать с Aha-, Bha-, Pha-кислотами и ретиноидами.
+                            Если у тебя чувствительная кожа, используй маску реже — один раз в 2 недели.
+                        </p>
+                        <p>
+                            <strong>Применение:</strong>
+                        </p>
+                        <p>Равномерно распредели маску-пилинг по лицу, избегая области вокруг глаз. Слегка придавливай
+                            маску ладонями, чтобы активные компоненты лучше проникали в кожу. Держи маску 15 минут и
+                            смой водой. Используй средство регулярно 1-2 раза в неделю.
+                        </p>
+                        <p>
+                            <strong>Объём:</strong>
+                            120 мл
+                        </p>
+                        <p>
+                            <strong>Состав:</strong>
+                        </p>
+                        <p>Water, Glycerin, Dipropylene Glycol, Green Tea Powder, Bentonite, Cetyl Ethyl Hexanoate,
+                            Polysorbate 60, Evergreen Mugwort Powder, Matricaria Extract, BACOPA MONNIERA (WATER HYSSOP)
+                            EXTRACT , Grape callus culture extract, Lotus callus culture extract, Green tea callus
+                            culture extract, Licorice root extract, Snow riding extract (DIOSCOREA VILLOSA), Mud
+                            mushroom extract, Mulberry bark Extract, Peony Extract, Golden Extract, Green Tea Extract,
+                            Centella Extract, Matricaria Flower Extract, Spanish Licorice Root Extract, Rosemary Leaf
+                            Extract, HAMAMELIS VIRGINIANA (WITCH HAZEL) EXTRACT, Salvia Leaf Extract , Tea Tree Extract,
+                            Eucalyptus Leaf Extract, White Willow bark extract, Marigold extract, Barley malt extract,
+                            Common jasmine extract, Water mint leaf extract, Rosemary extract, Mulberry root extract,
+                            Thyme extract, Black bean extract, Black Sesame Extract, Asianticoside, Madecassid Acid,
+                            Centella Leaf Extract, Western Dandelion Leaf Extract, Ginkgo Leaf Extract, Chromium Oxide
+                            Green, Allantoin, Sodium Hyaluronate, Acetyl Hexapeptide-8, Copper Tripeptide-1, Palmitoyl
+                            Pentapeptide-4, Tripeptide-1, Palmitoyl Tripeptide-1, Hexapeptide-9, Nona Peptide- 1,
+                            Palmitoyl tetrapeptide 7, acetyl octapeptide-3, Tapepeptide-17, Al H-Ligopeptide-1, Al
+                            H-polypeptide-11, Sorbitan Stearate, Stearic Acid, Sodium Acetate, Sodium Acryloyl Dimethyl
+                            Taurate Copolymer, Isohexadecane, Plysorbate 80, Glycerin, Caprylyl Glycol, Hydrolyzed
+                            Sponge.
+                        </p>
                     </div>
                 </section>
                 <section class="page-product-box">
@@ -431,234 +437,9 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                         <h3 class="page-product-heading" id="mymodcomments-content-tab">Поделитесь своим мнением о
                             товаре!^^
                         </h3>
+                        <div class="rte"></div>
                         <div class="rte">
-                            <div class="mycomments-comment">
-                                <div>Евгения Слышак.
-                                    <small>09:04:23, 28-04-2019</small>
-                                </div>
-                                <div class="star-rating">
-                                    <strong>Оценка</strong>
-                                </div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 60%;"></div>
-                                        <input value="3" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Three Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Three Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-info">Three Stars</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <strong>Комментарий:</strong>
-                                    Не понравился. Бамбук должен делать кожу матовой, а не
-                                    натянуто-глянцевой. По сравнению с Тони Моли вообще ни о чем... Жаль, что Тони Моли
-                                    нет в наличии уже давно. Для лица использовать точно не буду.
-                                </div>
-                            </div>
-                            <hr/>
-                            <div class="mycomments-comment">
-                                <div>Таня Вовк.
-                                    <small>23:05:41, 18-01-2019</small>
-                                </div>
-                                <div class="star-rating">
-                                    <strong>Оценка</strong>
-                                </div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 100%;"></div>
-                                        <input value="5" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-success">Five Stars</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <strong>Комментарий:</strong>
-                                    Девченки, этот гель идет доп. уход за вашей кожей. У
-                                    кого возникает чувство стянутости значит кроме этого средства вам нужен еще какой то
-                                    крем или эмульсия.
-                                </div>
-                            </div>
-                            <hr/>
-                            <div class="mycomments-comment">
-                                <div>Маша Якубець.
-                                    <small>21:24:08, 22-09-2018</small>
-                                </div>
-                                <div class="star-rating">
-                                    <strong>Оценка</strong>
-                                </div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 60%;"></div>
-                                        <input value="3" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Three Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Three Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-info">Three Stars</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <strong>Комментарий:</strong>
-                                    немного сушит кожу.
-                                </div>
-                            </div>
-                            <hr/>
-                            <div class="mycomments-comment">
-                                <div>Ольга Кисличенко.
-                                    <small>13:20:55, 13-08-2018</small>
-                                </div>
-                                <div class="star-rating">
-                                    <strong>Оценка</strong>
-                                </div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 20%;"></div>
-                                        <input value="1" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: One Star
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: One Star
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-danger">One Star</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <strong>Комментарий:</strong>
-                                    Самый ужасный гель, который у меня был! Брала
-                                    маленькую упаковку. Увлажнения ноль, ужасное чувство стянутости кожи, как будто из
-                                    нее вытянули всю влагу. Не подошел даже для тела - эффект тот же. Да еще и аллергию
-                                    начал вызывать. Состав не понравился. Видимо, для разных упаковок он отличается.
-                                </div>
-                            </div>
-                            <hr/>
-                            <div class="mycomments-comment">
-                                <div>Крупа Дарья.
-                                    <small>19:11:31, 12-08-2018</small>
-                                </div>
-                                <div class="star-rating">
-                                    <strong>Оценка</strong>
-                                </div>
-                                <div class="star-rating rating-xs rating-disabled">
-                                    <div class="clear-rating " title="Clear">
-                                        <i class="glyphicon glyphicon-minus-sign"></i>
-                                    </div>
-                                    <div class="rating-container rating-gly" data-content="">
-                                        <div class="rating-stars" data-content="" style="width: 100%;"></div>
-                                        <input value="5" data-symbol="" type="number" class="rating form-control"
-                                               min="0" max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                    </div>
-                                    <div class="caption">
-                                        <span class="label label-success">Five Stars</span>
-                                    </div>
-                                </div>
-                                <div>
-                                    <strong>Комментарий:</strong>
-                                    самое крутой,легкий крем и на запах и на коже,обладаю
-                                    жирной/комби кожи очень крутой,не липки и на лето самое то особенно когда сгорела
-                                    кожа.
-                                </div>
-                            </div>
-                            <hr/>
-                        </div>
-                        <div class="rte">
-                            <ul class="pagination">
-                                <li class="active current">
-                                    <span id="pp">
-                                        <span>1</span>
-                                    </span>
-                                </li>
-                                <li>
-                                    <a id="nbpage" rel="nofollow" href="2">2</a>
-                                </li>
-                                <li>
-                                    <a id="nbpage" rel="nofollow" href="3">3</a>
-                                </li>
-                                <li>
-                                    <a id="nbpage" rel="nofollow" href="4">4</a>
-                                </li>
-                            </ul>
+                            <ul class="pagination"></ul>
                         </div>
                     </div>
                     <div class="rte"></div>
@@ -711,389 +492,301 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                         });
                         });
                     </script>
-                    <h3 class="page-product-heading">С этим товаром покупают:</h3>
-                    <ul class="product_list grid row">
-                        <li class="ajax_block_product col-xs-12 col-sm-6 col-md-4 first-in-line last-line first-item-of-tablet-line last-item-of-mobile-line">
-                            <div class="product-container border_inside" itemscope="">
-                                <div class="product_listing">
-                                    <div class="left-block">
-                                        <div class="product-image-container">
-                                            <a class="product_img_link"
-                                               href="https://sweetness.com.ua/aksessuary-dlya-ochissheniya/5105-missha-cleansing-pad.html"
-                                               title="Missha Cleansing Pad" itemprop="url">
-                                                <img class="replace-2x img-responsive"
-                                                     src="https://sweetness.com.ua/6387-home_default/missha-cleansing-pad.jpg"
-                                                     alt="Missha Cleansing Pad" title="Missha Cleansing Pad"
-                                                     itemprop="image"/>
-                                            </a>
-                                            <div class="add-to-links">
-                                                <div class="cartbottom_btn">
-                                                    <div class="quick-view-wrapper">
-                                                        <a class="quick-view toolstip"
-                                                           href="https://sweetness.com.ua/aksessuary-dlya-ochissheniya/5105-missha-cleansing-pad.html"
-                                                           rel="https://sweetness.com.ua/aksessuary-dlya-ochissheniya/5105-missha-cleansing-pad.html"
-                                                           title="Быстрый просмотр">
-                                                            <i class="icon-eye-open"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="wishlist">
-                                                        <a class="addToWishlist wishlistProd_5105" href="#" rel="5105"
-                                                           onclick="WishlistCart('wishlist_block_list', 'add', '5105', false, 1); return false;"
-                                                           title="Добавить в желания">
-                                                            <i class="icon-heart"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="compare">
-                                                        <a class="add_to_compare toolstip"
-                                                           href="https://sweetness.com.ua/aksessuary-dlya-ochissheniya/5105-missha-cleansing-pad.html"
-                                                           data-id-product="5105" title="В сравнение">
-                                                            <i class="icon-signal"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="right-block">
-                                        <div class="product-info">
-                                            <div class="product-info__section">
-                                                <h4 class="product-info__item product-info__title" itemprop="name">
-                                                    <a class="product-name"
-                                                       href="https://sweetness.com.ua/aksessuary-dlya-ochissheniya/5105-missha-cleansing-pad.html"
-                                                       title="Missha Cleansing Pad" itemprop="url">Missha Cleansing Pad
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item product-info__review">
-                                                    <div class="hook-reviews">
-                                                        <div class="mycomments-comment">
-                                                            <div class="star-rating"></div>
-                                                            <div class="star-rating rating-xs rating-disabled">
-                                                                <div class="clear-rating " title="Clear">
-                                                                    <i class="glyphicon glyphicon-minus-sign"></i>
-                                                                </div>
-                                                                <div class="rating-container rating-gly"
-                                                                     data-content="">
-                                                                    <div class="rating-stars" data-content=""
-                                                                         style="width: 100%;"></div>
-                                                                    <input value="5" data-symbol="" type="number"
-                                                                           class="rating form-control" min="0" max="5"
-                                                                           step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                                                </div>
-                                                                <div class="caption">
-                                                                    <span class="label label-success">Five Stars</span>
-                                                                </div>
-                                                            </div>
-                                                            <span class="rating_list">1 Голос(ов)</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <p class="product-info__item product-info__desc product-desc"
-                                                   itemprop="description">Силиконовая щетка для чистки лица
-                                                </p>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item prodcut-info__meta">
-                                                    <div class="content_price">
-                                                        <span class="price product-price">85 грн</span>
-                                                    </div>
-                                                    <div class="button-container">
-                                                        <div class="cart rx-cart">
-                                                            <a class="button ajax_add_to_cart_button btn btn-default"
-                                                               href="https://sweetness.com.ua/cart?add=1&amp;id_product=5105&amp;token=08424b53658b798f4b20916d8d6bec0e"
-                                                               rel="nofollow" title="Add to cart"
-                                                               data-id-product-attribute="0" data-id-product="5105"
-                                                               data-minimal_quantity="0">
-                                                                <span>
-                                                                    <i class="icon-shopping-cart"></i>
-                                                                    В корзину
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-flags"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="ajax_block_product col-xs-12 col-sm-6 col-md-4 last-line last-item-of-tablet-line last-item-of-mobile-line">
-                            <div class="product-container border_inside" itemscope="">
-                                <div class="product_listing">
-                                    <div class="left-block">
-                                        <div class="product-image-container">
-                                            <a class="product_img_link"
-                                               href="https://sweetness.com.ua/ukhod/4593-the-saem-silk-hair-anti-hair-loss-treatment.html"
-                                               title="The Saem Silk Hair Hair Loss Care Treatment" itemprop="url">
-                                                <img class="replace-2x img-responsive"
-                                                     src="https://sweetness.com.ua/5561-home_default/the-saem-silk-hair-anti-hair-loss-treatment.jpg"
-                                                     alt="The Saem Silk Hair Hair Loss Care Treatment"
-                                                     title="The Saem Silk Hair Hair Loss Care Treatment"
-                                                     itemprop="image"/>
-                                            </a>
-                                            <div class="add-to-links">
-                                                <div class="cartbottom_btn">
-                                                    <div class="quick-view-wrapper">
-                                                        <a class="quick-view toolstip"
-                                                           href="https://sweetness.com.ua/ukhod/4593-the-saem-silk-hair-anti-hair-loss-treatment.html"
-                                                           rel="https://sweetness.com.ua/ukhod/4593-the-saem-silk-hair-anti-hair-loss-treatment.html"
-                                                           title="Быстрый просмотр">
-                                                            <i class="icon-eye-open"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="wishlist">
-                                                        <a class="addToWishlist wishlistProd_4593" href="#" rel="4593"
-                                                           onclick="WishlistCart('wishlist_block_list', 'add', '4593', false, 1); return false;"
-                                                           title="Добавить в желания">
-                                                            <i class="icon-heart"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="compare">
-                                                        <a class="add_to_compare toolstip"
-                                                           href="https://sweetness.com.ua/ukhod/4593-the-saem-silk-hair-anti-hair-loss-treatment.html"
-                                                           data-id-product="4593" title="В сравнение">
-                                                            <i class="icon-signal"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="right-block">
-                                        <div class="product-info">
-                                            <div class="product-info__section">
-                                                <h4 class="product-info__item product-info__title" itemprop="name">
-                                                    <a class="product-name"
-                                                       href="https://sweetness.com.ua/ukhod/4593-the-saem-silk-hair-anti-hair-loss-treatment.html"
-                                                       title="The Saem Silk Hair Hair Loss Care Treatment"
-                                                       itemprop="url">The Saem Silk Hair Hair Loss Care Treatment
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item product-info__review">
-                                                    <div class="hook-reviews">
-                                                        <div class="mycomments-comment">
-                                                            <div class="star-rating"></div>
-                                                            <div class="star-rating rating-xs rating-disabled">
-                                                                <div class="clear-rating " title="Clear">
-                                                                    <i class="glyphicon glyphicon-minus-sign"></i>
-                                                                </div>
-                                                                <div class="rating-container rating-gly"
-                                                                     data-content="">
-                                                                    <div class="rating-stars" data-content=""
-                                                                         style="width: 100%;"></div>
-                                                                    <input value="5" data-symbol="" type="number"
-                                                                           class="rating form-control" min="0" max="5"
-                                                                           step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                                                </div>
-                                                                <div class="caption">
-                                                                    <span class="label label-success">Five Stars</span>
-                                                                </div>
-                                                            </div>
-                                                            <span class="rating_list">2 Голос(ов)</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <p class="product-info__item product-info__desc product-desc"
-                                                   itemprop="description">Бальзам против выпадения волос , 150мл.
-                                                </p>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item prodcut-info__meta">
-                                                    <div class="content_price">
-                                                        <span class="price product-price">270 грн</span>
-                                                    </div>
-                                                    <div class="button-container">
-                                                        <div class="cart rx-cart">
-                                                            <a class="button ajax_add_to_cart_button btn btn-default"
-                                                               href="https://sweetness.com.ua/cart?add=1&amp;id_product=4593&amp;token=08424b53658b798f4b20916d8d6bec0e"
-                                                               rel="nofollow" title="Add to cart"
-                                                               data-id-product-attribute="0" data-id-product="4593"
-                                                               data-minimal_quantity="0">
-                                                                <span>
-                                                                    <i class="icon-shopping-cart"></i>
-                                                                    В корзину
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-flags"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="ajax_block_product col-xs-12 col-sm-6 col-md-4 last-in-line last-line first-item-of-tablet-line last-item-of-mobile-line last-mobile-line">
-                            <div class="product-container border_inside" itemscope="">
-                                <div class="product_listing">
-                                    <div class="left-block">
-                                        <div class="product-image-container">
-                                            <a class="product_img_link"
-                                               href="https://sweetness.com.ua/konsiler/2700-the-saem-cover-perfection-smart-concealer-kit.html"
-                                               title="The Saem Cover Perfection Smart Concealer Kit" itemprop="url">
-                                                <img class="replace-2x img-responsive"
-                                                     src="https://sweetness.com.ua/2471-home_default/the-saem-cover-perfection-smart-concealer-kit.jpg"
-                                                     alt="The Saem Cover Perfection Smart Concealer Kit"
-                                                     title="The Saem Cover Perfection Smart Concealer Kit"
-                                                     itemprop="image"/>
-                                            </a>
-                                            <div class="add-to-links">
-                                                <div class="cartbottom_btn">
-                                                    <div class="quick-view-wrapper">
-                                                        <a class="quick-view toolstip"
-                                                           href="https://sweetness.com.ua/konsiler/2700-the-saem-cover-perfection-smart-concealer-kit.html"
-                                                           rel="https://sweetness.com.ua/konsiler/2700-the-saem-cover-perfection-smart-concealer-kit.html"
-                                                           title="Быстрый просмотр">
-                                                            <i class="icon-eye-open"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="wishlist">
-                                                        <a class="addToWishlist wishlistProd_2700" href="#" rel="2700"
-                                                           onclick="WishlistCart('wishlist_block_list', 'add', '2700', false, 1); return false;"
-                                                           title="Добавить в желания">
-                                                            <i class="icon-heart"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="compare">
-                                                        <a class="add_to_compare toolstip"
-                                                           href="https://sweetness.com.ua/konsiler/2700-the-saem-cover-perfection-smart-concealer-kit.html"
-                                                           data-id-product="2700" title="В сравнение">
-                                                            <i class="icon-signal"></i>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="right-block">
-                                        <div class="product-info">
-                                            <div class="product-info__section">
-                                                <h4 class="product-info__item product-info__title" itemprop="name">
-                                                    <a class="product-name"
-                                                       href="https://sweetness.com.ua/konsiler/2700-the-saem-cover-perfection-smart-concealer-kit.html"
-                                                       title="The Saem Cover Perfection Smart Concealer Kit"
-                                                       itemprop="url">The Saem Cover Perfection Smart Concealer Kit
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item product-info__review">
-                                                    <div class="hook-reviews">
-                                                        <div class="mycomments-comment">
-                                                            <div class="star-rating"></div>
-                                                            <div class="star-rating rating-xs rating-disabled">
-                                                                <div class="clear-rating " title="Clear">
-                                                                    <i class="glyphicon glyphicon-minus-sign"></i>
-                                                                </div>
-                                                                <div class="rating-container rating-gly"
-                                                                     data-content="">
-                                                                    <div class="rating-stars" data-content=""
-                                                                         style="width: 100%;"></div>
-                                                                    <input value="5" data-symbol="" type="number"
-                                                                           class="rating form-control" min="0" max="5"
-                                                                           step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
-                                                                </div>
-                                                                <div class="caption">
-                                                                    <span class="label label-success">Five Stars</span>
-                                                                </div>
-                                                            </div>
-                                                            <span class="rating_list">1 Голос(ов)</span>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <p class="product-info__item product-info__desc product-desc"
-                                                   itemprop="description">Набор консилеров, 4,2г.
-                                                </p>
-                                            </div>
-                                            <div class="product-info__section">
-                                                <div class="product-info__item prodcut-info__meta">
-                                                    <div class="content_price">
-                                                        <span class="price product-price">295 грн</span>
-                                                    </div>
-                                                    <div class="button-container">
-                                                        <div class="cart rx-cart">
-                                                            <a class="button ajax_add_to_cart_button btn btn-default"
-                                                               href="https://sweetness.com.ua/cart?add=1&amp;id_product=2700&amp;token=08424b53658b798f4b20916d8d6bec0e"
-                                                               rel="nofollow" title="Add to cart"
-                                                               data-id-product-attribute="0" data-id-product="2700"
-                                                               data-minimal_quantity="0">
-                                                                <span>
-                                                                    <i class="icon-shopping-cart"></i>
-                                                                    В корзину
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="product-flags"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                    <script type="text/javascript">jQuery(document).ready(function(){
-                        var MBG = GoogleAnalyticEnhancedECommerce;
-                        MBG.setCurrency('UAH');
-                        MBG.addProductDetailView({"id":1494,"name":"\"The Saem Fresh Bamboo Soothing Gel
-                        99%\"","category":"\"krem-gel\"","brand":"\"The
-                        Saem\"","variant":"null","type":"typical","position":"0","quantity":1,"list":"product","url":"","price":"175.00"});
-                        });
+                    <script type="application/ld+json">{
+                        "@context": "http:\/\/schema.org\/",
+                        "@type": "Product",
+                        "sku": 8721,
+                        "gtin13": "8809409345673",
+                        "mpn": 8721,
+                        "image": "https:\/\/sweetness.com.ua\/img\/p\/1\/3\/2\/6\/0\/13260-large_default.jpg",
+                        "name": "MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask",
+                        "description": "\n\u041c\u0430\u0441\u043a\u0430 \u0441
+                        \u044d\u0444\u0444\u0435\u043a\u0442\u043e\u043c \u0434\u0435\u0442\u043e\u043a\u0441\u0430
+                        MEDI-PEEL Herbal Peel Tox Wash Off Type Cream Mask
+                        \u0432\u044b\u043f\u043e\u043b\u043d\u044f\u0435\u0442
+                        \u0444\u0443\u043d\u043a\u0446\u0438\u0438 \u0442\u0440\u0451\u0445
+                        \u0441\u0440\u0435\u0434\u0441\u0442\u0432:\n\u043e\u0447\u0438\u0449\u0430\u044e\u0449\u0435\u0433\u043e
+                        \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u0430, \u043c\u0430\u0441\u043a\u0438 \u0438
+                        \u043f\u0438\u043b\u0438\u043d\u0433\u0430. \u0412 \u0441\u043e\u0441\u0442\u0430\u0432
+                        \u043c\u0430\u0441\u043a\u0438 \u0432\u0445\u043e\u0434\u044f\u0442
+                        \u043f\u0435\u043f\u0442\u0438\u0434\u044b, \u043a\u0438\u0441\u043b\u043e\u0442\u044b \u0438
+                        \u044d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u044b 30-\u0442\u0438
+                        \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u0439.\n\u0410\u043a\u0442\u0438\u0432\u043d\u044b\u0435
+                        \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b
+                        \u043f\u0438\u043b\u0438\u043d\u0433-\u043c\u0430\u0441\u043a\u0438
+                        \u043e\u0431\u043b\u0430\u0434\u0430\u044e\u0442
+                        \u043c\u043d\u043e\u0436\u0435\u0441\u0442\u0432\u043e\u043c
+                        \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0445 \u0441\u0432\u043e\u0439\u0441\u0442\u0432
+                        \u0434\u043b\u044f \u0442\u0432\u043e\u0435\u0439
+                        \u043a\u043e\u0436\u0438.\n\u041e\u0442\u0448\u0435\u043b\u0443\u0448\u0438\u0432\u0430\u044e\u0442
+                        \u0440\u043e\u0433\u043e\u0432\u043e\u0439
+                        \u0441\u043b\u043e\u0439.\n\u0423\u0434\u0430\u043b\u044f\u044e\u0442
+                        \u043c\u0435\u0440\u0442\u0432\u044b\u0435
+                        \u043a\u043b\u0435\u0442\u043a\u0438.\n\u041e\u0447\u0438\u0449\u0430\u044e\u0442
+                        \u043f\u043e\u0440\u044b \u043e\u0442 \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0445
+                        \u0437\u0430\u0433\u0440\u044f\u0437\u043d\u0435\u043d\u0438\u0439.\n\u0410\u0431\u0441\u043e\u0440\u0431\u0438\u0440\u0443\u044e\u0442
+                        \u0438\u0437\u043b\u0438\u0448\u043a\u0438 \u043a\u043e\u0436\u043d\u043e\u0433\u043e
+                        \u0436\u0438\u0440\u0430.\n\u0411\u043e\u0440\u044e\u0442\u0441\u044f \u0441
+                        \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u044b\u043c\u0438
+                        \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f\u043c\u0438.\n\u041f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0443\u044e\u0442
+                        \u0441\u0442\u0430\u0440\u0435\u043d\u0438\u044e
+                        \u043a\u043e\u0436\u0438.\n\u0421\u043d\u0438\u043c\u0430\u044e\u0442
+                        \u043e\u043a\u0441\u0438\u0434\u0430\u0442\u0438\u0432\u043d\u044b\u0439
+                        \u0441\u0442\u0440\u0435\u0441\u0441.\n\u041d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0443\u044e\u0442
+                        \u043a\u043b\u0435\u0442\u043e\u0447\u043d\u044b\u0439
+                        \u043e\u0431\u043c\u0435\u043d.\n\u041e\u0431\u043e\u0433\u0430\u0449\u0430\u044e\u0442
+                        \u043a\u043e\u0436\u0443 \u0432\u0438\u0442\u0430\u043c\u0438\u043d\u0430\u043c\u0438,
+                        \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u0430\u043c\u0438 \u0438
+                        \u0430\u043d\u0442\u0438\u043e\u043a\u0441\u0438\u0434\u0430\u043d\u0442\u0430\u043c\u0438.\n\u0414\u0435\u0442\u043e\u043a\u0441-\u043c\u0430\u0441\u043a\u0430
+                        \u0434\u0430\u0451\u0442 \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u044b\u0439
+                        \u0432\u0438\u0434\u0438\u043c\u044b\u0439 \u044d\u0444\u0444\u0435\u043a\u0442
+                        \u0443\u0436\u0435 \u043f\u043e\u0441\u043b\u0435 \u043f\u0435\u0440\u0432\u043e\u0433\u043e
+                        \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f. \u041f\u0440\u0438
+                        \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u043c
+                        \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0438
+                        \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442
+                        \u043d\u0430\u043a\u0430\u043f\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f,
+                        \u0442\u0432\u043e\u044f \u043a\u043e\u0436\u0430
+                        \u043e\u0437\u0434\u043e\u0440\u0430\u0432\u043b\u0438\u0432\u0430\u0435\u0442\u0441\u044f
+                        \u0438
+                        \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044f.\n\u0420\u0430\u0437\u0433\u043b\u0430\u0436\u0438\u0432\u0430\u044e\u0442\u0441\u044f
+                        \u043c\u043e\u0440\u0449\u0438\u043d\u044b.\n\u0421\u043e\u043a\u0440\u0430\u0449\u0430\u044e\u0442\u0441\u044f
+                        \u0433\u043b\u0443\u0431\u043e\u043a\u0438\u0435
+                        \u043d\u043e\u0441\u043e\u0433\u0443\u0431\u043d\u044b\u0435 \u0438
+                        \u043b\u043e\u0431\u043d\u044b\u0435
+                        \u0441\u043a\u043b\u0430\u0434\u043a\u0438.\n\u041f\u0440\u043e\u0446\u0435\u0441\u0441
+                        \u0443\u0432\u044f\u0434\u0430\u043d\u0438\u044f \u043a\u043e\u0436\u0438
+                        \u0437\u0430\u043c\u0435\u0434\u043b\u044f\u0435\u0442\u0441\u044f.\n\u041e\u0432\u0430\u043b
+                        \u043b\u0438\u0446\u0430
+                        \u043f\u043e\u0434\u0442\u044f\u0433\u0438\u0432\u0430\u0435\u0442\u0441\u044f.\n\u0412\u044b\u0440\u0430\u0432\u043d\u0438\u0432\u0430\u0435\u0442\u0441\u044f
+                        \u0438 \u043e\u0441\u0432\u0435\u0436\u0430\u0435\u0442\u0441\u044f \u0442\u043e\u043d
+                        \u043a\u043e\u0436\u0438.\n\u0418\u0441\u0447\u0435\u0437\u0430\u044e\u0442
+                        \u0447\u0435\u0440\u043d\u044b\u0435
+                        \u0442\u043e\u0447\u043a\u0438.\n\u0423\u0445\u043e\u0434\u044f\u0442
+                        \u043f\u0440\u044b\u0449\u0438 \u0438 \u0443\u0433\u0440\u0435\u0432\u0430\u044f
+                        \u0441\u044b\u043f\u044c.\n\u0421\u043d\u0438\u0436\u0430\u0435\u0442\u0441\u044f
+                        \u0436\u0438\u0440\u043d\u044b\u0439
+                        \u0431\u043b\u0435\u0441\u043a.\n\u041c\u0430\u0441\u043a\u0430
+                        \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u0441\u0438\u043b\u044c\u043d\u044b\u0435
+                        anti-age \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u0438
+                        \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442
+                        \u0443\u0432\u044f\u0434\u0430\u044e\u0449\u0435\u0439 \u043a\u043e\u0436\u0435 \u0441
+                        \u043f\u0440\u0438\u0437\u043d\u0430\u043a\u0430\u043c\u0438
+                        \u0441\u0442\u0430\u0440\u0435\u043d\u0438\u044f.
+                        \u0412\u043e\u0437\u0440\u0430\u0441\u0442\u043d\u043e\u0439
+                        \u0440\u0435\u0439\u0442\u0438\u043d\u0433 27+ \u0443\u0441\u043b\u043e\u0432\u043d\u044b\u0439:
+                        \u043c\u0430\u0441\u043a\u0430-\u043f\u0438\u043b\u0438\u043d\u0433
+                        \u043e\u0442\u043b\u0438\u0447\u043d\u043e \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442
+                        \u0438 \u043d\u0430 \u0437\u0440\u0435\u043b\u043e\u0439 \u043a\u043e\u0436\u0435 \u0441
+                        \u044f\u0440\u043a\u043e \u0432\u044b\u0440\u0430\u0436\u0435\u043d\u043d\u044b\u043c\u0438
+                        \u043c\u043e\u0440\u0449\u0438\u043d\u0430\u043c\u0438, \u0438 \u043d\u0430
+                        \u0431\u043e\u043b\u0435\u0435 \u043c\u043e\u043b\u043e\u0434\u043e\u0439,
+                        \u0442\u043e\u043b\u044c\u043a\u043e
+                        \u0441\u0442\u043e\u043b\u043a\u043d\u0443\u0432\u0448\u0435\u0439\u0441\u044f \u0441
+                        \u043f\u043e\u0442\u0435\u0440\u0435\u0439
+                        \u0443\u043f\u0440\u0443\u0433\u043e\u0441\u0442\u0438 \u0438
+                        \u043f\u0435\u0440\u0432\u044b\u043c\u0438
+                        \u0441\u043a\u043b\u0430\u0434\u043e\u0447\u043a\u0430\u043c\u0438.\n\u041a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b
+                        \u043c\u0430\u0441\u043a\u0438 \u043f\u043e\u043c\u043e\u0433\u0443\u0442
+                        \u0442\u0435\u0431\u0435 \u0443\u0431\u0440\u0430\u0442\u044c \u0443\u0436\u0435
+                        \u0438\u043c\u0435\u044e\u0449\u0438\u0435\u0441\u044f \u0441\u043b\u0435\u0434\u044b
+                        \u0432\u043e\u0437\u0440\u0430\u0441\u0442\u0430 \u043d\u0430 \u043b\u0438\u0446\u0435 \u0438
+                        \u043f\u0440\u0435\u0434\u043e\u0442\u0432\u0440\u0430\u0442\u0438\u0442\u044c
+                        \u0434\u0430\u043b\u044c\u043d\u0435\u0439\u0448\u0435\u0435
+                        \u0443\u0432\u044f\u0434\u0430\u043d\u0438\u0435
+                        \u043a\u043e\u0436\u0438.\n\u041f\u0435\u043f\u0442\u0438\u0434\u044b 12-\u0442\u0438
+                        \u0432\u0438\u0434\u043e\u0432 \u0430\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u044e\u0442
+                        \u0435\u0441\u0442\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435
+                        \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0438
+                        \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u043a\u043e\u0436\u0438.
+                        \u042d\u0442\u0438
+                        \u043c\u0438\u043a\u0440\u043e\u0441\u043a\u043e\u043f\u0438\u0447\u0435\u0441\u043a\u0438\u0435
+                        \u0431\u0435\u043b\u043a\u0438 \u043e\u0431\u043b\u0430\u0434\u0430\u044e\u0442
+                        \u043c\u043e\u0449\u043d\u044b\u043c\u0438
+                        \u043e\u043c\u043e\u043b\u0430\u0436\u0438\u0432\u0430\u044e\u0449\u0438\u043c\u0438
+                        \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438,
+                        \u0440\u0430\u0437\u0433\u043b\u0430\u0436\u0438\u0432\u0430\u044e\u0442
+                        \u043c\u043e\u0440\u0449\u0438\u043d\u044b, \u0434\u0435\u043b\u0430\u044e\u0442
+                        \u043a\u043e\u0436\u0443 \u0431\u043e\u043b\u0435\u0435
+                        \u0443\u043f\u0440\u0443\u0433\u043e\u0439 \u0438
+                        \u0442\u043e\u0440\u043c\u043e\u0437\u044f\u0442
+                        \u0441\u0442\u0430\u0440\u0435\u043d\u0438\u0435.\n\u041e\u0434\u0438\u043d \u0438\u0437
+                        \u0441\u0430\u043c\u044b\u0445 \u0441\u0438\u043b\u044c\u043d\u044b\u0445
+                        \u043f\u0435\u043f\u0442\u0438\u0434\u043e\u0432 \u2014 \u0430\u0446\u0435\u0442\u0438\u043b
+                        \u0433\u0435\u043a\u0441\u0430\u043f\u0435\u043f\u0442\u0438\u0434-8, \u0438\u043b\u0438
+                        \u0430\u0440\u0433\u0438\u0440\u0435\u043b\u0438\u043d. \u041e\u043d
+                        \u0438\u043c\u0438\u0442\u0438\u0440\u0443\u0435\u0442
+                        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435
+                        \u0431\u043e\u0442\u0443\u043b\u043e\u0442\u043e\u043a\u0441\u0438\u043d\u0430 \u0438
+                        \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f
+                        \u0445\u043e\u0440\u043e\u0448\u0435\u0439
+                        \u0430\u043b\u044c\u0442\u0435\u0440\u043d\u0430\u0442\u0438\u0432\u043e\u0439
+                        \u0443\u043a\u043e\u043b\u0430\u043c \u0431\u043e\u0442\u043e\u043a\u0441\u0430.
+                        \u0410\u0440\u0433\u0438\u0440\u0435\u043b\u0438\u043d
+                        \u0441\u043d\u0438\u043c\u0430\u0435\u0442
+                        \u043d\u0430\u043f\u0440\u044f\u0436\u0435\u043d\u0438\u0435
+                        \u043b\u0438\u0446\u0435\u0432\u044b\u0445 \u043c\u044b\u0448\u0446,
+                        \u0440\u0430\u0441\u0441\u043b\u0430\u0431\u043b\u044f\u0435\u0442
+                        \u043c\u0438\u043c\u0438\u043a\u0443 \u0438 \u0442\u0435\u043c \u0441\u0430\u043c\u044b\u043c
+                        \u043f\u0440\u043e\u0434\u043b\u0435\u0432\u0430\u0435\u0442
+                        \u043c\u043e\u043b\u043e\u0434\u043e\u0441\u0442\u044c \u043a\u043e\u0436\u0438
+                        \u043d\u0430\u0434\u043e\u043b\u0433\u043e.\n\u0426\u0435\u043d\u0442\u0435\u043b\u043b\u0430
+                        \u0430\u0437\u0438\u0430\u0442\u0441\u043a\u0430\u044f\u00a0
+                        \u044d\u0444\u0444\u0435\u043a\u0442\u0438\u0432\u043d\u043e
+                        \u0441\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0441
+                        \u043c\u043e\u0440\u0449\u0438\u043d\u0430\u043c\u0438,
+                        \u0432\u043e\u0441\u043f\u043e\u043b\u043d\u044f\u0435\u0442
+                        \u043d\u0435\u0434\u043e\u0441\u0442\u0430\u0442\u043e\u043a \u0432\u043b\u0430\u0433\u0438
+                        \u0432 \u044d\u043f\u0438\u0434\u0435\u0440\u043c\u0438\u0441\u0435,
+                        \u043f\u0440\u0438\u0434\u0430\u0435\u0442 \u043a\u043e\u0436\u0435
+                        \u0440\u043e\u0432\u043d\u044b\u0439 \u0442\u043e\u043d,
+                        \u0431\u043e\u0440\u0435\u0442\u0441\u044f \u0441 \u0430\u043a\u043d\u0435 \u0438
+                        \u0443\u0433\u0440\u0435\u0432\u043e\u0439
+                        \u0431\u043e\u043b\u0435\u0437\u043d\u044c\u044e.\n\u041c\u0430\u0441\u043a\u0430
+                        \u0441\u043e\u0434\u0435\u0440\u0436\u0438\u0442 \u043d\u0435
+                        \u0442\u043e\u043b\u044c\u043a\u043e \u043e\u0431\u044b\u0447\u043d\u044b\u0439
+                        \u044d\u043a\u0441\u0442\u0440\u0430\u043a\u0442
+                        \u0446\u0435\u043d\u0442\u0435\u043b\u043b\u044b, \u043d\u043e \u0438 \u0434\u0432\u0435
+                        \u043e\u0441\u043e\u0431\u044b\u0435 \u0444\u043e\u0440\u043c\u044b
+                        \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u044f \u2014
+                        \u0430\u0437\u0438\u0430\u0442\u0438\u043a\u043e\u0437\u0438\u0434 \u0438
+                        \u043c\u0430\u0434\u0435\u043a\u0430\u0441\u0441\u043e\u0432\u0443\u044e
+                        \u043a\u0438\u0441\u043b\u043e\u0442\u0443. \n\u042d\u0442\u0438 \u0434\u0432\u0430
+                        \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u0430
+                        \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043b\u044f\u044e\u0442
+                        \u0441\u043e\u0431\u043e\u0439
+                        \u043a\u043e\u043d\u0446\u0435\u043d\u0442\u0440\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435
+                        \u0432\u044b\u0434\u0435\u0440\u0436\u043a\u0438
+                        \u0446\u0435\u043d\u0442\u0435\u043b\u043b\u044b, \u043a\u043e\u0442\u043e\u0440\u044b\u0435
+                        \u043c\u0430\u043a\u0441\u0438\u043c\u0430\u043b\u044c\u043d\u043e
+                        \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0442
+                        \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u0435
+                        \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u0430
+                        \u0440\u0430\u0441\u0442\u0435\u043d\u0438\u044f.\n\u041f\u043e\u0440\u043e\u0448\u043e\u043a
+                        \u0441\u043f\u0438\u043a\u0443\u043b\u044b \u043c\u043e\u0440\u0441\u043a\u0438\u0445
+                        \u0433\u0443\u0431\u043e\u043a \u043e\u0442\u0432\u0435\u0447\u0430\u0435\u0442 \u0437\u0430
+                        \u043e\u0442\u0448\u0435\u043b\u0443\u0448\u0438\u0432\u0430\u044e\u0449\u0435\u0435
+                        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u043c\u0430\u0441\u043a\u0438. \u041e\u043d
+                        \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e
+                        \u0443\u0434\u0430\u043b\u044f\u0435\u0442
+                        \u043e\u0440\u043e\u0433\u043e\u0432\u0435\u0432\u0448\u0438\u0435
+                        \u043a\u043b\u0435\u0442\u043a\u0438 \u043a\u043e\u0436\u0438,
+                        \u0441\u0442\u0438\u043c\u0443\u043b\u0438\u0440\u0443\u0435\u0442
+                        \u043e\u0431\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435 \u0438
+                        \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u0435
+                        \u0442\u043a\u0430\u043d\u0435\u0439, \u0430 \u0442\u0430\u043a\u0436\u0435
+                        \u043d\u0430\u0441\u044b\u0449\u0430\u0435\u0442
+                        \u044d\u043f\u0438\u0434\u0435\u0440\u043c\u0438\u0441
+                        \u043f\u043e\u043b\u0435\u0437\u043d\u044b\u043c\u0438
+                        \u043c\u0438\u043d\u0435\u0440\u0430\u043b\u0430\u043c\u0438 \u0438
+                        \u0430\u043c\u0438\u043d\u043e\u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438.\n\u042d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u044b
+                        \u0431\u0440\u0430\u0445\u043c\u0438, \u0432\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u0430
+                        \u0438 \u0433\u0430\u043c\u0430\u043c\u0435\u043b\u0438\u0441\u0430 \u2014
+                        \u0441\u0438\u043b\u044c\u043d\u044b\u0435
+                        \u043f\u0440\u0438\u0440\u043e\u0434\u043d\u044b\u0435
+                        \u0430\u043d\u0442\u0438\u043e\u043a\u0441\u0438\u0434\u0430\u043d\u0442\u044b.
+                        \u041e\u043d\u0438 \u0431\u043b\u043e\u043a\u0438\u0440\u0443\u044e\u0442
+                        \u043f\u0430\u0433\u0443\u0431\u043d\u043e\u0435
+                        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435
+                        \u0441\u0432\u043e\u0431\u043e\u0434\u043d\u044b\u0445
+                        \u0440\u0430\u0434\u0438\u043a\u0430\u043b\u043e\u0432,
+                        \u0441\u043d\u0438\u043c\u0430\u044e\u0442
+                        \u043e\u043a\u0441\u0438\u0434\u0430\u0442\u0438\u0432\u043d\u044b\u0439
+                        \u0441\u0442\u0440\u0435\u0441\u0441 \u043a\u043e\u0436\u0438 \u0438
+                        \u0442\u043e\u0440\u043c\u043e\u0437\u044f\u0442
+                        \u0441\u0442\u0430\u0440\u0435\u043d\u0438\u0435.\n\u042d\u043a\u0441\u0442\u0440\u0430\u043a\u0442
+                        \u0437\u043e\u043b\u043e\u0442\u0430\u0440\u043d\u0438\u043a\u0430
+                        \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442
+                        \u0440\u0435\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u0443\u044e\u0449\u0438\u043c\u0438
+                        \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u0430\u043c\u0438,
+                        \u0437\u0430\u0436\u0438\u0432\u043b\u044f\u0435\u0442 \u0440\u0430\u043d\u043a\u0438 \u0438
+                        \u0440\u0443\u0431\u0446\u044b \u043d\u0430
+                        \u043a\u043e\u0436\u0435.\n\u042d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u044b
+                        \u0430\u0440\u0442\u0435\u043c\u0438\u0437\u0438\u0438,
+                        \u043b\u0430\u043a\u0440\u0438\u0446\u044b \u0438 \u043f\u0438\u043e\u043d\u0430
+                        \u0443\u0441\u0442\u0440\u0430\u043d\u044f\u044e\u0442
+                        \u0432\u043e\u0441\u043f\u0430\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0435
+                        \u044d\u043b\u0435\u043c\u0435\u043d\u0442\u044b,
+                        \u043d\u0435\u0439\u0442\u0440\u0430\u043b\u0438\u0437\u0443\u044e\u0442
+                        \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435
+                        \u0431\u043e\u043b\u0435\u0437\u043d\u0435\u0442\u0432\u043e\u0440\u043d\u044b\u0445
+                        \u0431\u0430\u043a\u0442\u0435\u0440\u0438\u0439 \u0438
+                        \u043f\u0440\u0435\u043f\u044f\u0442\u0441\u0442\u0432\u0443\u044e\u0442
+                        \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044e
+                        \u0430\u043a\u043d\u0435.\n\u042d\u043a\u0441\u0442\u0440\u0430\u043a\u0442
+                        \u0438\u0441\u043f\u0430\u043d\u0441\u043a\u043e\u0439
+                        \u0441\u043e\u043b\u043e\u0434\u043a\u0438
+                        \u043e\u0441\u0432\u0435\u0442\u043b\u044f\u0435\u0442 \u0442\u043e\u043d
+                        \u043a\u043e\u0436\u0438 \u0438 \u0431\u043e\u0440\u0435\u0442\u0441\u044f \u0441
+                        \u043f\u0438\u0433\u043c\u0435\u043d\u0442\u043d\u044b\u043c\u0438
+                        \u043f\u044f\u0442\u043d\u0430\u043c\u0438.\n\u042d\u043a\u0441\u0442\u0440\u0430\u043a\u0442\u044b
+                        \u0437\u0435\u043b\u0435\u043d\u043e\u0433\u043e \u0447\u0430\u044f \u0438
+                        \u043c\u044f\u0442\u044b \u0443\u0441\u043f\u043e\u043a\u0430\u0438\u0432\u0430\u044e\u0442
+                        \u043a\u043e\u0436\u0443, \u0441\u043d\u0438\u043c\u0430\u044e\u0442
+                        \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0435\u043d\u0438\u0435, \u0437\u0443\u0434 \u0438
+                        \u043a\u0440\u0430\u0441\u043d\u043e\u0442\u0443, \u0430 \u0442\u0430\u043a\u0436\u0435
+                        \u043f\u043e\u043c\u043e\u0433\u0430\u044e\u0442 \u0432
+                        \u043b\u0435\u0447\u0435\u043d\u0438\u0438
+                        \u0430\u043a\u043d\u0435.\n\u041c\u0430\u0441\u043a\u0430
+                        \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u043a\u043e\u0436\u0435
+                        \u0432\u0441\u0435\u0445 \u0442\u0438\u043f\u043e\u0432 \u0432
+                        \u0443\u0432\u044f\u0434\u0430\u044e\u0449\u0435\u043c
+                        \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0438. \u041d\u0435
+                        \u0440\u0435\u043a\u043e\u043c\u0435\u043d\u0434\u0443\u0435\u0442\u0441\u044f
+                        \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u0442\u044c \u043c\u0430\u0441\u043a\u0443
+                        \u0432\u043e \u0432\u0440\u0435\u043c\u044f
+                        \u0431\u0435\u0440\u0435\u043c\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u0438
+                        \u043b\u0430\u043a\u0442\u0430\u0446\u0438\u0438, \u0430 \u0442\u0430\u043a\u0436\u0435
+                        \u0441\u043e\u0447\u0435\u0442\u0430\u0442\u044c \u0441 Aha-, Bha-,
+                        Pha-\u043a\u0438\u0441\u043b\u043e\u0442\u0430\u043c\u0438 \u0438
+                        \u0440\u0435\u0442\u0438\u043d\u043e\u0438\u0434\u0430\u043c\u0438. \u0415\u0441\u043b\u0438
+                        \u0443 \u0442\u0435\u0431\u044f
+                        \u0447\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u0430\u044f
+                        \u043a\u043e\u0436\u0430, \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439
+                        \u043c\u0430\u0441\u043a\u0443 \u0440\u0435\u0436\u0435 \u2014 \u043e\u0434\u0438\u043d
+                        \u0440\u0430\u0437 \u0432 2
+                        \u043d\u0435\u0434\u0435\u043b\u0438.\n\u041f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435:\n\u0420\u0430\u0432\u043d\u043e\u043c\u0435\u0440\u043d\u043e
+                        \u0440\u0430\u0441\u043f\u0440\u0435\u0434\u0435\u043b\u0438
+                        \u043c\u0430\u0441\u043a\u0443-\u043f\u0438\u043b\u0438\u043d\u0433 \u043f\u043e
+                        \u043b\u0438\u0446\u0443, \u0438\u0437\u0431\u0435\u0433\u0430\u044f
+                        \u043e\u0431\u043b\u0430\u0441\u0442\u0438 \u0432\u043e\u043a\u0440\u0443\u0433
+                        \u0433\u043b\u0430\u0437. \u0421\u043b\u0435\u0433\u043a\u0430
+                        \u043f\u0440\u0438\u0434\u0430\u0432\u043b\u0438\u0432\u0430\u0439
+                        \u043c\u0430\u0441\u043a\u0443 \u043b\u0430\u0434\u043e\u043d\u044f\u043c\u0438,
+                        \u0447\u0442\u043e\u0431\u044b \u0430\u043a\u0442\u0438\u0432\u043d\u044b\u0435
+                        \u043a\u043e\u043c\u043f\u043e\u043d\u0435\u043d\u0442\u044b \u043b\u0443\u0447\u0448\u0435
+                        \u043f\u0440\u043e\u043d\u0438\u043a\u0430\u043b\u0438 \u0432 \u043a\u043e\u0436\u0443.
+                        \u0414\u0435\u0440\u0436\u0438 \u043c\u0430\u0441\u043a\u0443 15 \u043c\u0438\u043d\u0443\u0442
+                        \u0438 \u0441\u043c\u043e\u0439 \u0432\u043e\u0434\u043e\u0439.
+                        \u0418\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439
+                        \u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043e
+                        \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e 1-2 \u0440\u0430\u0437\u0430 \u0432
+                        \u043d\u0435\u0434\u0435\u043b\u044e.\n\u041e\u0431\u044a\u0451\u043c: 120 \u043c\u043b\n",
+                        "brand": {
+                        "@type": "Thing",
+                        "url": "",
+                        "name": "MEDI-PEEL"
+                        },
+                        "color": "",
+                        "size": "",
+                        "material": "",
+                        "offers": {
+                        "@type": "Offer",
+                        "url":
+                        "https:\/\/sweetness.com.ua\/regulyarnaya-maska\/8721-medi-peel-herbal-peel-tox-wash-off-type-cream-mask.html",
+                        "itemCondition": "https:\/\/schema.org\/NewCondition",
+                        "availability": "https:\/\/schema.org\/InStock",
+                        "price": 530,
+                        "priceCurrency": "UAH"
+                        },
+                        "aggregateRating": {
+                        "@type": "AggregateRating",
+                        "ratingValue": 0,
+                        "reviewCount": 0,
+                        "worstRating": 0,
+                        "bestRating": 0
+                        }
+                        }
                     </script>
                 </section>
             </div>
@@ -1103,9 +796,9 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                 <h3 class="page-product-heading">Последние</h3>
                 <div class="rte">
                     <div class="mycomments-comment">
-                        <div>Аліса Малишева.
-                            <br/>
-                            <small>13:27:03, 16-09-2019</small>
+                        <div>Людмила Сущевських.
+                            <br>
+                            <small>14:03:18, 15-12-2020</small>
                         </div>
                         <div class="star-rating">
                             <strong>Оценка</strong>
@@ -1117,41 +810,28 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                             <div class="rating-container rating-gly" data-content="">
                                 <div class="rating-stars" data-content="" style="width: 100%;"></div>
                                 <input value="5" data-symbol="" type="number" class="rating form-control" min="0"
-                                       max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
+                                       max="5" step="1" data-size="xs" style="display: none;">
                             </div>
                             <div class="caption">
                                 <span class="label label-success">Five Stars</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="mycomments-comment-body">
                             <strong>Комментарий:</strong>
-                            Нравится лёгкая текстура. Не стот наносить сразу на всё лицо и...
+                            Первый раз вижу на столько густой крем, действительно как
+                            желе....
                         </div>
                         <div>
-                            <a href="https://sweetness.com.ua/bb-krem/1051-holika-holika-aqua-petit-jelly-bb-cream-spf20-pa.html"
-                               style="color: #F38098;">Holika Holika Aqua Petit Jelly BB cream SPF20 PA++
+                            <a href="https://sweetness.com.ua/nochnaya-maska/4246-esfolio-aloe-jelly-pack.html"
+                               style="color: #F38098;">Esfolio Aloe Jelly Pack
                             </a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr>
                     <div class="mycomments-comment">
-                        <div>Светлана Медведева.
-                            <br/>
-                            <small>16:24:51, 15-09-2019</small>
+                        <div>Світлана Романова.
+                            <br>
+                            <small>12:06:18, 15-12-2020</small>
                         </div>
                         <div class="star-rating">
                             <strong>Оценка</strong>
@@ -1163,41 +843,28 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                             <div class="rating-container rating-gly" data-content="">
                                 <div class="rating-stars" data-content="" style="width: 100%;"></div>
                                 <input value="5" data-symbol="" type="number" class="rating form-control" min="0"
-                                       max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
+                                       max="5" step="1" data-size="xs" style="display: none;">
                             </div>
                             <div class="caption">
                                 <span class="label label-success">Five Stars</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="mycomments-comment-body">
                             <strong>Комментарий:</strong>
-                            Отличные патчи, только получила и сразу испытала. Приятное...
+                            Не розумію претензій до текстури - 5-6 крапель на обличчя, як
+                            2 чи...
                         </div>
                         <div>
-                            <a href="https://sweetness.com.ua/patchi-pod-glaza/1181-secret-key-gold-premium-first-eye-patch.html"
-                               style="color: #F38098;">Уценка!!! Secret Key Gold Premium First Eye Patch
+                            <a href="https://sweetness.com.ua/syvorotka/5067-aronix-vitamin-ampole.html"
+                               style="color: #F38098;">Aronyx Vitamin Ampole
                             </a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr>
                     <div class="mycomments-comment">
-                        <div>Илья Гавришин.
-                            <br/>
-                            <small>16:19:58, 15-09-2019</small>
+                        <div>Натальч Кучеренко.
+                            <br>
+                            <small>10:38:44, 15-12-2020</small>
                         </div>
                         <div class="star-rating">
                             <strong>Оценка</strong>
@@ -1207,43 +874,30 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                                 <i class="glyphicon glyphicon-minus-sign"></i>
                             </div>
                             <div class="rating-container rating-gly" data-content="">
-                                <div class="rating-stars" data-content="" style="width: 100%;"></div>
-                                <input value="5" data-symbol="" type="number" class="rating form-control" min="0"
-                                       max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
+                                <div class="rating-stars" data-content="" style="width: 40%;"></div>
+                                <input value="2" data-symbol="" type="number" class="rating form-control" min="0"
+                                       max="5" step="1" data-size="xs" style="display: none;">
                             </div>
                             <div class="caption">
-                                <span class="label label-success">Five Stars</span>
+                                <span class="label label-warning">Two Stars</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="mycomments-comment-body">
                             <strong>Комментарий:</strong>
-                            Крем тянется (у меня такой в первый раз, т.ч. это немного смутило),...
+                            Не увидела никакого эффекта. От обыкновенного крема на ночь
+                            кожа...
                         </div>
                         <div>
-                            <a href="https://sweetness.com.ua/krem/4495-baroness-snail-cream.html"
-                               style="color: #F38098;">Baroness Snail Cream
+                            <a href="https://sweetness.com.ua/nochnaya-maska/6806-laneige-cica-sleeping-mask.html"
+                               style="color: #F38098;">LANEIGE Cica Sleeping Mask
                             </a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr>
                     <div class="mycomments-comment">
-                        <div>Маша Легкая.
-                            <br/>
-                            <small>14:34:21, 15-09-2019</small>
+                        <div>Магазин Sweetness.
+                            <br>
+                            <small>09:30:44, 15-12-2020</small>
                         </div>
                         <div class="star-rating">
                             <strong>Оценка</strong>
@@ -1255,41 +909,28 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                             <div class="rating-container rating-gly" data-content="">
                                 <div class="rating-stars" data-content="" style="width: 100%;"></div>
                                 <input value="5" data-symbol="" type="number" class="rating form-control" min="0"
-                                       max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
+                                       max="5" step="1" data-size="xs" style="display: none;">
                             </div>
                             <div class="caption">
                                 <span class="label label-success">Five Stars</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="mycomments-comment-body">
                             <strong>Комментарий:</strong>
-                            Состав просто бомба! Действие - ракета! Много витаминных сывороток...
+                            Здравствуйте, Вероника! Благодарим Вас за заказ! Нам очень
+                            жаль,...
                         </div>
                         <div>
-                            <a href="https://sweetness.com.ua/syvorotka/5491-purito-pure-vitamin-c-serum.html"
-                               style="color: #F38098;">PURITO Pure Vitamin C Serum
+                            <a href="https://sweetness.com.ua/fillery-dlya-volos/2189-la-dor-perfect-hair-filler.html"
+                               style="color: #F38098;">La'dor Perfect Hair Fill-Up
                             </a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr>
                     <div class="mycomments-comment">
-                        <div>Маша Легкая.
-                            <br/>
-                            <small>14:26:13, 15-09-2019</small>
+                        <div>Елена Тарадейко.
+                            <br>
+                            <small>00:30:23, 15-12-2020</small>
                         </div>
                         <div class="star-rating">
                             <strong>Оценка</strong>
@@ -1301,37 +942,24 @@ form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="
                             <div class="rating-container rating-gly" data-content="">
                                 <div class="rating-stars" data-content="" style="width: 100%;"></div>
                                 <input value="5" data-symbol="" type="number" class="rating form-control" min="0"
-                                       max="5" step="1" data-size="xs" title="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-information="overall type: UNKNOWN_TYPE
-server type: CREDIT_CARD_EXP_MONTH
-heuristic type: UNKNOWN_TYPE
-label: Five Stars
-parseable name:
-section: customer_email_1-default
-field signature: 2096205953
-form signature: 15448957608704714962" autofill-prediction="UNKNOWN_TYPE" style="display: none;"/>
+                                       max="5" step="1" data-size="xs" style="display: none;">
                             </div>
                             <div class="caption">
                                 <span class="label label-success">Five Stars</span>
                             </div>
                         </div>
-                        <div>
+                        <div class="mycomments-comment-body">
                             <strong>Комментарий:</strong>
-                            Марта, я пробовала эмульсию этой серии, у меня в прошлом очень...
+                            Очень понравилась. У меня очень сухая кожа, после нанесения
+                            быстро...
                         </div>
                         <div>
-                            <a href="https://sweetness.com.ua/nabori-trevel-seti/5955-farmstay-grape-stem-cell-skin-care-5set.html"
-                               style="color: #F38098;">Farmstay Grape Stem Cell Skin Care 5 Set
+                            <a href="https://sweetness.com.ua/syvorotka/8104-may-island-seven-days-hyaluronic-ampoule.html"
+                               style="color: #F38098;">May Island Seven Days Hyaluronic Ampoule
                             </a>
                         </div>
                     </div>
-                    <hr/>
+                    <hr>
                 </div>
             </div>
         </div>

@@ -1,0 +1,198 @@
+<div class="product-item">
+    <a href="/news/42699/" class="product-item__attention">При покупке продукции Lancome - получайте в подарок миниатюру
+        на выбор, за каждые 1000 грн в чеке
+    </a>
+    <div class="product-item__content">
+        <div id="product-image" class="product-item__image">
+            <div class="product-slider sl">
+                <div class="product-slider-list sl__l">
+                    <input id="product-slider_id_1" type="radio" name="sl" checked="" autocomplete="off">
+                    <div class="product-slider__item sl__i">
+                        <img src="https://u.makeup.com.ua/n/nj/njoimhnzqw0c.jpg" itemprop="image"
+                             data-popup-src="https://u.makeup.com.ua/u/uw/uwtuh1be5xmu.jpg"
+                             alt="Lancome Hypnose - Парфюмированная вода — фото N1"
+                             title="Купить Lancome Hypnose - Парфюмированная вода на makeup.com.ua — фото N1">
+                    </div>
+                    <input id="product-slider_id_2" type="radio" name="sl" autocomplete="off">
+                    <div class="product-slider__item sl__i">
+                        <img src="https://u.makeup.com.ua/v/v8/v8gkyymxpwyt.jpg"
+                             data-popup-src="https://u.makeup.com.ua/0/0z/0zc0lcgon9jz.jpg"
+                             alt="Lancome Hypnose - Парфюмированная вода — фото N2"
+                             title="Купить Lancome Hypnose - Парфюмированная вода на makeup.com.ua — фото N2">
+                    </div>
+                    <input id="product-slider_image-preview" type="radio" name="sl" autocomplete="off"
+                           checked="checked">
+                    <div class="product-slider__item sl__i">
+                        <img id="product-slider_image-preview_image" src="https://u.makeup.com.ua/o/oy/oydbeteo1hvc.jpg"
+                             alt="Lancome Hypnose - Парфюмированная вода — фото 50ml"
+                             title="Купить Lancome Hypnose - Парфюмированная вода на makeup.com.ua — фото 50ml">
+                    </div>
+                </div>
+                <div data-css-slider="" class="simple-slider preview" id="slider-id-1608190621128">
+                    <input type="radio" name="slider-1608190621128" id="id-slider-1608190621128-0">
+                    <div class="simple-slider-list-wrap">
+                        <ul class="simple-slider-list">
+                            <li class="simple-slider-list__item">
+                                <label for="product-slider_id_1" class="product-slider__page-item active">
+                                    <img src="https://u.makeup.com.ua/p/pz/pzftrurrxlip.jpg"
+                                         alt="Lancome Hypnose - Парфюмированная вода — фото N1"
+                                         title="Купить Lancome Hypnose - Парфюмированная вода на makeup.com.ua — фото N1">
+                                </label>
+                            </li>
+                            <li class="simple-slider-list__item">
+                                <label for="product-slider_id_2" class="product-slider__page-item">
+                                    <img src="https://u.makeup.com.ua/2/22/22wiis1xwvur.jpg"
+                                         alt="Lancome Hypnose - Парфюмированная вода — фото N2"
+                                         title="Купить Lancome Hypnose - Парфюмированная вода на makeup.com.ua — фото N2">
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-button left">
+                        <label for="id-slider-1608190621128--1"></label>
+                    </div>
+                    <div class="slider-button right">
+                        <label for="id-slider-1608190621128-1"></label>
+                    </div>
+                    <div class="slider-page page">
+                        <label for="id-slider-1608190621128-0"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-item__description">
+            <a href="/brand/26209/" class="brand" itemprop="brand" itemscope="" itemtype="https://schema.org/Brand">
+                <meta itemprop="url" content="/brand/26209/">
+                <span itemprop="name">Lancome</span>
+            </a>
+            <a href="/brand/26209/#o[2245][]=123357" class="series">Hypnose</a>
+            <div class="product-item__name" itemprop="name">Lancome Hypnose</div>
+            <div class="product-item__category">Парфюмированная вода</div>
+            <div class="product-item__social">
+                <span class="star-list">★★★★★</span>
+                <span class="rating" itemprop="aggregateRating" itemscope=""
+                      itemtype="https://schema.org/AggregateRating">
+                    <meta itemprop="worstRating" content="1">
+                    <meta itemprop="bestRating" content="5">
+                    <meta itemprop="ratingValue" content="5">
+                    <a href="/product/3110/otzivi/">
+                        <span>126 отзывов</span>
+                        <meta itemprop="reviewCount" content="126">
+                    </a>
+                </span>
+            </div>
+        </div>
+        <div class="product-item__buy" data-id="3110" data-price="1255" data-price-old="3018" data-variant-id="1413687">
+            <div class="product-item__row">
+                <div class="product-item__price-wrap">
+                    <span class="product-item__old-price empty">
+                        <span class="rus">0</span>
+                    </span>
+                    <span class="product-item__price">
+                        <div itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+                            <link itemprop="priceValidUntil" content="2020-12-31">
+                            <link itemprop="availability" href="https://schema.org/InStock">
+                            <meta itemprop="url" content="/product/3110/">
+                            <meta itemprop="priceCurrency" content="UAH">
+                            <span itemprop="price" class="rus">1676</span>
+                        </div>
+                    </span>
+                </div>
+                <div class="product-item__volume-radio" data-image-id="product-slider_image-preview_image">
+                    <div itemprop="offers" itemscope="" itemtype="https://schema.org/Offer" class="variant" title="50ml"
+                         data-variant-id="1413687" data-price="1255" data-price-old="3018"
+                         data-img="https://u.makeup.com.ua/o/oy/oydbeteo1hvc.jpg"><img
+                            src="https://u.makeup.com.ua/1/1w/1wjmfdklhzbf.jpg" alt="">&nbsp;50ml
+                        <meta itemprop="gtin13" content="20227692">
+                        <meta itemprop="name" content="Lancome Hypnose - Парфюмированная вода 50ml">
+                        <meta itemprop="price" content="1255">
+                        <meta itemprop="priceValidUntil" content="2020-12-31">
+                        <meta itemprop="priceCurrency" content="UAH">
+                        <link itemprop="availability" itemtype="https://schema.org/ItemAvailability"
+                              href="https://schema.org/InStock">
+                        <meta itemprop="url" content="/product/3110/#/option/1413687/">
+                    </div>
+                    <div itemprop="offers" itemscope="" itemtype="https://schema.org/Offer" class="variant checked"
+                         title="75ml" data-variant-id="1413689" data-price="1676" data-price-old="3412">75ml
+                        <meta itemprop="gtin13" content="20227708">
+                        <meta itemprop="name" content="Lancome Hypnose - Парфюмированная вода 75ml">
+                        <meta itemprop="price" content="1676">
+                        <meta itemprop="priceValidUntil" content="2020-12-31">
+                        <meta itemprop="priceCurrency" content="UAH">
+                        <link itemprop="availability" itemtype="https://schema.org/ItemAvailability"
+                              href="https://schema.org/InStock">
+                        <meta itemprop="url" content="/product/3110/#/option/1413689/">
+                    </div>
+                </div>
+            </div>
+            <div class="product-item__code-wrap">
+                <div class="product-item__code">код товара: 3110</div>
+                <div class="product-item__status green" id="product_enabled">
+                    <span style="display:none;">Доставка из ЕС!</span>
+                    <span>Есть в наличии!</span>
+                </div>
+            </div>
+            <div class="product-item__button">
+                <div class="button buy">Купить</div>
+            </div>
+            <a href="#" class="product-item__link">Нет нужного объема?</a>
+            <br>
+            <div class="product-item__info">
+                <label class="delivery">
+                    <span>Бесплатная доставка!</span>
+                    <input type="checkbox" class="un-check-me">
+                    <span class="hidden">Доставка нашей службой — 0 грн. Минимальный заказ - от 99 грн.
+                        <br>
+                        Курьером других перевозчиков в регионы и до склада — 0 грн. при заказе от 499 грн.
+                        <br>
+                        При выборе товара с флажком ЕС — бесплатно со склада в ЕС при сумме заказа от 750 грн. На
+                        товары, доставляемые со склада в ЕС, не действуют промо-коды, сертификаты и акции
+                        <br>
+                        Доставка по Киеву - 1 день, в регионы – 1-3 дня, доставка из ЕС в Украину занимает в среднем 3-5
+                        дней.
+                    </span>
+                </label>
+                <label class="guarantee">
+                    <span>Гарантия</span>
+                    <input type="checkbox" class="un-check-me">
+                    <span class="hidden">Только 100% оригинальная продукция.<br>Возможность проверить заказ при
+                        получении<br>Обмен/Возврат, если упаковка не вскрыта<br>Для товаров из ЕС - только полный
+                        возврат посылки.
+                    </span>
+                </label>
+            </div>
+        </div>
+        <div class="product-item__text">
+            <div>
+                <strong>Классификация:</strong>
+                элитная
+                <br>
+                <strong>Тип аромата:</strong>
+                восточные, древесные
+                <br>
+                <strong>Пол:</strong>
+                для женщин
+                <br>
+                <strong>Начальная нота:</strong>
+                Страстоцвет
+                <br>
+                <strong>Нота сердца:</strong>
+                Жасмин, Тиаре
+                <br>
+                <strong>Конечная нота:</strong>
+                Ваниль, Ветивер
+                <br>
+                <strong>Сделано в:</strong>
+                Франция
+                <br>
+                <strong>Премьера аромата:</strong>
+                2005
+                <br>
+                <strong>Страна ТМ:</strong>
+                Франция
+                <br>
+            </div>
+        </div>
+        <div data-scroll-handler=".product-info__description .page-header" class="link">Описание</div>
+    </div>
+</div>

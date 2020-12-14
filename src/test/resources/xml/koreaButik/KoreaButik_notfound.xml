@@ -1,231 +1,620 @@
-<div data-qaid="product-info">
-    <ul class="b-product-data"
-        data-tg-became-visible="[{&quot;ns&quot;: &quot;ontheio&quot;, &quot;method&quot;: &quot;pageviewsProduct&quot;, &quot;args&quot;: [{&quot;view_type&quot;: &quot;full&quot;}], &quot;payloads&quot;: {&quot;oi_common&quot;: 257585472}, &quot;uuid&quot;: &quot;de1a5eb5ade7f35f015cf3754b6a06d2a69ddb63763a7075b546ffd7d686244a&quot;}]">
-        <li class="b-product-data__item b-product-data__item_type_available" data-qaid="presence_data">В наличии</li>
-    </ul>
-    <h1 class="cs-product__name cs-online-edit">
-        <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="257585472"
-           title="Редактировать название товара" style="display:none"></a>
-        <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo" data-edit-id="257585472"
-           style="display:none"></a>
-        <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo" data-edit-id="257585472"
-           style="display:none"></a>
-        <span data-qaid="product_name">ПИЛИНГ С ЭКСТРАКТОМ ВИНОГРАДА EKEL NATURAL CLEAN PEELING GEL,180 мл</span>
-    </h1>
-    <div class="cs-product__price-wrap cs-online-edit">
-        <div class="b-product-cost">
-        </div>
-        <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="257585472"
-           title="Редактировать цену товара" style="display:none"></a>
-        <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo" data-edit-id="257585472"
-           style="display:none"></a>
-        <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo" data-edit-id="257585472"
-           style="display:none"></a>
-    </div>
-    <div class="cs-product__btn-wrap">
-        <a class="cs-product__btn cs-custom-button cs-custom-button_page_product csjs-button-buy js-product-buy-button js-buy-button__text"
-           href="/shopping_cart_static?product_id=MjU3NTg1NDcy.CDyxTUz5CcMwGrGLRoNih5rI5dY" target="_blank"
-           rel="nofollow" data-qaid="buy-button" data-class-state-done="cs-custom-button_type_active"
-           data-class-state-in-cart="cs-custom-button_type_active" data-custom-buy-button-text="Купить"
-           data-product-id="257585472" data-product-sign="MjU3NTg1NDcy.CDyxTUz5CcMwGrGLRoNih5rI5dY"
-           data-company-id="2081757"
-           data-product-name="ПИЛИНГ С ЭКСТРАКТОМ ВИНОГРАДА EKEL NATURAL CLEAN PEELING GEL,180 мл"
-           data-product-url="/p257585472-piling-ekstraktom-vinograda.html"
-           data-product-big-picture="https://images.ua.prom.st/372882576_w200_h200_piling-s-ekstraktom.jpg"
-           data-product-small-picture="https://images.ua.prom.st/372882576_w40_h40_piling-s-ekstraktom.jpg"
-           data-tg-chain="{&quot;view_type&quot;: &quot;full&quot;}" data-product-price="145 грн.">Купить
-        </a>
-    </div>
-    <div class="cs-product__drop-phones">
-        <div id="ID-22efe2f5-9eae-4f9b-8683-b49359c7b9b3" class="cs-drop-phones">
-            <ul class="cs-drop-phones__list">
-                <li class="cs-drop-phones__item js-ga-phone-hover"
-                    data-tg-hovered="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackQueue&quot;, &quot;args&quot;: [&quot;contact_view&quot;, &quot;hover_phones&quot;, {&quot;label/label&quot;: &quot;company_site-product_view&quot;}], &quot;uuid&quot;: &quot;06880416b5f4f52d4c03b5688717d7fb2f1c5df4b130316e646bb783646ac7d3&quot;}, {&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;company_contacts_hovered&quot;], &quot;uuid&quot;: &quot;d017546a89ff2662214ea1032d6a6a8e1f18d9795666436aa63998a315e0966d&quot;}]">
-                    <div class="cs-drop-phones__number cs-drop-phones__number_type_list">
-                        <span class="notranslate">+380</span>
-                        <span class="notranslate cs-drop-phones__code">93</span>
-                        <span class="notranslate">105-93-45</span>
-                    </div>
-                </li>
-                <li class="cs-drop-phones__item js-ga-phone-hover"
-                    data-tg-hovered="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackQueue&quot;, &quot;args&quot;: [&quot;contact_view&quot;, &quot;hover_phones&quot;, {&quot;label/label&quot;: &quot;company_site-product_view&quot;}], &quot;uuid&quot;: &quot;06880416b5f4f52d4c03b5688717d7fb2f1c5df4b130316e646bb783646ac7d3&quot;}, {&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;company_contacts_hovered&quot;], &quot;uuid&quot;: &quot;d017546a89ff2662214ea1032d6a6a8e1f18d9795666436aa63998a315e0966d&quot;}]">
-                    <div class="cs-drop-phones__number cs-drop-phones__number_type_list">
-                        <span class="notranslate">+380</span>
-                        <span class="notranslate cs-drop-phones__code">96</span>
-                        <span class="notranslate">180-34-98</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <ul class="b-sundry">
-        <li id="delivery_info_link_id" class="b-sundry__item b-sundry__item_type_delivery" data-qaid="delivery_link"
-            data-extend="DeliveryInfo" data-subscribe="click : DeliveryInfo/open"
-            data-deliveryinfo-url="https://my.prom.ua/remote/shop_settings/get_delivery_info_html?free_delivery=False&amp;is_service=False&amp;company_id=2081757&amp;group_id=14268452&amp;product_name=%D0%9F%D0%98%D0%9B%D0%98%D0%9D%D0%93+%D0%A1+%D0%AD%D0%9A%D0%A1%D0%A2%D0%A0%D0%90%D0%9A%D0%A2%D0%9E%D0%9C+%D0%92%D0%98%D0%9D%D0%9E%D0%93%D0%A0%D0%90%D0%94%D0%90+EKEL+NATURAL+CLEAN+PEELING+GEL%2C180+%D0%BC%D0%BB"
-            data-netio-data-type="json">Условия оплаты и доставки
-        </li>
-
-
-        <li class="b-sundry__item b-sundry__item_type_schedule" id="ID-b6731368-8147-4fcb-b586-9e319b91c629">
-            График работы
-
-
-            <div class="b-schedule">
-                <table class="b-schedule__table">
-                    <tr>
-                        <th class="b-schedule__header">День</th>
-                        <th class="b-schedule__header">Время работы</th>
-                        <th class="b-schedule__header">Перерыв</th>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Понедельник</td>
-                        <td class="b-schedule__cell">
-                            09:30&nbsp;&nbsp;17:30
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Вторник</td>
-                        <td class="b-schedule__cell">
-                            09:30&nbsp;&nbsp;17:30
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Среда</td>
-                        <td class="b-schedule__cell">
-                            09:30&nbsp;&nbsp;17:30
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Четверг</td>
-                        <td class="b-schedule__cell">
-                            09:30&nbsp;&nbsp;17:30
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Пятница</td>
-                        <td class="b-schedule__cell">
-                            09:30&nbsp;&nbsp;17:30
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Суббота</td>
-                        <td class="b-schedule__cell">
-                            Выходной
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="b-schedule__cell">Воскресенье</td>
-                        <td class="b-schedule__cell">
-                            Выходной
-                        </td>
-                        <td class="b-schedule__cell">
-
-                        </td>
-                    </tr>
-                </table>
-                <p class="b-schedule__remark">
-                    * Время указано для региона: Украина, Киев
-                </p>
-            </div>
-
-
-        </li>
-        <li id="company_contacts_info" class="b-sundry__item b-sundry__item_type_contacts"
-            data-tg-clicked="[{&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;contacts_view_on_company_site&quot;], &quot;uuid&quot;: false}]">
-            Адрес и контакты
-            <div class="b-contacts">
-                <div id="ID-cb26ba8c-99fd-4a33-ba86-b9e563fc0952" class="b-contacts__row" title="Телефон">
-                    <div class="b-contacts__phone js-ga-phone-hover"
-                         data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-product_view_popup&#34;}], &#34;uuid&#34;: &#34;06bb6a343466e8a92d73646f1e51f62b2b61d018c9a31064d26a8658fa3e7647&#34;}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;], &#34;uuid&#34;: &#34;d017546a89ff2662214ea1032d6a6a8e1f18d9795666436aa63998a315e0966d&#34;}]">
-                        <span class="notranslate">+380</span>
-                        <span class="notranslate b-contacts__code">93</span>
-                        <span class="notranslate b-contacts__comma">105-93-45</span>
-                    </div>
-                    <div class="b-contacts__phone js-ga-phone-hover"
-                         data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-product_view_popup&#34;}], &#34;uuid&#34;: &#34;06bb6a343466e8a92d73646f1e51f62b2b61d018c9a31064d26a8658fa3e7647&#34;}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;], &#34;uuid&#34;: &#34;d017546a89ff2662214ea1032d6a6a8e1f18d9795666436aa63998a315e0966d&#34;}]">
-                        <span class="notranslate">+380</span>
-                        <span class="notranslate b-contacts__code">96</span>
-                        <span class="notranslate b-contacts__comma">180-34-98</span>
+<div class="cs-product">
+    <div class="cs-product__table">
+        <div class="cs-product__item">
+            <div class=" js-productad"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-advtracking-product-id="1314205014" data-qaid="product-info">
+                <div class="cs-pictures">
+                    <div class="cs-pictures__table cs-product__image-panel">
+                        <div class="cs-pictures__cell cs-pictures__cell_width_100">
+                            <div class="cs-pictures__img-wrap cs-pictures__img-wrap_height_430"
+                                 title="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл, фото 2">
+                                <img class="cs-pictures__img"
+                                     src="https://images.ua.prom.st/2792694784_w0_h430_krem-dlya-problemnoj.jpg"
+                                     data-subscribe="click: showImage@ID-20ce375d-05e9-4ad5-8eb5-6c46e9c6e323&quot;2792694784&quot;"
+                                     alt="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл, фото 2"
+                                     id="ZB0477813-FBBF-4B87-9D6E-4A0B46D58535">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <address class="b-contacts__row" title="Адрес">
-                    <span class="b-contacts__comma" title="Украина">Украина</span>
-                    <span class="b-contacts__comma" title="Киев">Киев</span>
-                </address>
-                <div class="b-contacts__row" title="Email">
-                    <a class="b-contacts__link" href="mailto:korea-butik@ukr.net" title="korea-butik@ukr.net">
-                        korea-butik@ukr.net
+            </div>
+            <div data-bazooka="ProductClickTracker"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-bazid="4"></div>
+            <div class="cs-page__row">
+                <div class="cs-tab-control">
+                    <div class="cs-active-tab cs-tab-control__item js-item">
+                        <span class="cs-tab-control__title">Описание</span>
+                    </div>
+                    <div class="cs-tab-control__item js-item">
+                        <span class="cs-tab-control__title">Характеристики</span>
+                    </div>
+                    <div class="cs-tab-control__item js-item">
+                        <span class="cs-tab-control__title">Информация для заказа</span>
+                    </div>
+                </div>
+                <div class="cs-tab-list">
+                    <div class="cs-active-content cs-tab-list__item js-content-item cs-online-edit">
+                        <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="1314205014"
+                           title="Редактировать описание" style="display:none"></a>
+                        <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <div class="b-user-content" data-qaid="product_description">
+                            <p>Крем для проблемной кожи с салициловой кислотой&nbsp;<strong>
+                                <a href="https://korea-butik.com/site_search?search_term=Manyo+Factory" target="_blank">
+                                    Manyo
+                                </a>
+                                Blemish Red Crea
+                            </strong>
+                                <strong>m</strong>&nbsp;эффективно лечит акне и предупреждает повторное появление
+                                воспалений. Средство&nbsp;успокаивает, снимает раздражения, воспаления, устраняет
+                                красноту и шелушения.
+                                <br>
+                                &nbsp;
+                            </p>
+                            <p>Крем активно восстанавливает кожу, повышает уровень увлажнения в клетках эпидермиса и
+                                удерживает влагу. Нормализует работу сальных желёз и регулирует выработку кожного сала в
+                                течение дня. Растворяет сальные пробки, удаляет загрязнения и сужает поры.
+                                <br>
+                                <br>
+                                Продукт сформулирован&nbsp;<strong>на основе экстракта центеллы азиатской</strong>,
+                                который отличается высокой заживляющей и регенерирующей способностью, укрепляет защитные
+                                функции кожи, успокаивает и снимает раздражения, увлажняет и активизирует синтез
+                                коллагена и эластина в клетках эпидермиса.&nbsp;
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>Крем на 98% состоит из натуральных компонентов, не содержит масел (за исключением масла
+                                чайного дерева).
+                            </p>
+                            &nbsp;
+
+                            <p>Крем обладает лёгкой гелевой консистенцией и ароматом чайного дерева, интенсивно
+                                заботится о коже в течение дня&nbsp;не забивая поры и не оставляя жирного блеска.
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <ul>
+                            </ul>
+                            <br>
+                            <strong>Основные действующие компоненты:</strong>
+                            <p>&nbsp;</p>
+                            <p>&nbsp;</p>
+                            <ul>
+                                <li>
+                                    <p><strong>Салициловая кислота&nbsp;</strong>оказывает обеззараживающее и
+                                        противовоспалительное действие, уничтожая бактерии, вызывающие воспаление внутри
+                                        комедона, подавляет выработку секрета потовых и сальных желез, уменьшая жирность
+                                        кожи, смягчает и отшелушивает роговой слой кожи, размягчает и растворяет пробки
+                                        в фолликулах.
+                                    </p>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    <p><strong>Экстракт центеллы азиатской 55%&nbsp;</strong>обладает
+                                        противовоспалительным и ранозаживляющим действием, способствует восстановлению
+                                        барьерных свойств кожи и удержанию влаги, снижает чувствительность кожи,
+                                        уменьшает отеки, оказывает сосудоукрепляющее действие.
+                                    </p>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    <p><strong>Фермента галактомисиса&nbsp;</strong>превосходно питает и увлажняет кожу,
+                                        ускоряет обновление клеток, регенерирует, очищает, выравнивает микрорельеф,
+                                        повышает тонус кожи, омолаживает, снимает воспаления, улучшает цвет лица.
+                                    </p>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    <p><strong>Масло чайного дерева</strong>&nbsp;успокаивает кожу и обладает
+                                        антисептическим действием, контролирует выработку кожного сала, восстанавливает
+                                        водно-жировой баланс, помогает в борьбе с воспалениями, акне и другими
+                                        несовершенствами кожи.
+                                    </p>
+                                </li>
+                                <li>&nbsp;</li>
+                                <li>
+                                    <p><strong>Экстракт розмарина</strong>&nbsp;способствует обновлению клеток кожи,
+                                        тонизирует, улучшает циркуляцию крови, выравнивает рельеф кожи, идеально
+                                        подходит для зрелой кожи и борьбы с возрастными изменениями.&nbsp; &nbsp;
+                                    </p>
+                                </li>
+                            </ul>
+                            <p>&nbsp;</p>
+                            <p>Рекомендуется для проблемной кожи.
+                                <br>
+                                <br>
+                                <strong>Способ применения:&nbsp;</strong>Нанесите крем завершающим этапом ухода. При
+                                использовании крема в дневное время рекомендуется наносить солнцезащитное средство.
+                            </p>
+                            <p>Объём 50 мл</p>
+                            <p>Состав:&nbsp;Centella Asiatica Extract (79 %), Propanediol, Glycerin, Phenyl
+                                Trimethicone, 1,2-Hexanediol, Butylene Glycol, Water, Galacto- myces Ferment Filtrate,
+                                Rosa Canina Fruit Extract, Origanum Majorana Leaf Extract, Thymus Vulgaris (Thyme) Leaf
+                                Extract Mentha Piperita (Peppermint) Leaf Extract, Neopentyl Glycol Diheptanoate,
+                                Sorbitan Isostearate, Sodium Hyaluronate, ScuteIlaria Baicalensis Root Extract Polygonum
+                                Cuspidatum Root Extract, Glycyrrhiza Glabra (Licorice Root Extract, Acrylates / C10-30
+                                Alkyl Acrylate Crosspol- ymer, Camellia Sinensis Leaf Extract, Chamomilla Recutita
+                                (Matricaria) Flower Extract, Rosma- rinus Officinalis (Rosemary) Leaf Extract,
+                                Ethylhexylglycerin Ammonium Acryloyldimethyltaurate / VP Copolymer, Salicylic Acid,
+                                Tromethamine, Microcrystalline Cellulose, Cellulose Gum
+                            </p>
+                        </div>
+                    </div>
+                    <div class="cs-tab-list__item js-content-item cs-online-edit">
+                        <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="1314205014"
+                           title="Редактировать характеристики товара" style="display:none"></a>
+                        <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <table class="b-product-info">
+                            <tbody>
+                                <tr>
+                                    <th class="b-product-info__header" colspan="2">Основные</th>
+                                </tr>
+                                <tr>
+                                    <td class="b-product-info__cell">Производитель
+                                        <span class="icon-help" id="product-attribute-0-0">&nbsp;</span>
+                                    </td>
+                                    <td class="b-product-info__cell">Manyo Factory</td>
+                                </tr>
+                                <tr>
+                                    <td class="b-product-info__cell">Страна производитель</td>
+                                    <td class="b-product-info__cell">Южная Корея</td>
+                                </tr>
+                                <tr>
+                                    <td class="b-product-info__cell">Пол
+                                        <span class="icon-help" id="product-attribute-0-2">&nbsp;</span>
+                                    </td>
+                                    <td class="b-product-info__cell">Унисекс</td>
+                                </tr>
+                                <tr>
+                                    <td class="b-product-info__cell">Объем</td>
+                                    <td class="b-product-info__cell">50 мл</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="cs-tab-list__item js-content-item cs-online-edit">
+                        <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="1314205014"
+                           title="Редактировать характеристики товара" style="display:none"></a>
+                        <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo"
+                           data-edit-id="1314205014" style="display:none"></a>
+                        <ul class="b-order-info" data-qaid="order_info_block">
+                            <li class="b-order-info__item" data-qaid="order_info_item">
+                                <b>Цена:</b>
+                                849&nbsp;<span class="notranslate">грн.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-extend="LazyDiv" data-lazydiv-skipautoio="true" data-lazydiv-replace-container="true"
+                 data-lazydiv-url="/accessory_slider_block_html?product_id=1314205014&amp;page_type=cs_product_view"
+                 id="Z264E53B5-0C8F-4275-A5AB-2EC8A3835F47"></div>
+            <div data-extend="LazyDiv" data-lazydiv-skipautoio="true" data-lazydiv-replace-container="true"
+                 data-lazydiv-url="/related_slider_block_html?product_id=1314205014&amp;page_type=cs_product_view"
+                 id="ZF90485FE-4D47-4D72-BCAF-6FCBCAA2AC46"></div>
+            <div class="cs-page__row">
+                <div data-extend="LazyDiv" data-lazydiv-skipautoio="true" data-lazydiv-replace-container="true"
+                     data-lazydiv-url="/visited_block_html?page_type=cs_product_view&amp;exclude_id=1314205014"
+                     id="ZEA09A4AE-8F56-420F-BC41-8F93651E05B7"></div>
+            </div>
+            <div class="cs-page__row">
+                <div data-extend="LazyDiv" data-lazydiv-skipautoio="true" data-lazydiv-replace-container="true"
+                     data-lazydiv-url="/recommended_block_html?page_type=cs_product_view"
+                     id="ZA0DF6503-165D-4A12-A4C8-9CDB5CB8AF67"></div>
+            </div>
+        </div>
+        <div class="cs-product__item cs-product__item_side_right">
+            <div class=" js-productad"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-advtracking-product-id="1314205014" data-qaid="product-info">
+                <ul class="b-product-data"
+                    data-tg-became-visible="[{&quot;ns&quot;: &quot;ontheio&quot;, &quot;method&quot;: &quot;pageviewsProduct&quot;, &quot;args&quot;: [{&quot;view_type&quot;: &quot;full&quot;}], &quot;payloads&quot;: {&quot;oi_common&quot;: 1314205014}, &quot;uuid&quot;: &quot;dd4e66173f2ee7affb0e8000314c05240763fd18&quot;}]">
+                    <li class="b-product-data__item b-product-data__item_type_available" data-qaid="presence_data">В
+                        наличии
+                    </li>
+                </ul>
+                <h1 class="cs-product__name cs-online-edit">
+                    <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="1314205014"
+                       title="Редактировать название товара" style="display:none"></a>
+                    <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo" data-edit-id="1314205014"
+                       style="display:none"></a>
+                    <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo" data-edit-id="1314205014"
+                       style="display:none"></a>
+                    <span data-qaid="product_name">Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red
+                        Cream, 50 мл
+                    </span>
+                </h1>
+                <div class="cs-product__price-wrap cs-online-edit">
+                    <div class="b-product-cost">
+                        <p class="b-product-cost__price"><span data-qaid="product_price1">849</span>&nbsp;<span
+                                class="notranslate" data-qaid="currency">грн.
+                        </span>
+                        </p>
+                        <p class="b-product-cost__min-order">Минимальная сумма заказа — 100 грн.</p>
+                    </div>
+                    <a class="cs-online-edit__link" data-edit-role="productInfo" data-edit-id="1314205014"
+                       title="Редактировать цену товара" style="display:none"></a>
+                    <a class="cs-online-edit__horizontal-borders" data-edit-role="productInfo" data-edit-id="1314205014"
+                       style="display:none"></a>
+                    <a class="cs-online-edit__vertical-borders" data-edit-role="productInfo" data-edit-id="1314205014"
+                       style="display:none"></a>
+                </div>
+                <div class="cs-product__btn-wrap">
+                    <a class="cs-product__btn cs-custom-button cs-custom-button_page_product csjs-button-buy js-product-buy-button js-buy-button__text js-product-ad-conv-action"
+                       href="/shopping_cart_static?product_id=MTMxNDIwNTAxNA.NUuI8WleM19guAwPLr-ChL7etN8"
+                       target="_blank" rel="nofollow" data-qaid="buy-button" data-adwords-data="&quot;&quot;"
+                       data-class-state-done="cs-custom-button_type_active"
+                       data-class-state-in-cart="cs-custom-button_type_active" data-custom-buy-button-text="Купить"
+                       data-product-id="1314205014" data-product-sign="MTMxNDIwNTAxNA.NUuI8WleM19guAwPLr-ChL7etN8"
+                       data-company-id="2081757"
+                       data-product-name="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл"
+                       data-product-url="/p1314205014-krem-dlya-problemnoj.html"
+                       data-product-big-picture="https://images.ua.prom.st/2792694784_w200_h200_krem-dlya-problemnoj.jpg"
+                       data-product-small-picture="https://images.ua.prom.st/2792694784_w40_h40_krem-dlya-problemnoj.jpg"
+                       data-do-not-change-buy-button="do not" data-tg-chain="{&quot;view_type&quot;: &quot;full&quot;}"
+                       data-product-price="849 грн."
+                       data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                       data-advtracking-product-id="1314205014">Купить
                     </a>
+
+                    <div class="cs-product__btn">
+                        <div class="js-oco-inline" data-tg-chain="{&quot;view_type&quot;: &quot;full&quot;}">
+                            <div class="b-form-input-button js-oco-inline-product" data-product-id="1314205014"
+                                 data-img-url="https://images.ua.prom.st/2792694784_w100_h100_krem-dlya-problemnoj.jpg"
+                                 data-product-name="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл"
+                                 data-measure-unit="" data-price="849.00000" data-price-text="849 грн."
+                                 data-currency="UAH" data-quantity="1" data-scope="company_site-cs_product_view"
+                                 data-price-in-default-currency="849"
+                                 data-disabled-cls="b-form-input-button__submit_state_disabled" data-place="member"
+                                 data-recaptcha-token="" data-show-safety-warning="false"
+                                 data-safe-shopping-url="https://prom.ua/safe_shopping">
+                                <input class="b-form-input-button__field js-oco-inline-input js-oco-phone"
+                                       placeholder="Ваш телефон" type="text" size="18" data-qaid="phone_input">
+                                <button class="b-form-input-button__submit js-oco-inline-button js-product-ad-conv-action b-form-input-button__submit_state_disabled"
+                                        data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                                        data-advtracking-product-id="1314205014" data-qaid="call_me_button"
+                                        disabled="disabled">Перезвоните мне
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cs-product__drop-phones">
+                    <div id="ID-2ea76f3c-95b3-4861-b1a0-7813f370e9a6" class="cs-drop-phones" data-qaid="company_phones">
+                        <ul class="cs-drop-phones__list">
+                            <li class="cs-drop-phones__item js-ga-phone-hover"
+                                data-tg-hovered="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackQueue&quot;, &quot;args&quot;: [&quot;contact_view&quot;, &quot;hover_phones&quot;, {&quot;label/label&quot;: &quot;company_site-cs_product_view&quot;}], &quot;uuid&quot;: &quot;31090ea0dbe835ea2d856b2d43f4101dd733d211&quot;}, {&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;company_contacts_hovered&quot;], &quot;uuid&quot;: &quot;4e4e38200b10121d2620b45f0cb38f2ce6db161d&quot;}]">
+                                <div class="cs-drop-phones__number cs-drop-phones__number_type_list">
+                                    <span class="notranslate">+380931059345</span>
+                                </div>
+                            </li>
+                            <li class="cs-drop-phones__item js-ga-phone-hover"
+                                data-tg-hovered="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackQueue&quot;, &quot;args&quot;: [&quot;contact_view&quot;, &quot;hover_phones&quot;, {&quot;label/label&quot;: &quot;company_site-cs_product_view&quot;}], &quot;uuid&quot;: &quot;31090ea0dbe835ea2d856b2d43f4101dd733d211&quot;}, {&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;company_contacts_hovered&quot;], &quot;uuid&quot;: &quot;4e4e38200b10121d2620b45f0cb38f2ce6db161d&quot;}]">
+                                <div class="cs-drop-phones__number cs-drop-phones__number_type_list">
+                                    <span class="notranslate">+380961803498</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="b-sundry">
+                    <li id="delivery_info_link_id" class="b-sundry__item b-sundry__item_type_delivery"
+                        data-qaid="delivery_link" data-extend="DeliveryInfo" data-subscribe="click : DeliveryInfo/open"
+                        data-deliveryinfo-url="https://my.prom.ua/remote/shop_settings/get_delivery_info_html?free_delivery=False&amp;is_service=False&amp;company_id=2081757&amp;group_id=16942961&amp;product_name=%D0%9A%D1%80%D0%B5%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%BA%D0%BE%D0%B6%D0%B8+%D1%81+%D1%81%D0%B0%D0%BB%D0%B8%D1%86%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BE%D0%B9+Manyo+Blemish+Red+Cream%2C+50+%D0%BC%D0%BB&amp;lang=ru"
+                        data-netio-data-type="json">Условия оплаты и доставки
+                    </li>
+
+
+                    <li class="b-sundry__item b-sundry__item_type_schedule"
+                        id="ID-46c17875-467b-41ae-a5f3-c55dd6b6ec9b">
+                        График работы
+                        <script type="text/html" data-extend="OverlayDialog"
+                                data-subscribe="click@ID-46c17875-467b-41ae-a5f3-c55dd6b6ec9b: show"
+                                data-overlay-cls="h-width-355 qa-schedule-popup"
+                                id="Z6F637A88-C910-4B28-9F94-27A1EF645E51" data-_initialized="true">
+
+
+                            <div class="b-schedule">
+                                <table class="b-schedule__table">
+                                    <tr>
+                                        <th class="b-schedule__header">День</th>
+                                        <th class="b-schedule__header">Время работы</th>
+                                        <th class="b-schedule__header">Перерыв</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Понедельник</td>
+                                        <td class="b-schedule__cell">
+                                            09:30&nbsp;&mdash;&nbsp;17:30
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Вторник</td>
+                                        <td class="b-schedule__cell">
+                                            09:30&nbsp;&mdash;&nbsp;17:30
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Среда</td>
+                                        <td class="b-schedule__cell">
+                                            09:30&nbsp;&mdash;&nbsp;17:30
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Четверг</td>
+                                        <td class="b-schedule__cell">
+                                            09:30&nbsp;&mdash;&nbsp;17:30
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Пятница</td>
+                                        <td class="b-schedule__cell">
+                                            09:30&nbsp;&mdash;&nbsp;17:30
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Суббота</td>
+                                        <td class="b-schedule__cell">
+                                            Выходной
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="b-schedule__cell">Воскресенье</td>
+                                        <td class="b-schedule__cell">
+                                            Выходной
+                                        </td>
+                                        <td class="b-schedule__cell">
+
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p class="b-schedule__remark">
+                                    * Время указано для региона: Украина, Киев
+                                </p>
+                            </div>
+
+
+                        </script>
+                    </li>
+                    <li id="company_contacts_info" class="b-sundry__item b-sundry__item_type_contacts"
+                        data-tg-clicked="[{&quot;ns&quot;: &quot;ym&quot;, &quot;method&quot;: &quot;reachGoal&quot;, &quot;args&quot;: [&quot;contacts_view_on_company_site&quot;], &quot;uuid&quot;: false}]">
+                        Адрес и контакты
+                        <script type="text/html" data-extend="OverlayDialog"
+                                data-subscribe="click@company_contacts_info: show"
+                                data-overlay-cls="h-width-355 qa-company_contacts-popup"
+                                id="Z05A49B9B-80C5-4337-A943-071F4EF328AB" data-_initialized="true">
+                            <div class="b-contacts">
+                                <div id="ID-55513519-e02f-4c61-ba04-f4fbf326bca0" class="b-contacts__row"
+                                     title="Телефон" data-qaid="company_phones">
+                                    <div class="b-contacts__phone js-ga-phone-hover"
+                                         data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-cs_product_view_popup&#34;}], &#34;uuid&#34;: &#34;de1f5ea865818e966b5c332edf506348f257696a&#34;}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;], &#34;uuid&#34;: &#34;4e4e38200b10121d2620b45f0cb38f2ce6db161d&#34;}]">
+                                        <span class="notranslate b-contacts__comma">+380931059345</span>
+                                    </div>
+                                    <div class="b-contacts__phone js-ga-phone-hover"
+                                         data-tg-hovered="[{&#34;ns&#34;: &#34;main&#34;, &#34;method&#34;: &#34;gatrackQueue&#34;, &#34;args&#34;: [&#34;contact_view&#34;, &#34;hover_phones&#34;, {&#34;label/label&#34;: &#34;company_site-cs_product_view_popup&#34;}], &#34;uuid&#34;: &#34;de1f5ea865818e966b5c332edf506348f257696a&#34;}, {&#34;ns&#34;: &#34;ym&#34;, &#34;method&#34;: &#34;reachGoal&#34;, &#34;args&#34;: [&#34;company_contacts_hovered&#34;], &#34;uuid&#34;: &#34;4e4e38200b10121d2620b45f0cb38f2ce6db161d&#34;}]">
+                                        <span class="notranslate b-contacts__comma">+380961803498</span>
+                                    </div>
+                                </div>
+                                <address class="b-contacts__row" title="Адрес" data-qaid="company_address">
+                                    <span class="b-contacts__comma" title="Украина">Украина</span>
+                                    <span class="b-contacts__comma" title="Киев">Киев</span>
+                                </address>
+                                <div class="b-contacts__row" title="Email">
+                                    <a class="b-contacts__link" href="mailto:korea-butik@ukr.net"
+                                       title="korea-butik@ukr.net">korea-butik@ukr.net
+                                    </a>
+                                </div>
+                            </div>
+                        </script>
+                    </li>
+                </ul>
+                <div class="cs-return-policy">
+                    <b class="cs-return-policy__label" title="Условия возврата: "></b>
+                    <span class="cs-return-policy__text" data-qaid="return_policy_info">Законом не предусмотрен возврат
+                        и обмен данного товара надлежащего качества
+                    </span>
+                    <button id="ID-1c0556b4-8250-436b-9ad6-bd7b1660f076" data-qaid="return_policy_btn"
+                            class="cs-return-policy__button" title="Подробно об условиях возврата и обмена">Подробнее
+                        <script type="text/html" data-extend="OverlayDialog"
+                                data-subscribe="click@ID-1c0556b4-8250-436b-9ad6-bd7b1660f076: show"
+                                data-overlay-cls="h-width-500 h-lh-middle h-font-arial"
+                                data-overlay-qa-id="return_policy_popup" id="ZB51C3245-D604-4A46-964F-F5289F8DB11D"
+                                data-_initialized="true">
+                            <h4 class="h-bold h-font-size-16 h-mv-10">
+                                Компания руководствуется Законом
+                                <a class="h-underlined h-nohover-decoration h-blue-link"
+                                   href="http://zakon2.rada.gov.ua/laws/show/1023-12"
+                                   target="_blank" rel="nofollow">«О защите прав потребителей»
+                                </a>
+                                в вопросах возврата и обмена товаров надлежащего качества.
+                            </h4>
+                            <p class="h-font-size-14 h-mv-10">
+                                Согласно Закону <a class="h-underlined h-nohover-decoration h-blue-link"
+                                                   href="http://zakon2.rada.gov.ua/laws/show/1023-12"
+                                                   target="_blank" rel="nofollow">«О защите прав потребителей»</a>,
+                                компания может отказать потребителю в обмене и возврате
+                                товаров надлежащего качества, если они относятся к
+                                категориям, указанным в действующем
+                                <a class="h-underlined h-nohover-decoration h-blue-link"
+                                   href="http://zakon2.rada.gov.ua/laws/show/172-94-%D0%BF"
+                                   target="_blank" rel="nofollow">Перечне непродовольственных товаров
+                                    надлежащего качества, не подлежащих возврату и обмену</a>.
+                            </p>
+                            <p class="h-font-size-14 h-mv-10">
+                                Товары надлежащего качества, для которых разрешен возврат и
+                                обмен, могут быть возвращены в течение 14 дней после
+                                получения покупателем, если:
+                            </p>
+                            <ul class="disc-marked">
+                                <li class=" h-font-size-14">
+                                    товар не был в употреблении и не имеет следов
+                                    использования потребителем: царапин, сколов, потёртостей,
+                                    пятен и т. п.;
+                                </li>
+                                <li class=" h-font-size-14">
+                                    товар полностью укомплектован и сохранена фабричная
+                                    упаковка;
+                                </li>
+                                <li class=" h-font-size-14">сохранены все ярлыки и заводская маркировка;</li>
+                                <li class=" h-font-size-14">
+                                    товар сохраняет товарный вид и свои потребительские
+                                    свойства.
+                                </li>
+                            </ul>
+                        </script>
+                    </button>
                 </div>
             </div>
-        </li>
-    </ul>
-    <div class="cs-return-policy">
-        <b class="cs-return-policy__label" title="Условия возврата: "></b>
-        <span class="cs-return-policy__text" data-qaid="return_policy_info">Законом не предусмотрен возврат и обмен
-            данного товара надлежащего качества
-        </span>
-        <button id="ID-d169ba6d-737e-4268-95aa-d31a6ffc6eba" data-qaid="return_policy_btn"
-                class="cs-return-policy__button" title="Подробно об условиях возврата и обмена">Подробнее
-            <h4 class="h-bold h-font-size-16 h-mv-10">
-                Компания руководствуется Законом
-                <a class="h-underlined h-nohover-decoration h-blue-link"
-                   href="http://zakon2.rada.gov.ua/laws/show/1023-12" target="_blank" rel="nofollow">«О защите прав
-                    потребителей»
-                </a>
-                в вопросах возврата и обмена товаров надлежащего качества.
-            </h4>
-            <p class="h-font-size-14 h-mv-10">
-                Согласно Закону <a class="h-underlined h-nohover-decoration h-blue-link"
-                                   href="http://zakon2.rada.gov.ua/laws/show/1023-12" target="_blank"
-                                   rel="nofollow">«О защите прав потребителей»</a>,
-                компания может отказать потребителю в обмене и возврате
-                товаров надлежащего качества, если они относятся к
-                категориям, указанным в действующем
-                <a class="h-underlined h-nohover-decoration h-blue-link"
-                   href="http://zakon2.rada.gov.ua/laws/show/172-94-%D0%BF" target="_blank" rel="nofollow">Перечне
-                    непродовольственных товаров
-                    надлежащего качества, не подлежащих возврату и обмену</a>.
-            </p>
-            <p class="h-font-size-14 h-mv-10">
-                Товары надлежащего качества, для которых разрешен возврат и
-                обмен, могут быть возвращены в течение 14 дней после
-                получения покупателем, если:
-            </p>
-            <ul class="disc-marked">
-                <li class=" h-font-size-14">
-                    товар не был в употреблении и не имеет следов
-                    использования потребителем: царапин, сколов, потёртостей,
-                    пятен и т. п.;
-                </li>
-                <li class=" h-font-size-14">
-                    товар полностью укомплектован и сохранена фабричная
-                    упаковка;
-                </li>
-                <li class=" h-font-size-14">сохранены все ярлыки и заводская маркировка;</li>
-                <li class=" h-font-size-14">
-                    товар сохраняет товарный вид и свои потребительские
-                    свойства.
-                </li>
-            </ul>
-        </button>
+            <div data-bazooka="ProductClickTracker"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-bazid="5"></div>
+            <div>
+                <ul class="cs-social-links">
+                    <li class="cs-social-links__item">
+                        <a class="cs-social-links__link cs-social-links__link_type_facebook"
+                           href="https://www.facebook.com/share.php?u=https://korea-butik.com/p1314205014-krem-dlya-problemnoj.html"
+                           data-tg-clicked="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackForce&quot;, &quot;args&quot;: [&quot;social_links&quot;, &quot;facebook&quot;, {}], &quot;uuid&quot;: false}]"
+                           target="_blank" title="facebook">
+                            <img src="/cloud-cgi/static/uaprom-uc/" alt="facebook">
+                        </a>
+                    </li>
+                    <li class="cs-social-links__item">
+                        <a class="cs-social-links__link cs-social-links__link_type_twitter"
+                           href="https://twitter.com/intent/tweet?status=%D0%9A%D1%80%D0%B5%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%BD%D0%BE%D0%B9+%D0%BA%D0%BE%D0%B6%D0%B8+%D1%81+%D1%81%D0%B0%D0%BB%D0%B8%D1%86%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%D0%B9+%D0%BA%D0%B8%D1%81%D0%BB%D0%BE%D1%82%D0%BE%D0%B9+Manyo+Blemish+Red+Cream%2C+50+%D0%BC%D0%BB+https%3A%2F%2Fkorea-butik.com%2Fp1314205014-krem-dlya-problemnoj.html+%23prom_ua"
+                           data-tg-clicked="[{&quot;ns&quot;: &quot;main&quot;, &quot;method&quot;: &quot;gatrackForce&quot;, &quot;args&quot;: [&quot;social_links&quot;, &quot;twitter&quot;, {}], &quot;uuid&quot;: false}]"
+                           target="_blank" title="twitter">
+                            <img src="/cloud-cgi/static/uaprom-uc/" alt="twitter">
+                        </a>
+                    </li>
+                    <li class="cs-social-links__item">
+                        <div id="fb-root" class=" fb_reset">
+                            <div style="position: absolute; top: -10000px; width: 0px; height: 0px;">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="fb-like fb_iframe_widget"
+                             data-href="https://korea-butik.com/p1314205014-krem-dlya-problemnoj.html"
+                             data-layout="button_count" data-width="450" data-show-faces="false"
+                             fb-xfbml-state="rendered"
+                             fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fkorea-butik.com%2Fp1314205014-krem-dlya-problemnoj.html&amp;layout=button_count&amp;locale=ru_RU&amp;sdk=joey&amp;show_faces=false&amp;width=450">
+                            <span style="vertical-align: bottom; width: 90px; height: 20px;">
+                                <iframe name="f14afe4a7a76d98" width="450px" height="1000px"
+                                        data-testid="fb:like Facebook Social Plugin"
+                                        title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                        src="https://www.facebook.com/plugins/like.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df6d202dc0bd2d%26domain%3Dkorea-butik.com%26origin%3Dhttps%253A%252F%252Fkorea-butik.com%252Ff1ae5308ca0a5%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fkorea-butik.com%2Fp1314205014-krem-dlya-problemnoj.html&amp;layout=button_count&amp;locale=ru_RU&amp;sdk=joey&amp;show_faces=false&amp;width=450"
+                                        style="border: none; visibility: visible; width: 90px; height: 20px;"
+                                        class=""></iframe>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class=" js-productad"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-advtracking-product-id="1314205014" data-qaid="product-info">
+                <div style="height: 0px;">
+                    <span style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                        <span style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                            <span style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 100000px; height: 100000px;"></span>
+                        </span>
+                        <span style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                            <span style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></span>
+                        </span>
+                    </span>
+                </div>
+                <div data-extend="StickyBlock" data-sb-classactive="cs-product-float" data-sb-top="100"
+                     data-sb-relative="cs-page__content" id="Z9926D1D8-F538-46B3-8AAD-B44AF191A172" class="">
+                    <div id="product-sticky-panel" class="cs-sticky-panel" data-extend="Viewport ITogglable"
+                         data-qaid="sticky-panel"
+                         data-subscribe=" on_dom_ready: Viewport/isElementAboveViewport | stop? (false) | addClass &quot;&quot;, Viewport/isElementAboveViewport | stop? (true) | removeClass &quot;&quot;; onElementAboveViewport: stop? (false) | addClass &quot;&quot;, stop? (true) | removeClass &quot;&quot; ">
+                        <div class="cs-sticky-panel__body">
+                            <div class="cs-sticky-panel__info">
+                                <a class="cs-sticky-panel__image-link js-product-gallery-overlay"
+                                   href="https://images.ua.prom.st/2792694784_w640_h640_krem-dlya-problemnoj.jpg"
+                                   title="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл"
+                                   target="_blank"
+                                   data-subscribe="click: preventDefault | showImage@ID-20ce375d-05e9-4ad5-8eb5-6c46e9c6e323&quot;2792694784&quot;"
+                                   id="Z576904ED-993D-4613-8B4E-E5D1D7942BDF">
+                                    <img class="cs-sticky-panel__image"
+                                         src="https://images.ua.prom.st/2792694784_krem-dlya-problemnoj.jpg"
+                                         alt="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл"
+                                         data-qaid="img_product_sticky_panel">
+                                </a>
+                                <span data-qaid="sticky_product_name" class="cs-sticky-panel__product-name">Крем для
+                                    проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл
+                                </span>
+                            </div>
+                            <span class="cs-sticky-panel__product-status" title="В наличии"
+                                  data-qaid="product_status_sticky_panel">В наличии
+                            </span>
+                            <div class="cs-sticky-panel__cost" data-qaid="product_price_sticky_panel">
+                                <span class="cs-sticky-panel__price">849&nbsp;<span class="notranslate">грн.</span>
+                                </span>
+                            </div>
+                            <div class="cs-sticky-panel__buttons">
+                                <a class="cs-sticky-panel__btn cs-custom-button cs-custom-button_page_product csjs-button-buy js-product-buy-button js-buy-button__text js-product-ad-conv-action"
+                                   data-adwords-data="&quot;&quot;"
+                                   data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                                   data-advtracking-product-id="1314205014"
+                                   href="/shopping_cart_static?product_id=MTMxNDIwNTAxNA.NUuI8WleM19guAwPLr-ChL7etN8"
+                                   target="_blank" rel="nofollow" data-qaid="sticky_btn_buy"
+                                   data-class-state-done="cs-custom-button_type_active"
+                                   data-class-state-in-cart="cs-custom-button_type_active"
+                                   data-custom-buy-button-text="Купить"
+                                   data-track-page-type="company_site-cs_product_view_sticky_buy_panel"
+                                   data-product-id="1314205014"
+                                   data-product-sign="MTMxNDIwNTAxNA.NUuI8WleM19guAwPLr-ChL7etN8"
+                                   data-company-id="2081757"
+                                   data-product-name="Крем для проблемной кожи с салициловой кислотой Manyo Blemish Red Cream, 50 мл"
+                                   data-product-url="/p1314205014-krem-dlya-problemnoj.html"
+                                   data-product-big-picture="https://images.ua.prom.st/2792694784_w200_h200_krem-dlya-problemnoj.jpg"
+                                   data-product-small-picture="https://images.ua.prom.st/2792694784_w40_h40_krem-dlya-problemnoj.jpg"
+                                   data-do-not-change-buy-button="do not"
+                                   data-tg-chain="{&quot;view_type&quot;: &quot;full&quot;}"
+                                   data-product-price="849 грн.">Купить
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <span style="position: absolute; inset: 0px; overflow: hidden; z-index: -1; visibility: hidden;">
+                        <span style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                            <span style="position: absolute; left: 0px; top: 0px; transition: all 0s ease 0s; width: 100000px; height: 100000px;"></span>
+                        </span>
+                        <span style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; overflow: hidden; z-index: -1; visibility: hidden;">
+                            <span style="position: absolute; left: 0; top: 0; transition: 0s; width: 200%; height: 200%"></span>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div data-bazooka="ProductClickTracker"
+                 data-advtracking-prosale-token="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9kdWN0SWQiOjEzMTQyMDUwMTQsImNhdGVnb3J5SWQiOjMzMDYxMywiY29tcGFueUlkIjoyMDgxNzU3LCJzb3VyY2UiOiJwcm9tOmNvbXBhbnlfc2l0ZSIsImlhdCI6MTYwODAyMjE1NS41NTQ5NjIyLCJwYWdlSWQiOiJmN2Y0NzUxMS0zYTNkLTQwNGItYTVmNi01MGJhZjI0YTdkYTMiLCJwb3ciOiJ2MiJ9.OI8eEcib0inK7mzgUZCMyDH-UTFKGvAkkxyhDP0uCQA"
+                 data-bazid="6"></div>
+        </div>
     </div>
 </div>

@@ -342,7 +342,7 @@ form signature: 10332477449060593391" autofill-prediction="UNKNOWN_TYPE"/>
                             </h2>
                             <span class="price">
                                 <span class="woocs_price_code" data-product-id="409">
-                                    <span class="woocommerce-Price-amount amount">250.00&nbsp;<span
+                                    <span class="woocommerce-Price-amount1 amount">250.00&nbsp;<span
                                             class="woocommerce-Price-currencySymbol">грн.
                                     </span>
                                     </span>
@@ -371,7 +371,7 @@ form signature: 10332477449060593391" autofill-prediction="UNKNOWN_TYPE"/>
                             </h2>
                             <span class="price">
                                 <span class="woocs_price_code" data-product-id="160">
-                                    <span class="woocommerce-Price-amount amount">40.00&nbsp;<span
+                                    <span class="woocommerce-Price-amount1 amount">40.00&nbsp;<span
                                             class="woocommerce-Price-currencySymbol">грн.
                                     </span>
                                     </span>
@@ -403,7 +403,7 @@ form signature: 10332477449060593391" autofill-prediction="UNKNOWN_TYPE"/>
                             </h2>
                             <span class="price">
                                 <span class="woocs_price_code" data-product-id="107">
-                                    <span class="woocommerce-Price-amount amount">25.00&nbsp;<span
+                                    <span class="woocommerce-Price-amount1 amount">25.00&nbsp;<span
                                             class="woocommerce-Price-currencySymbol">грн.
                                     </span>
                                     </span>
