@@ -1,12 +1,8 @@
 package com.epam.pricecheckercore.configuration;
 
-import com.epam.pricecheckercore.service.PriceCheckService;
-import com.epam.pricecheckercore.util.WorkbookHelper;
+import com.epam.pricecheckercore.helper.WorkbookHelper;
+import com.epam.pricecheckercore.service.checker.PriceCheckService;
 
-/**
- * @author : Oleksandr Diachenko
- * @since : 10/27/2020
- **/
 public interface PriceCheckerConfiguration {
 
     PriceCheckService getPriceCheckService();

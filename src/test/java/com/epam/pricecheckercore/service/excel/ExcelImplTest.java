@@ -9,19 +9,16 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.io.IOException;
-import java.net.URL;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-/**
- * @author Alexander Diachenko.
- */
 @ExtendWith(MockitoExtension.class)
 class ExcelImplTest {
+
+    private final FileReader reader = new FileReader();
 
     @InjectMocks
     private ExcelImpl excel;
@@ -31,21 +28,21 @@ class ExcelImplTest {
 
     @Test
     void shouldContainsOneRowWhenExcelXlsxContainsOneRow() throws IOException {
-        List<List<String>> table = excel.read(getBytes("file/xls/oneField.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/oneField.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SAG060003, AGENT PROVOCATEUR FATALE EDP 50 ml spray, 6, 3760264453741]]");
     }
 
     @Test
     void shouldContainsOneRowWhenExcelXlsContainsOneRow() throws IOException {
-        List<List<String>> table = excel.read(getBytes("file/xls/oneField.xls"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/oneField.xls"));
 
         assertThat(table.toString()).hasToString("[[SAZ010009, AZZARO CHROME EDT TESTER 100 ml spray]]");
     }
 
     @Test
     void shouldContainsTwoRowsWhenExcelContainsTwoRows() throws IOException {
-        List<List<String>> table = excel.read(getBytes("file/xls/twoField.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/twoField.xlsx"));
 
 
         assertThat(table.toString()).hasToString("[[SAB070001, ANNA SUI ROMANTICA EDT TESTER 75 ml spray, 10], " +
@@ -54,35 +51,35 @@ class ExcelImplTest {
 
     @Test
     void shouldContainsOneRowWithSpacesWhenExcelContainsOneRowWithSpace() throws IOException {
-        List<List<String>> table = excel.read(getBytes("file/xls/oneFieldWithSpace.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/oneFieldWithSpace.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SBA030010, , 34]]");
     }
 
     @Test
     void shouldContainsTwoRowsWhenExcelContainsTwoRowsFirstShorter() throws Exception {
-        List<List<String>> table = excel.read(getBytes("file/xls/twoFieldDifferentSizeFirstShorter.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/twoFieldDifferentSizeFirstShorter.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SOT440001, 3760260453042], [SOT190003, 3760260451994, 50 ml, U]]");
     }
 
     @Test
     void shouldContainsTwoRowWhenExcelContainsTwoRowSecondShorter() throws Exception {
-        List<List<String>> table = excel.read(getBytes("file/xls/twoFieldDifferentSizeSecondShorter.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/twoFieldDifferentSizeSecondShorter.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042]]");
     }
 
     @Test
     void shouldContainsOneRowWithSpacesWhenExcelContainsOneRowWithSpaces() throws Exception {
-        List<List<String>> table = excel.read(getBytes("file/xls/oneFieldSpacesAtBeginningAndAtMiddle.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/oneFieldSpacesAtBeginningAndAtMiddle.xlsx"));
 
         assertThat(table.toString()).hasToString("[[, , SOT440001, , , 3760260453042]]");
     }
 
     @Test
     void shouldContainsThreeRowsDifferentSizeWhenExcelContainsThreeRowsDifferentSize() throws Exception {
-        List<List<String>> table = excel.read(getBytes("file/xls/threeFieldDifferentSize.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/threeFieldDifferentSize.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SOT190003, 3760260451994, 50 ml, U], [SOT440001, 3760260453042], " +
                 "[SOT470001, 3760260623042, 100 ml, M, EDP]]");
@@ -90,7 +87,7 @@ class ExcelImplTest {
 
     @Test
     void shouldContainsFiveRowsWhenExcelContainsFiveSheetsWithFiveRows() throws Exception {
-        List<List<String>> table = excel.read(getBytes("file/xls/fiveSheets.xlsx"));
+        List<List<String>> table = excel.read(reader.getBytes("file/xls/fiveSheets.xlsx"));
 
         assertThat(table.toString()).hasToString("[[SBA030010, , 34], [SOT190003, 3760260451994, 50 ml, U, ], " +
                 "[SOT440001, 3760260453042, , , ], [SOT470001, 3760260623042, 100 ml, M, EDP]]");
@@ -142,17 +139,6 @@ class ExcelImplTest {
         int columnCount = excel.getColumnCount(sheet);
 
         assertThat(columnCount).isZero();
-    }
-
-    private byte[] getBytes(String fileName) {
-        ClassLoader classLoader = getClass().getClassLoader();
-        URL resource = classLoader.getResource(fileName);
-        try {
-            return Objects.requireNonNull(resource).openStream().readAllBytes();
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Can't read file", e);
-        }
     }
 
     private List<String> createList(String... strings) {

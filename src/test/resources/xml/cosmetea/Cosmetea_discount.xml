@@ -1,61 +1,79 @@
-<div class="row">
-    <div id="content" class="col-sm-9">
-        <style type="text/css">
+<div id="content" class="col-sm-9">
+    <style type="text/css">
 
-            .ui-autocomplete .image {
-            float: left;
-            margin: 0 5px 0 0;
-            }
-            .ui-autocomplete .name {
-            color: #38B0E3;
-            font-weight: bold;
-            text-decoration: none;
-            height: 20px;
-            }
-        </style>
-        <div class="row product-info">
-            <div class="col-sm-6">
-                <div class="discount-sticker">
-                    - 5%
-                </div>
-                <ul class="thumbnails">
-                    <li>
-                        <span data-mfp-src="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-750x1000.jpg"
-                              data-group="1" class="thumbnail thumbnail-gallery thumbnail-magnific"
-                              title="Ciracle Anti Blemish Foam Cleanser 150ml">
-                            <img src="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-600x800.jpg"
-                                 title="Ciracle Anti Blemish Foam Cleanser 150ml"
-                                 alt="Ciracle Anti Blemish Foam Cleanser 150ml"
-                                 data-large="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-750x1000.jpg"
-                                 class="my-foto-container" style="visibility: visible;"/>
-                        </span>
-                    </li>
-                    <li>
-                        <div class="gallery-text">
-                            <span>Галерея фото</span>
-                        </div>
-                    </li>
-                    <ul id="product-gallery" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
-                        <div class="owl-wrapper-outer">
-                            <div class="owl-wrapper"
-                                 style="width: 176px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
-                                <div class="owl-item" style="width: 88px;">
-                                    <li class="image-additional">
-                                        <span data-mfp-src="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-750x1000.jpg"
-                                              data-group="1" class="thumbnail"
-                                              title="Ciracle Anti Blemish Foam Cleanser 150ml">
-                                            <img src="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-600x800.jpg"
-                                                 title="Ciracle Anti Blemish Foam Cleanser 150ml"
-                                                 alt="Ciracle Anti Blemish Foam Cleanser 150ml"
-                                                 data-large="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-750x1000.jpg"
-                                                 class="my-foto"/>
-                                        </span>
-                                    </li>
-                                </div>
+        .ui-autocomplete .image {
+        float: left;
+        margin: 0 5px 0 0;
+        }
+        .ui-autocomplete .name {
+        color: #38B0E3;
+        font-weight: bold;
+        text-decoration: none;
+        height: 20px;
+        }
+    </style>
+
+    <div class="row product-info">
+        <div class="col-sm-6">
+
+
+            <div class="discount-sticker">
+                - 5%
+            </div>
+
+            <ul class="thumbnails">
+                <li>
+                    <span data-mfp-src="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-750x1000.jpg"
+                          data-group="1" class="thumbnail thumbnail-gallery thumbnail-magnific"
+                          title="Cosrx AC Collection Calming Foam Cleanser 150ml">
+                        <img src="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-600x800.jpg"
+                             title="Cosrx AC Collection Calming Foam Cleanser 150ml"
+                             alt="Cosrx AC Collection Calming Foam Cleanser 150ml"
+                             data-large="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-750x1000.jpg"
+                             class="my-foto-container" style="visibility: visible;">
+                    </span>
+                </li>
+                <li>
+                    <div class="gallery-text">
+                        <span>Галерея фото</span>
+                    </div>
+                </li>
+                <ul id="product-gallery" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
+                    <div class="owl-wrapper-outer">
+                        <div class="owl-wrapper"
+                             style="width: 352px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+                            <div class="owl-item" style="width: 88px;">
+                                <li class="image-additional">
+                                    <span data-mfp-src="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-750x1000.jpg"
+                                          data-group="1" class="thumbnail"
+                                          title="Cosrx AC Collection Calming Foam Cleanser 150ml">
+                                        <img src="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-600x800.jpg"
+                                             title="Cosrx AC Collection Calming Foam Cleanser 150ml"
+                                             alt="Cosrx AC Collection Calming Foam Cleanser 150ml"
+                                             data-large="https://cosmetea.com.ua/image/cache/catalog/i/oj/be/f78cb5a8ef33f2e131ea18e1118a5212-750x1000.jpg"
+                                             class="my-foto">
+                                    </span>
+                                </li>
+                            </div>
+                            <div class="owl-item" style="width: 88px;">
+                                <li class="image-additional">
+                                    <span data-mfp-src="https://cosmetea.com.ua/image/cache/catalog/i/oe/nn/22626be9328a57833f3d51dc45712141-750x1000.jpg"
+                                          data-group="1" class="thumbnail thumbnail-gallery"
+                                          title="Cosrx AC Collection Calming Foam Cleanser 150ml">
+                                        <img class="my-foto"
+                                             src="https://cosmetea.com.ua/image/cache/catalog/i/oe/nn/22626be9328a57833f3d51dc45712141-600x800.jpg"
+                                             data-large="https://cosmetea.com.ua/image/cache/catalog/i/oe/nn/22626be9328a57833f3d51dc45712141-750x1000.jpg"
+                                             title="Cosrx AC Collection Calming Foam Cleanser 150ml"
+                                             alt="Cosrx AC Collection Calming Foam Cleanser 150ml">
+                                    </span>
+                                </li>
                             </div>
                         </div>
-                    </ul>
-                    <script type="text/javascript"><!--
+                    </div>
+
+                </ul>
+
+                <script type="text/javascript"><!--
 
               //вешаем плагин на контейнер-картинку
                 $(".my-foto-container").imagezoomsl({
@@ -98,331 +116,241 @@
                 itemsMobile : [360,3],
               });
           --></script>
-                </ul>
-            </div>
-            <div class="col-sm-6 product-options">
-                <h1 class="product-title">Ciracle Anti Blemish Foam Cleanser 150ml</h1>
-                <ul class="list-unstyled description">
-                    <li class="brand-logo">
-                        <a href="https://cosmetea.com.ua/ciracle" class="brand-image">
-                            <img src="https://cosmetea.com.ua/image/cache/catalog/i/me/mm/297eb8ee01a48bffe277831bbc5ef734-100x100.jpg"
-                                 title="Ciracle"/>
-                        </a>
-                        <a href="https://cosmetea.com.ua/ciracle" class="brand-logo-text">Ciracle</a>
-                    </li>
-                    <li>Пенка очищающая для жирной и проблемной кожи</li>
-                    <li>Код товара: SALE04</li>
-                    <li>Доступность: На складе</li>
-                </ul>
-                <ul class="list-unstyled">
-                    <li class="price-cont">
-                        <del class="price-old">Старая цена:
-                            <span class="autocalc-product-price">440 грн.</span>
-                        </del>
-                        <span class="product-price">Цена:
-                            <span class="autocalc-product-special">418 грн.</span>
-                        </span>
-                    </li>
-                </ul>
-                <div id="product">
-                    <div class="form-group form-group-quantity">
-                        <div class="quantity">
-                            <span class="minus">-</span>
-                            <input type="text" name="quantity" value="1" size="2" id="input-quantity"
-                                   class="form-control" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: 1
-parseable name: quantity
-section: search_1-default
-field signature: 2305562610
-form signature: 12945804697182745545" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: 1
-parseable name: quantity
-section: search_1-default
-field signature: 2305562610
-form signature: 12945804697182745545" autofill-prediction="UNKNOWN_TYPE"/>
-                            <span class="plus">+</span>
-                        </div>
-                        <button type="button" id="button-cart" data-loading-text="Загрузка..."
-                                class="btn btn-buy btn-product-buy">Купить
-                        </button>
-                        <input type="hidden" name="product_id" value="4096"/>
-                    </div>
-                </div>
-                <div class="form-group instant-order">
-                    <form action="#" method="post">
-                        <input id="instant_tel" type="text" name="instant_tel" placeholder="+38(123)123-45-67" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: +38(123)123-45-67
-parseable name: instant_tel
-section: instant_tel_1-default
-field signature: 3413408441
-form signature: 4959947750640406584" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: +38(123)123-45-67
-parseable name: instant_tel
-section: instant_tel_1-default
-field signature: 3413408441
-form signature: 4959947750640406584" autofill-prediction="UNKNOWN_TYPE"/>
-                        <input id="instant_product_name" type="text" name="instant_product_name"
-                               value="Ciracle Anti Blemish Foam Cleanser 150ml" hidden="" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ciracle Anti Blemish Foam Cleanser 150ml Пенка очищающая для жирной и проблемной кожи
-parseable name: instant_product_name
-section: instant_tel_1-default
-field signature: 3338182653
-form signature: 4959947750640406584" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ciracle Anti Blemish Foam Cleanser 150ml Пенка очищающая для жирной и проблемной кожи
-parseable name: instant_product_name
-section: instant_tel_1-default
-field signature: 3338182653
-form signature: 4959947750640406584" autofill-prediction="UNKNOWN_TYPE"/>
-                        <a href="javascript: void(0);" id="btn_submit_prod" type="submit" class="button btn">Заказать
-                        </a>
-                    </form>
-                    <div class="message success"></div>
-                    <script>
-                        $(document).ready(function(){
-                        $('#btn_submit_prod').click(function(){
-                        var phone = $('#instant_tel').val(); // Получаем номер телефона
-                        var prod = $('#instant_product_name').val(); // Получаем название товара
-                        $.ajax({
-                        url: "send-form.php", // Куда отправляем данные (обработчик)
-                        type: "post",
-                        dataType: "json",
-                        data: {
-                        "phone" : phone,
-                        "prod" : prod
-                        },
-                        success: function(data){
-                        $('.message').html(data.result); // Выводим результат
-                        }
-                        });
-                        });
-                        });
+            </ul>
+        </div>
+        <div class="col-sm-6 product-options">
+            <h1 class="product-title">Cosrx AC Collection Calming Foam Cleanser 150ml</h1>
+            <ul class="list-unstyled description">
+                <li class="brand-logo">
+                    <a href="https://cosmetea.com.ua/cosrx" class="brand-image">
+                        <img src="https://cosmetea.com.ua/image/cache/catalog/i/ol/ed/17c5a920531dbccecba953eb751b8c46-100x100.jpg"
+                             title="Cosrx">
+                    </a>
+                    <a href="https://cosmetea.com.ua/cosrx" class="brand-logo-text">Cosrx</a>
+                </li>
+                <li>Очищающая пенка для проблемной кожи</li>
+                <li>Код товара: SALE04</li>
+                <li>Доступность: На складе</li>
+            </ul>
 
-                        jQuery(function($){
-                        $("#instant_tel").mask("+38(999) 999-99-99");
-                        });
-                    </script>
-                </div>
-                <div class="btn-group wishlist-compare">
-                    <button type="button" data-toggle="tooltip" class="btn btn-default" title=""
-                            onclick="wishlist.add('4096');" data-original-title="В закладки">
-                        <i class="fa fa-heart"></i>
-                        В закладки
-                    </button>
-                    <button type="button" data-toggle="tooltip" class="btn btn-default" title=""
-                            onclick="compare.add('4096');" data-original-title="В сравнение">
-                        <i class="fa fa-refresh"></i>
-                        В сравнение
-                    </button>
-                </div>
-                <div class="rating">
-                    <p class="stars">
-                        <span class="fa fa-stack">
-                            <i class="fa fa-star-o fa-stack-1x"></i>
-                        </span>
-                        <span class="fa fa-stack">
-                            <i class="fa fa-star-o fa-stack-1x"></i>
-                        </span>
-                        <span class="fa fa-stack">
-                            <i class="fa fa-star-o fa-stack-1x"></i>
-                        </span>
-                        <span class="fa fa-stack">
-                            <i class="fa fa-star-o fa-stack-1x"></i>
-                        </span>
-                        <span class="fa fa-stack">
-                            <i class="fa fa-star-o fa-stack-1x"></i>
-                        </span>
-                        <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">0 отзывов</a>
-                        /
-                        <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">Написать
-                            отзыв
-                        </a>
-                    </p>
-                </div>
-                <div class="social-likes"> <!-- AddThis Button BEGIN -->
-                    <div class="addthis_toolbox addthis_default_style"
-                         data-url="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=4096">
-                        <a class="addthis_button_facebook_like at300b" :layout="button_count">
-                            <div class="fb-like fb_iframe_widget" data-layout="button_count" data-show_faces="false"
-                                 data-share="false" data-action="like" data-width="90" data-height="25"
-                                 data-font="arial"
-                                 data-href="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=4096"
-                                 data-send="false" style="height: 25px;" fb-xfbml-state="rendered"
-                                 fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=0&amp;font=arial&amp;height=25&amp;href=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D4096&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90">
-                                <span style="vertical-align: bottom; width: 61px; height: 20px;">
-                                    <iframe name="fe37b7cd3928dc" width="90px" height="25px"
-                                            title="fb:like Facebook Social Plugin" frameborder="0"
-                                            allowtransparency="true" allowfullscreen="true" scrolling="no"
-                                            allow="encrypted-media"
-                                            src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=172525162793917&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Dfb8fcaa6de062%26domain%3Dcosmetea.com.ua%26origin%3Dhttps%253A%252F%252Fcosmetea.com.ua%252Ff4e383b0bf841c%26relation%3Dparent.parent&amp;container_width=0&amp;font=arial&amp;height=25&amp;href=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D4096&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90"
-                                            style="border: none; visibility: visible; width: 61px; height: 20px;"
-                                            class=""></iframe>
-                                </span>
-                            </div>
-                        </a>
-                        <a class="addthis_button_tweet at300b">
-                            <div class="tweet_iframe_widget" style="width: 62px; height: 25px;">
-                                <span>
-                                    <iframe id="twitter-widget-0" scrolling="no" frameborder="0"
-                                            allowtransparency="true"
-                                            class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
-                                            style="position: static; visibility: visible; width: 77px; height: 20px;"
-                                            title="Twitter Tweet Button"
-                                            src="https://platform.twitter.com/widgets/tweet_button.d9084ca5af1ffbe01c8d444cfadfa6fe.ru.html#dnt=false&amp;id=twitter-widget-0&amp;lang=ru&amp;original_referer=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D4096&amp;size=m&amp;text=Ciracle%20Anti%20Blemish%20Foam%20Cleanser%20150ml%3A&amp;time=1568644526218&amp;type=share&amp;url=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D4096%23.XX-drajZZww.twitter"
-                                            data-url="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=4096#.XX-drajZZww.twitter"></iframe>
-                                </span>
-                            </div>
-                        </a>
-                        <a class="addthis_button_pinterest_pinit at300b"></a>
-                        <a class="addthis_counter addthis_pill_style" href="#" style="display: inline-block;">
-                            <a class="atc_s addthis_button_compact">Поделиться
-                                <span></span>
-                            </a>
-                            <a class="addthis_button_expanded" target="_blank" title="Еще..." href="#"></a>
-                        </a>
-                        <div class="atclear"></div>
+
+            <ul class="list-unstyled">
+                <li class="price-cont">
+                    <del class="price-old">Старая цена:
+                        <span class="autocalc-product-price">425 грн.</span>
+                    </del>
+                    <span class="product-price">Цена:
+                        <span class="autocalc-product-special">404 грн.</span>
+                    </span>
+                </li>
+            </ul>
+            <div id="product">
+                <div class="form-group form-group-quantity">
+                    <div class="quantity">
+                        <span class="minus">-</span>
+                        <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+                        <span class="plus">+</span>
                     </div>
-                    <script type="text/javascript"
-                            src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script> <!-- AddThis Button END -->
+                    <button type="button" id="button-cart" data-loading-text="Загрузка..."
+                            class="btn btn-buy btn-product-buy">Купить
+                    </button>
+                    <input type="hidden" name="product_id" value="5176">
+
                 </div>
+            </div>
+            <div class="form-group instant-order">
+                <form action="#" method="post">
+                    <input id="instant_tel" type="text" name="instant_tel" placeholder="+38(123)123-45-67">
+                    <input id="instant_product_name" type="text" name="instant_product_name"
+                           value="Cosrx AC Collection Calming Foam Cleanser 150ml" hidden="">
+                    <a href="javascript: void(0);" id="btn_submit_prod" type="submit" class="button btn">Заказать</a>
+                </form>
+                <div class="message success"></div>
+
+                <script>
+                    $(document).ready(function(){
+                    $('#btn_submit_prod').click(function(){
+                    var phone = $('#instant_tel').val(); // Получаем номер телефона
+                    var prod = $('#instant_product_name').val(); // Получаем название товара
+                    $.ajax({
+                    url: "send-form.php", // Куда отправляем данные (обработчик)
+                    type: "post",
+                    dataType: "json",
+                    data: {
+                    "phone" : phone,
+                    "prod" : prod
+                    },
+                    success: function(data){
+                    $('.message').html(data.result); // Выводим результат
+                    }
+                    });
+                    });
+                    });
+
+                    jQuery(function($){
+                    $("#instant_tel").mask("+38(999) 999-99-99");
+                    });
+                </script>
+            </div>
+
+            <div class="btn-group wishlist-compare">
+                <button type="button" data-toggle="tooltip" class="btn btn-default" title=""
+                        onclick="wishlist.add('5176');" data-original-title="В закладки">
+                    <i class="fa fa-heart"></i>
+                    В закладки
+                </button>
+                <button type="button" data-toggle="tooltip" class="btn btn-default" title=""
+                        onclick="compare.add('5176');" data-original-title="В сравнение">
+                    <i class="fa fa-refresh"></i>
+                    В сравнение
+                </button>
+            </div>
+            <div class="rating">
+                <p class="stars">
+                    <span class="fa fa-stack">
+                        <i class="fa fa-star-o fa-stack-1x"></i>
+                    </span>
+                    <span class="fa fa-stack">
+                        <i class="fa fa-star-o fa-stack-1x"></i>
+                    </span>
+                    <span class="fa fa-stack">
+                        <i class="fa fa-star-o fa-stack-1x"></i>
+                    </span>
+                    <span class="fa fa-stack">
+                        <i class="fa fa-star-o fa-stack-1x"></i>
+                    </span>
+                    <span class="fa fa-stack">
+                        <i class="fa fa-star-o fa-stack-1x"></i>
+                    </span>
+                    <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">0 отзывов</a>
+                    /
+                    <a href="" onclick="$('a[href=\'#tab-review\']').trigger('click'); return false;">Написать отзыв</a>
+                </p>
+            </div>
+            <div class="social-likes">
+                <!-- AddThis Button BEGIN -->
+                <div class="addthis_toolbox addthis_default_style"
+                     data-url="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=5176">
+                    <a class="addthis_button_facebook_like at300b" fb:like :layout="button_count">
+                        <div class="fb-like fb_iframe_widget" data-layout="button_count" data-show_faces="false"
+                             data-share="false" data-action="like" data-width="90" data-height="25" data-font="arial"
+                             data-href="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=5176"
+                             data-send="false" style="height: 25px;" fb-xfbml-state="rendered"
+                             fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=0&amp;font=arial&amp;height=25&amp;href=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D5176&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90">
+                            <span style="vertical-align: bottom; width: 90px; height: 28px;">
+                                <iframe name="f5287d0cee1eb4" width="90px" height="25px"
+                                        data-testid="fb:like Facebook Social Plugin"
+                                        title="fb:like Facebook Social Plugin" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true" scrolling="no" allow="encrypted-media"
+                                        src="https://www.facebook.com/v2.6/plugins/like.php?action=like&amp;app_id=172525162793917&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df14bdf6a66aa87%26domain%3Dcosmetea.com.ua%26origin%3Dhttps%253A%252F%252Fcosmetea.com.ua%252Ff17e2855b6980a4%26relation%3Dparent.parent&amp;container_width=0&amp;font=arial&amp;height=25&amp;href=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D5176&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90"
+                                        style="border: none; visibility: visible; width: 90px; height: 28px;"
+                                        class=""></iframe>
+                            </span>
+                        </div>
+                    </a>
+                    <a class="addthis_button_tweet at300b">
+                        <div class="tweet_iframe_widget" style="width: 62px; height: 25px;">
+                            <span>
+                                <iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true"
+                                        allowfullscreen="true"
+                                        class="twitter-share-button twitter-share-button-rendered twitter-tweet-button"
+                                        style="position: static; visibility: visible; width: 77px; height: 20px;"
+                                        title="Twitter Tweet Button"
+                                        src="https://platform.twitter.com/widgets/tweet_button.96fd96193cc66c3e11d4c5e4c7c7ec97.ru.html#dnt=false&amp;id=twitter-widget-0&amp;lang=ru&amp;original_referer=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D5176&amp;size=m&amp;text=Cosrx%20AC%20Collection%20Calming%20Foam%20Cleanser%20150ml%20-%20%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%B5%20%D0%B8%20%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B5%20%7C%20%D1%86%D0%B5%D0%BD%D0%B0%20%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5%20Cosmetea%20SALE04%3A&amp;time=1608021642860&amp;type=share&amp;url=https%3A%2F%2Fcosmetea.com.ua%2Findex.php%3Froute%3Dproduct%2Fproduct%26product_id%3D5176%23.X9h2ij0eWoI.twitter"
+                                        data-url="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=5176#.X9h2ij0eWoI.twitter"></iframe>
+                            </span>
+                        </div>
+                    </a>
+                    <a class="addthis_button_pinterest_pinit at300b"></a>
+                    <a class="addthis_counter addthis_pill_style" href="#" style="display: inline-block;">
+                        <a class="atc_s addthis_button_compact">Поделиться
+                            <span></span>
+                        </a>
+                        <a class="addthis_button_expanded" target="_blank" title="Еще..." href="#"></a>
+                    </a>
+                    <div class="atclear"></div>
+                </div>
+                <script data-not_optimize="" data-script_num="2" data-desc="manually marked script Num 2"
+                        type="text/ho_deferred_js"
+                        src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script>
+                <!-- AddThis Button END -->
             </div>
         </div>
-        <div class="row">
-            <div class="col-sm-12">
-                <ul id="tabs" class="nav nav-tabs">
-                    <li class="active">
-                        <a href="#tab-description" data-toggle="tab">Описание</a>
-                    </li>
-                    <li>
-                        <a href="#tab-filters" data-toggle="tab">Характеристики</a>
-                    </li>
-                    <li>
-                        <a href="#tab-review" data-toggle="tab">Отзывы (0)</a>
-                    </li>
-                    <li>
-                        <a href="#tab-questions" data-toggle="tab">Вопросы и ответы (0)</a>
-                    </li>
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane" id="tab-questions">
-                        <form class="form-horizontal">
-                            <div id="question" style="margin-bottom:25px">
-                                <p style="margin-top:5px;">Нет вопросов об этом товаре.</p>
-                            </div>
-                            <h2 id="ask_heading">Задать вопрос об этом товаре</h2>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label" for="input-q-name">Ваше имя:</label>
-                                    <input type="text" name="q_name" value="" id="input-q-name" class="form-control"
-                                           title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваше имя:
-parseable name: q_name
-section: q_name_1-default
-field signature: 2274315779
-form signature: 6458712998434662493" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваше имя:
-parseable name: q_name
-section: q_name_1-default
-field signature: 2274315779
-form signature: 6458712998434662493" autofill-prediction="UNKNOWN_TYPE"/>
-                                </div>
-                            </div>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label" for="input-email">Ваш E-mail
-                                        <span style="color:#999999">(не публикуется)</span>
-                                    </label>
-                                    <input type="text" name="q_email" value="" id="input-email" class="form-control"
-                                           title="overall type: EMAIL_ADDRESS
-server type: EMAIL_ADDRESS
-heuristic type: EMAIL_ADDRESS
-label: Ваш E-mail (не публикуется)
-parseable name: q_email
-section: q_name_1-default
-field signature: 4211064954
-form signature: 6458712998434662493" autofill-information="overall type: EMAIL_ADDRESS
-server type: EMAIL_ADDRESS
-heuristic type: EMAIL_ADDRESS
-label: Ваш E-mail (не публикуется)
-parseable name: q_email
-section: q_name_1-default
-field signature: 4211064954
-form signature: 6458712998434662493" autofill-prediction="EMAIL_ADDRESS"/>
-                                </div>
-                            </div>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label" for="input-question">Ваш вопрос</label>
-                                    <textarea name="q_text" rows="5" id="input-question" class="form-control" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваш вопрос
-parseable name: q_text
-section: q_name_1-default
-field signature: 134916552
-form signature: 6458712998434662493" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваш вопрос
-parseable name: q_text
-section: q_name_1-default
-field signature: 134916552
-form signature: 6458712998434662493" autofill-prediction="UNKNOWN_TYPE"></textarea>
-                                </div>
-                            </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <ul id="tabs" class="nav nav-tabs">
+                <li class="active">
+                    <a href="#tab-description" data-toggle="tab">Описание</a>
+                </li>
+                <li>
+                    <a href="#tab-filters" data-toggle="tab">Характеристики</a>
+                </li>
+                <li>
+                    <a href="#tab-review" data-toggle="tab">Отзывы (0)</a>
+                </li>
+                <li>
+                    <a href="#tab-questions" data-toggle="tab">Вопросы и ответы (0)</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+
+                <div class="tab-pane" id="tab-questions">
+                    <form class="form-horizontal">
+                        <div id="question" style="margin-bottom:25px">
+                            <p style="margin-top:5px;">Нет вопросов об этом товаре.</p>
+                        </div>
+                        <h2 id="ask_heading">Задать вопрос об этом товаре</h2>
+
+                        <div class="form-group required">
                             <div class="col-sm-12">
-                                <div class="form-group required">
-                                    <label class="control-label" for="input-captcha_product_questions">Ответ на вопрос
-                                        ниже
-                                    </label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon captcha_wrap">
-                                            <img src="index.php?route=product/question/captcha" alt=""
-                                                 id="captcha_product_questions"/>
-                                        </span>
-                                        <input type="text" name="captcha_product_questions" value=""
-                                               id="input-captcha_product_questions" class="form-control" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ответ на вопрос ниже
-parseable name: captcha_product_questions
-section: q_name_1-default
-field signature: 1186514116
-form signature: 6458712998434662493" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ответ на вопрос ниже
-parseable name: captcha_product_questions
-section: q_name_1-default
-field signature: 1186514116
-form signature: 6458712998434662493" autofill-prediction="UNKNOWN_TYPE"/>
-                                    </div>
+                                <label class="control-label" for="input-q-name">Ваше имя:</label>
+                                <input type="text" name="q_name" value="" id="input-q-name" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="input-email">Ваш E-mail
+                                    <span style="color:#999999">(не публикуется)</span>
+                                </label>
+                                <input type="text" name="q_email" value="" id="input-email" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-group required">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="input-question">Ваш вопрос</label>
+                                <textarea name="q_text" rows="5" id="input-question" class="form-control"></textarea>
+                            </div>
+                        </div>
+
+
+                        <div class="col-sm-12">
+                            <div class="form-group required">
+                                <label class="control-label" for="input-captcha_product_questions">Ответ на вопрос
+                                    ниже
+                                </label>
+                                <div class="input-group">
+                                    <span class="input-group-addon captcha_wrap">
+                                        <img src="index.php?route=product/question/captcha" alt=""
+                                             id="captcha_product_questions">
+                                    </span>
+                                    <input type="text" name="captcha_product_questions" value=""
+                                           id="input-captcha_product_questions" class="form-control">
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <div class="col-sm-12 text-right">
-                                    <button type="button" id="button-question" data-loading-text="Загрузка..."
-                                            class="btn btn-primary">Отправить
-                                    </button>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-12 text-right">
+                                <button type="button" id="button-question" data-loading-text="Загрузка..."
+                                        class="btn btn-primary">Отправить
+                                </button>
                             </div>
-                        </form>
-                        <script type="text/javascript"><!--
+                        </div>
+                    </form>
+
+                    <script type="text/javascript"><!--
 $(document).ready(function() {
 	$('#button_ask').click(function (e) {
   	e.preventDefault();
@@ -449,11 +377,11 @@ $('#input-private-fake').on('change', function(){
    $('#input-private').val(this.checked ? 1 : 0);
 });
 
-$('#question').load('index.php?route=product/question/question_list&product_id=4096');
+$('#question').load('index.php?route=product/question/question_list&product_id=5176');
 
 $('#button-question').on('click', function() {
 	$.ajax({
-		url: 'index.php?route=product/question/ask_question&product_id=4096',
+		url: 'index.php?route=product/question/ask_question&product_id=5176',
 		type: 'post',
 		dataType: 'json',
 		data: 'name=' + encodeURIComponent($('input[name=\'q_name\']').val()) +
@@ -490,376 +418,236 @@ $('#button-question').on('click', function() {
 	});
 });
 //--></script>
+                </div>
+
+                <div class="tab-pane active" id="tab-description">
+                    <div style="text-align: center;">
+                        <b style="font-family: Helvetica;">
+                            <span style="font-size: 30px;">Cosrx AC Collection Calming Foam Cleanser 150ml</span>
+                        </b>
                     </div>
-                    <div class="tab-pane active" id="tab-description">
-                        <h1 data-mce-style="text-align: center;" style="text-align: center;">
-                            <strong>Ciracle Anti Blemish Foam Cleanser 150ml</strong>
-                        </h1>
-                        <p>
-                            <br/>
-                        </p>
-                        <p>&nbsp;&nbsp; Пенка очищающая для жирной и проблемной кожи</p>
-                        <p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;&nbsp; Нежная,
-                            пушистая, розовая пенка предназначена для очищения жирной кожи и кожи с акне.
-                        </p>
-                        <p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;
-                            Тысячи мельчайших пузырьков пенки глубоко проникают в поры, вымывают из
-                            них скопившиеся повседневные загрязнения и кожный жир. Также хорошо
-                            очищает пенка и поверхность кожи, удаляя с нее омертвевший слой клеток.
-                        </p>
-                        <p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;&nbsp;
-                            Специально подобранный состав этой пенки способствует не только
-                            глубокому увлажнению жирной и проблемной кожи, но и оздоравливает ее.
-                        </p>
-                        <p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;Благодаря
-                            увлажняющим компонентам, пенка не вызывает сухость кожи, а,
-                            значит, не подвергает ее возникновению стянутости и зуда. Противовоспалительные растительные
-                            компоненты
-                            пенки способствуют лечению акне и предупреждают появление новых,
-                            устраняют зуд и снимают покраснения. Кроме того, пенка регулирует
-                            водно-жировой баланс кожи, предупреждает излишнюю выработку кожного
-                            жира. Натуральные масла в составе пенки питают и смягчают кожу, делают ее гладкой и упругой.
-                        </p>
-                        <p style="text-align: justify;" data-mce-style="text-align: justify;">&nbsp;&nbsp;
-                            Пенка клинически протестирована, одобрена дерматологами, может
-                            использоваться даже для самой чувствительной кожи. Пенка не только
-                            очищает кожу, но и устраняет покраснения, делает кожу естественно
-                            сияющей.
-                        </p>
-                        <p>
-                            <b>&nbsp;&nbsp;<span style="text-decoration: underline;"
-                                                 data-mce-style="text-decoration: underline;">Способ применения:
-                            </span>
-                            </b>
-                            Вспенить средство, нанести массирующими движениями на кожу лица, затем смыть теплой водой.
-                        </p>
-                        <p>&nbsp;&nbsp; Объём: 150 мл</p>
-                        <p>
-                            <span style="color: rgb(255, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; caret-color: rgb(51, 51, 51);">
-                                &nbsp;Акция действует в связи с повреждением внешней картонной упаковки. Товар не
-                                вскрыт. Срок годности до 16.12.2021, 16.05.2022.
-                            </span>
-                            <br/>
-                        </p>
+                    <div style="text-align: left;">
+                        <font face="Helvetica">&nbsp; &nbsp;Очищающая пенка для проблемной кожи
+                        </font>
                     </div>
-                    <div class="tab-pane" id="tab-filters">
-                        <table class="attribute">
-                            <thead>
-                                <tr>
-                                    <td>
-                                        <strong>По типу кожи</strong>
-                                    </td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Жирная</td>
-                                </tr>
-                                <tr>
-                                    <td>Комбинированная</td>
-                                </tr>
-                                <tr>
-                                    <td>Обезвоженная</td>
-                                </tr>
-                                <tr>
-                                    <td>Проблемная</td>
-                                </tr>
-                                <tr>
-                                    <td>Склонная к аллергиям</td>
-                                </tr>
-                                <tr>
-                                    <td>Чувствительная</td>
-                                </tr>
-                            </tbody>
-                            <thead>
-                                <tr>
-                                    <td>
-                                        <strong>По эффекту</strong>
-                                    </td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Антисептический</td>
-                                </tr>
-                                <tr>
-                                    <td>Борьба с акне</td>
-                                </tr>
-                                <tr>
-                                    <td>Противовоспалительный</td>
-                                </tr>
-                                <tr>
-                                    <td>Снятие воспалений</td>
-                                </tr>
-                                <tr>
-                                    <td>Увлажнение</td>
-                                </tr>
-                            </tbody>
-                            <thead>
-                                <tr>
-                                    <td>
-                                        <strong>По возрасту</strong>
-                                    </td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>До 18</td>
-                                </tr>
-                                <tr>
-                                    <td>18-25</td>
-                                </tr>
-                                <tr>
-                                    <td>25-30</td>
-                                </tr>
-                                <tr>
-                                    <td>От 30</td>
-                                </tr>
-                                <tr>
-                                    <td>Без ограничений</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Очищающая пенка для проблемной кожи COSRX AC Collection
+                            Calming Foam Cleanser содержит стеариновая кислоту, миристиновую кислоту, лауриновую
+                            кислоту, лавандовое масло, масло сосны обыкновенной, калий кокоат, салициловую кислота,
+                            азиатиксицид.
+                        </font>
                     </div>
-                    <div class="tab-pane" id="tab-review">
-                        <h2>Отзывы о Ciracle Anti Blemish Foam Cleanser 150ml</h2>
-                        <form class="form-horizontal" id="form-review">
-                            <div id="review">
-                                <p>Нет отзывов об этом товаре.</p>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Формула CentellAC-Rx ™ не только лечит прыщи, но и помогает
+                            оживить и восстановить кожу без какого-либо раздражения.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Мягкое очищающее средство для ежедневного применения.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Масло лаванды улучшает состояние жирной кожи, избавляет от
+                            угревой сыпи, от воспаленной сыпи на лице и теле, эффективно борется с акне. Масло лаванды
+                            эффективно стягивает поры на лице, разглаживает рубцы после акне, придает коже гладкость.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Сосновое масло является сильным антиоксидантом, потому что
+                            хвоя сосны содержит витамин Е (350-360 мк/кг), который входит во все косметические средства
+                            для омоложения кожи. По содержанию витамина С хвою сосны ученые приравнивают к лимонам и
+                            апельсинам. Считается, что эфирное масло сосны оказывает омолаживающий эффект, регенерирует
+                            кожу и повышает защитные функции эпидермиса. Эффективно при акне, себорее, пигментных
+                            пятнах, для предотвращения и лечения рубцов.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Салициловая кислота эффективно борется с бактериями и
+                            предотвращает появление прыщей на коже, избавляет от гнойничковой сыпи, ускоряет заживление
+                            царапин. Эффективно отшелушивает отмершие клетки кожи, освобождает поры от грязи и остатков
+                            кожного жира, обладает подсушивающим свойством и уменьшает выработку кожного сала
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;Подходит для проблемной кожи, в том числе чувствительной и
+                            подростковой.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;<b>
+                            <u>Способ применения:</u>
+                        </b>
+                            небольшое количество средства, вспеньте с малым количеством воды. Нанесите, полученную пену
+                            на влажную кожу лица, массажными движениями. После умойтесь теплой водой.
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp; &nbsp;<b>Обьем:</b> 150 мл
+                        </font>
+                    </div>
+                    <div style="">
+                        <font face="Helvetica">&nbsp;&nbsp;</font>
+                        <b style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(255, 0, 0); font-size: 24px; caret-color: rgb(51, 51, 51);">
+                            Помятая внешняя упаковка. Товар не вскрыт. Сроки до 22.04.2023 г.
+                        </b>
+                    </div>
+                </div>
+
+                <div class="tab-pane" id="tab-filters">
+                    <table class="attribute">
+                        <thead>
+                            <tr>
+                                <td>
+                                    <strong>По типу кожи</strong>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Жирная</td>
+                            </tr>
+                            <tr>
+                                <td>Комбинированная</td>
+                            </tr>
+                            <tr>
+                                <td>Проблемная</td>
+                            </tr>
+                            <tr>
+                                <td>Склонная к аллергиям</td>
+                            </tr>
+                            <tr>
+                                <td>Чувствительная</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <td>
+                                    <strong>По эффекту</strong>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Антисептический</td>
+                            </tr>
+                            <tr>
+                                <td>Борьба с акне</td>
+                            </tr>
+                            <tr>
+                                <td>Отшелушивающий</td>
+                            </tr>
+                            <tr>
+                                <td>Очищение пор</td>
+                            </tr>
+                            <tr>
+                                <td>Против пигментации</td>
+                            </tr>
+                            <tr>
+                                <td>Противовоспалительный</td>
+                            </tr>
+                            <tr>
+                                <td>Регенерация тканей</td>
+                            </tr>
+                            <tr>
+                                <td>Себум контроль</td>
+                            </tr>
+                            <tr>
+                                <td>Сужение пор</td>
+                            </tr>
+                            <tr>
+                                <td>Успокаивание</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <td>
+                                    <strong>Активный компонент</strong>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Салициловая кислота</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <td>
+                                    <strong>По возрасту</strong>
+                                </td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>До 18</td>
+                            </tr>
+                            <tr>
+                                <td>18-25</td>
+                            </tr>
+                            <tr>
+                                <td>25-30</td>
+                            </tr>
+                            <tr>
+                                <td>От 30</td>
+                            </tr>
+                            <tr>
+                                <td>Без ограничений</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="tab-pane" id="tab-review">
+                    <div class="div_h2">Отзывы о Cosrx AC Collection Calming Foam Cleanser 150ml</div>
+                    <form class="form-horizontal" id="form-review">
+                        <div id="review">
+                            <p>Нет отзывов об этом товаре.</p>
+                        </div>
+                        <div class="div_h2" id="review-title">Написать отзыв</div>
+                        <div class="form-group required">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="input-name">Ваше имя:</label>
+                                <input type="text" name="name" value="" id="input-name" class="form-control">
                             </div>
-                            <h2 class="heading-title" id="review-title">Написать отзыв</h2>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label" for="input-name">Ваше имя:</label>
-                                    <input type="text" name="name" value="" id="input-name" class="form-control" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваше имя:
-parseable name: name
-section: name_1-default
-field signature: 3489289364
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваше имя:
-parseable name: name
-section: name_1-default
-field signature: 3489289364
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
+                        </div>
+                        <div class="form-group required">
+                            <div class="col-sm-12">
+                                <label class="control-label" for="input-review">Ваш отзыв</label>
+                                <textarea name="text" rows="5" id="input-review" class="form-control"></textarea>
+                                <div class="help-block">
+                                    <span class="text-danger">Внимание:</span>
+                                    HTML не поддерживается! Используйте обычный текст!
                                 </div>
                             </div>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label" for="input-review">Ваш отзыв</label>
-                                    <textarea name="text" rows="5" id="input-review" class="form-control" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваш отзыв
-parseable name: text
-section: name_1-default
-field signature: 2676195141
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Ваш отзыв
-parseable name: text
-section: name_1-default
-field signature: 2676195141
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"></textarea>
-                                    <div class="help-block">
-                                        <span class="text-danger">Внимание:</span>
-                                        HTML не поддерживается! Используйте обычный текст!
-                                    </div>
-                                </div>
+                        </div>
+                        <div class="form-group required">
+                            <div class="col-sm-12">
+                                <label class="control-label">Рейтинг</label>
+                                &nbsp;&nbsp;&nbsp; Плохо&nbsp;
+                                <input type="radio" name="rating" value="1">
+                                &nbsp;
+                                <input type="radio" name="rating" value="2">
+                                &nbsp;
+                                <input type="radio" name="rating" value="3">
+                                &nbsp;
+                                <input type="radio" name="rating" value="4">
+                                &nbsp;
+                                <input type="radio" name="rating" value="5">
+                                &nbsp;Хорошо
                             </div>
-                            <div class="form-group required">
-                                <div class="col-sm-12">
-                                    <label class="control-label">Рейтинг</label>
-                                    &nbsp;&nbsp;&nbsp; Плохо&nbsp;
-                                    <input type="radio" name="rating" value="1" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
-                                    &nbsp;
-                                    <input type="radio" name="rating" value="2" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
-                                    &nbsp;
-                                    <input type="radio" name="rating" value="3" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
-                                    &nbsp;
-                                    <input type="radio" name="rating" value="4" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Рейтинг Плохо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
-                                    &nbsp;
-                                    <input type="radio" name="rating" value="5" title="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Хорошо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-information="overall type: UNKNOWN_TYPE
-server type: NO_SERVER_DATA
-heuristic type: UNKNOWN_TYPE
-label: Хорошо
-parseable name: rating
-section: name_1-default
-field signature: 763486327
-form signature: 17964472501464985440" autofill-prediction="UNKNOWN_TYPE"/>
-                                    &nbsp;Хорошо
-                                </div>
+                        </div>
+                        <div class="buttons clearfix">
+                            <div class="pull-left">
+                                <button type="button" id="button-review" data-loading-text="Загрузка..."
+                                        class="btn btn-primary">Продолжить
+                                </button>
                             </div>
-                            <div class="buttons clearfix">
-                                <div class="pull-left">
-                                    <button type="button" id="button-review" data-loading-text="Загрузка..."
-                                            class="btn btn-primary">Продолжить
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-        <div id="sets_position"></div>
     </div>
-    <aside id="column-right" class="col-sm-3 hidden-xs">
-        <div>
-            <h2>Cosmetea</h2>
-            <div class="right-column">
-                <p style="margin-bottom: 10px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">
-                    ✅&nbsp;Есть магазин в Днепре
-                </p>
-            </div>
-            <div>
-                <p style="margin-bottom: 10px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">
-                    ✈️&nbsp;Бесплатная доставка НП от 1000 грн
-                </p>
-            </div>
-            <div>
-                <p style="margin-bottom: 10px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px;">
-                    🔬&nbsp;Только оригинальная и проверенная продукция
-                </p>
-            </div>
-        </div>
-        <h3>Просмотренные</h3>
-        <div class="row product-grid">
-            <div class="product-layout product-item">
-                <div class="product-thumb transition"> <!--                   <div class="label-sale">-5%</div>
-                 -->
-                    <div class="image">
-                        <a href="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=4096"
-                           class="product-link">
-                            <img src="https://cosmetea.com.ua/image/cache/catalog/i/ij/bd/53d24eee8ad458ac1fb025a5f774f07d-200x200.jpg"
-                                 alt="Ciracle Anti Blemish Foam Cleanser 150ml"
-                                 title="Ciracle Anti Blemish Foam Cleanser 150ml" class="img-responsive"/>
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <div class="name">
-                            <a href="https://cosmetea.com.ua/index.php?route=product/product&amp;product_id=4096">
-                                Ciracle Anti Blemish Foam Cleanser 150ml
-                            </a>
-                        </div>
-                        <p class="price">
-                            <del class="price-old">440 грн.</del>
-                            <span class="price-new">418 грн.</span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="product-layout product-item">
-                <div class="product-thumb transition"> <!--                  -->
-                    <div class="image">
-                        <a href="https://cosmetea.com.ua/holika-holika-aloe-soothing-gel-250-ml" class="product-link">
-                            <img src="https://cosmetea.com.ua/image/cache/catalog/i/np/bi/66c689640a86ccf554638080e529d1d0-200x200.jpg"
-                                 alt="Holika Holika Aloe soothing gel 250 ml"
-                                 title="Holika Holika Aloe soothing gel 250 ml" class="img-responsive"/>
-                        </a>
-                    </div>
-                    <div class="caption">
-                        <div class="name">
-                            <a href="https://cosmetea.com.ua/holika-holika-aloe-soothing-gel-250-ml">Holika Holika Aloe
-                                soothing gel 250 ml
-                            </a>
-                        </div>
-                        <p class="price">
-                            Цена: 250 грн.
-                        </p>
-                        <div class="rating">
-                            <span class="fa fa-stack">
-                                <i class="fa fa-star fa-stack-2x"></i>
-                                <i class="fa fa-star-o fa-stack-2x"></i>
-                            </span>
-                            <span class="fa fa-stack">
-                                <i class="fa fa-star fa-stack-2x"></i>
-                                <i class="fa fa-star-o fa-stack-2x"></i>
-                            </span>
-                            <span class="fa fa-stack">
-                                <i class="fa fa-star fa-stack-2x"></i>
-                                <i class="fa fa-star-o fa-stack-2x"></i>
-                            </span>
-                            <span class="fa fa-stack">
-                                <i class="fa fa-star fa-stack-2x"></i>
-                                <i class="fa fa-star-o fa-stack-2x"></i>
-                            </span>
-                            <span class="fa fa-stack">
-                                <i class="fa fa-star fa-stack-2x"></i>
-                                <i class="fa fa-star-o fa-stack-2x"></i>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </aside>
+
+    <div id="sets_position"></div>
 </div>
