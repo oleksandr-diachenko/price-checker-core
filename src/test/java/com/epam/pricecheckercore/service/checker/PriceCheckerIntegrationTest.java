@@ -1,7 +1,6 @@
 package com.epam.pricecheckercore.service.checker;
 
 import com.epam.pricecheckercore.AbstractProductDataProviderTest;
-import com.epam.pricecheckercore.FileDocumentParser;
 import com.epam.pricecheckercore.configuration.PriceCheckerConfiguration;
 import com.epam.pricecheckercore.exception.PriceCheckerException;
 import com.epam.pricecheckercore.helper.WorkbookHelperImpl;
@@ -43,7 +42,7 @@ class PriceCheckerIntegrationTest extends AbstractProductDataProviderTest {
 
         PriceCheckService priceCheckService =
                 new PriceCheckServiceImpl(new ExcelImpl(), singleton(dataProvider),
-                        siteChecker, new DocumentExtractor(new FileDocumentParser()));
+                        siteChecker, new DocumentExtractor());
 
         when(configuration.getPriceCheckService()).thenReturn(priceCheckService);
         when(configuration.getWorkbookHelper()).thenReturn(new WorkbookHelperImpl());

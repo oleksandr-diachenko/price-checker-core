@@ -1,59 +1,58 @@
 package com.epam.pricecheckercore.model.product;
 
-import com.epam.pricecheckercore.AbstractProductDataProviderTest;
+import com.epam.pricecheckercore.service.dataprovider.*;
+import com.epam.pricecheckercore.exception.ProductNotFoundException;
 import com.epam.pricecheckercore.model.magazine.Rozetka;
 import org.javamoney.moneta.Money;
-import org.jsoup.nodes.Document;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.io.FileNotFoundException;
 
 import static com.epam.pricecheckercore.model.enums.CurrencyCode.UAH;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class RozetkaTest extends AbstractProductDataProviderTest {
+class RozetkaTest {
 
-    protected RozetkaTest() {
-        super(new RozetkaProductSelector(), new Rozetka());
+    private DataProvider dataProvider;
+
+    @BeforeEach
+    void setUp() {
+        dataProvider = new RozetkaDataProvider(new FileJsonParser(), new Rozetka(),
+                new JsonMapper(), new MockApiUrlConstructor());
     }
 
     @Test
-    void shouldReturnDiscountPrice() throws Exception {
-        Document document = getDocument("xml/rozetka/Rozetka_discount.xml");
+    void shouldReturnDiscountPrice() throws ProductNotFoundException {
+        ProductData actual = dataProvider.getProductData("/json/rozetka/Rozetka_discount.json");
 
-        ProductData price = dataProvider.getProductData(document);
-
-        assertThat(price.getNormalPrice()).isEqualTo(Money.of(65999, UAH.name()));
-        assertThat(price.getDiscountedPrice()).isEqualTo(Money.of(60999, UAH.name()));
+        assertThat(actual.isInStock()).isTrue();
+        assertThat(actual.getNormalPrice()).isEqualTo(Money.of(1199, UAH.name()));
+        assertThat(actual.getDiscountedPrice()).isEqualTo(Money.of(999, UAH.name()));
     }
 
     @Test
-    void shouldReturnNormalPrice() throws Exception {
-        Document document = getDocument("xml/rozetka/Rozetka_normal.xml");
+    void shouldReturnNormalPrice() throws ProductNotFoundException {
+        ProductData actual = dataProvider.getProductData("/json/rozetka/Rozetka_normal.json");
 
-        ProductData price = dataProvider.getProductData(document);
-
-        assertThat(price.getNormalPrice()).isEqualTo(Money.of(75199, UAH.name()));
-        assertThat(price.getDiscountedPrice()).isEqualTo(Money.of(0, UAH.name()));
+        assertThat(actual.isInStock()).isTrue();
+        assertThat(actual.getNormalPrice()).isEqualTo(Money.of(9099, UAH.name()));
+        assertThat(actual.getDiscountedPrice()).isEqualTo(Money.of(0, UAH.name()));
     }
 
     @Test
-    void shouldReturnOutOfStock() throws Exception {
-        Document document = getDocument("xml/rozetka/Rozetka_outofstock.xml");
+    void shouldReturnOutOfStock() throws ProductNotFoundException {
+        ProductData actual = dataProvider.getProductData("/json/rozetka/Rozetka_outofstock.json");
 
-        ProductData price = dataProvider.getProductData(document);
-
-        assertThat(price.isInStock()).isFalse();
+        assertThat(actual.isInStock()).isFalse();
+        assertThat(actual.getNormalPrice()).isEqualTo(Money.of(0, UAH.name()));
+        assertThat(actual.getDiscountedPrice()).isEqualTo(Money.of(0, UAH.name()));
     }
 
     @Test
-    void shouldReturnNotFound() throws FileNotFoundException {
-        Document document = getDocument("xml/rozetka/Rozetka_notfound.xml");
+    void shouldReturnNotFound() throws ProductNotFoundException {
+        ProductData actual = dataProvider.getProductData("/json/rozetka/Rozetka_notfound.json");
 
-        ProductData price = dataProvider.getProductData(document);
-
-        assertThat(price.isInStock()).isTrue();
-        assertThat(price.getNormalPrice()).isEqualTo(Money.of(0, UAH.name()));
-        assertThat(price.getDiscountedPrice()).isEqualTo(Money.of(0, UAH.name()));
+        assertThat(actual.isInStock()).isFalse();
+        assertThat(actual.getNormalPrice()).isEqualTo(Money.of(0, UAH.name()));
+        assertThat(actual.getDiscountedPrice()).isEqualTo(Money.of(0, UAH.name()));
     }
 }

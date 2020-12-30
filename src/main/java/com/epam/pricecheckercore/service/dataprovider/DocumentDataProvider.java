@@ -1,7 +1,11 @@
-package com.epam.pricecheckercore.model.product;
+package com.epam.pricecheckercore.service.dataprovider;
 
+import com.epam.pricecheckercore.exception.ProductNotFoundException;
 import com.epam.pricecheckercore.helper.stringdecorator.StringProcessor;
 import com.epam.pricecheckercore.model.magazine.Magazine;
+import com.epam.pricecheckercore.model.product.ProductData;
+import com.epam.pricecheckercore.model.product.ProductSelector;
+import com.epam.pricecheckercore.service.parser.Parser;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.javamoney.moneta.Money;
@@ -9,17 +13,19 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.math.BigDecimal;
+import java.util.Optional;
 import java.util.function.Function;
 
 import static java.util.Optional.ofNullable;
 
 @Slf4j
 @RequiredArgsConstructor
-public class HtmlProduct implements Product {
+public class DocumentDataProvider implements DataProvider {
 
-    private final ProductSelector productSelector;
+    private final Parser<Document> parser;
     private final Magazine magazine;
-    private final StringProcessor stringDecorator;
+    private final ProductSelector productSelector;
+    private final StringProcessor stringProcessor;
 
     @Override
     public Magazine getMagazine() {
@@ -27,25 +33,41 @@ public class HtmlProduct implements Product {
     }
 
     @Override
-    public boolean isInStock(Document document) {
+    public ProductData getProductData(String url) throws ProductNotFoundException {
+        Optional<Document> documentOptional = parser.getContent(url);
+        if (documentOptional.isEmpty()) {
+            throw new ProductNotFoundException();
+        }
+        Document document = documentOptional.get();
+        ProductData productData = new ProductData();
+
+        if (isInStock(document)) {
+            productData.setInStock(true);
+            productData.setDiscountedPrice(getDiscountedPrice(document));
+            productData.setNormalPrice(getNormalPrice(document));
+        }
+
+        return productData;
+    }
+
+
+    private boolean isInStock(Document document) {
         return ofNullable(document.selectFirst(productSelector.getInStockSelector()))
                 .isPresent();
     }
 
-    @Override
-    public Money getDiscountedPrice(Document document) {
+    private Money getDiscountedPrice(Document document) {
         return getMoney(document, productSelector.getDiscountedPriceSelector());
     }
 
-    @Override
-    public Money getNormalPrice(Document document) {
+    private Money getNormalPrice(Document document) {
         return getMoney(document, productSelector.getNormalPriceSelector());
     }
 
     private Money getMoney(Document document, String discountPriceSelector) {
         return ofNullable(document.selectFirst(discountPriceSelector))
                 .map(Element::text)
-                .map(stringDecorator::process)
+                .map(stringProcessor::process)
                 .map(toBigDecimal())
                 .map(money -> Money.of(money, productSelector.getCurrencyCode().name()))
                 .orElse(Money.of(0, productSelector.getCurrencyCode().name()));
@@ -61,4 +83,5 @@ public class HtmlProduct implements Product {
             }
         };
     }
+
 }

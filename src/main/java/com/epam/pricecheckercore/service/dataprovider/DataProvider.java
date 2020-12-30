@@ -1,12 +1,12 @@
 package com.epam.pricecheckercore.service.dataprovider;
 
-import com.epam.pricecheckercore.model.product.Product;
+import com.epam.pricecheckercore.exception.ProductNotFoundException;
+import com.epam.pricecheckercore.model.magazine.Magazine;
 import com.epam.pricecheckercore.model.product.ProductData;
-import org.jsoup.nodes.Document;
 
 public interface DataProvider {
 
-    Product getProduct();
+    Magazine getMagazine();
 
-    ProductData getProductData(Document document);
+    ProductData getProductData(String url) throws ProductNotFoundException;
 }
