@@ -1,0 +1,18 @@
+{
+  "old_price": 1199,
+  "old_price_formatted": "1 199",
+  "old_usd_price": "41.92",
+  "price": 999,
+  "price_formatted": "999",
+  "sell_status": "available",
+  "status": "active",
+  "usd_price": "34.93",
+  "pl_charge_pcs": 0,
+  "pl_use_instant_bonus": false,
+  "pl_premium_bonus_charge_pcs": 0,
+  "show_in_site": null,
+  "rests": -1,
+  "min_price": 0,
+  "max_price": 0,
+  "has_shops": false
+}

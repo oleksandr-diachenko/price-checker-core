@@ -1,6 +1,6 @@
-package com.epam.pricecheckercore;
+package com.epam.pricecheckercore.service.dataprovider;
 
-import com.epam.pricecheckercore.service.parser.DocumentParser;
+import com.epam.pricecheckercore.service.parser.Parser;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.jsoup.Jsoup;
@@ -11,11 +11,15 @@ import java.io.InputStream;
 import java.util.Optional;
 
 @Slf4j
-public class FileDocumentParser implements DocumentParser {
+public class FileDocumentParser implements Parser<Document> {
 
     @Override
-    public Optional<Document> getDocument(String path) {
+    public Optional<Document> getContent(String path) {
         InputStream is = getClass().getClassLoader().getResourceAsStream(path);
+        if (is == null) {
+            log.error("Can't read file: {}", path);
+            return Optional.empty();
+        }
         try {
             Document document = Jsoup.parse(is, "UTF-8", StringUtils.EMPTY);
             return Optional.of(document);

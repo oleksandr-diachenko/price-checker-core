@@ -1,22 +1,15 @@
 package com.epam.pricecheckercore.service.checker;
 
 import com.epam.pricecheckercore.AbstractProductDataProviderTest;
-import com.epam.pricecheckercore.FileDocumentParser;
 import com.epam.pricecheckercore.model.magazine.Rozetka;
 import com.epam.pricecheckercore.model.product.RozetkaProductSelector;
-import com.epam.pricecheckercore.service.parser.DocumentParser;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-
-import java.util.Optional;
 
 import static com.epam.pricecheckercore.model.enums.PageStatus.PAGE_NOT_FOUND;
 import static com.epam.pricecheckercore.model.enums.ProductStatus.OUT_OF_STOCK;
 import static com.epam.pricecheckercore.model.enums.ProductStatus.PRICE_NOT_FOUND;
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.ArgumentMatchers.anyString;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
 
 class DocumentExtractorTest extends AbstractProductDataProviderTest {
 
@@ -28,21 +21,21 @@ class DocumentExtractorTest extends AbstractProductDataProviderTest {
 
     @BeforeEach
     void setUp() {
-        extractor = new DocumentExtractor(new FileDocumentParser());
+        extractor = new DocumentExtractor();
     }
 
     @Test
     void shouldReturnNormalPrice() {
         String actual = extractor.extract(dataProvider, "xml/rozetka/Rozetka_normal.xml");
 
-        assertThat(actual).isEqualTo("75199");
+        assertThat(actual).isEqualTo("75199.0");
     }
 
     @Test
     void shouldReturnDiscountPrice() {
         String actual = extractor.extract(dataProvider, "xml/rozetka/Rozetka_discount.xml");
 
-        assertThat(actual).isEqualTo("60999");
+        assertThat(actual).isEqualTo("60999.0");
     }
 
     @Test
@@ -61,11 +54,7 @@ class DocumentExtractorTest extends AbstractProductDataProviderTest {
 
     @Test
     void shouldReturnPageNotFound() {
-        DocumentParser documentParser = mock(DocumentParser.class);
-        when(documentParser.getDocument(anyString())).thenReturn(Optional.empty());
-        extractor = new DocumentExtractor(documentParser);
-
-        String actual = extractor.extract(dataProvider, "xml/rozetka/Rozetka_outofstock.xml");
+        String actual = extractor.extract(dataProvider, "qwe");
 
         assertThat(actual).isEqualTo(PAGE_NOT_FOUND.getStatus());
     }

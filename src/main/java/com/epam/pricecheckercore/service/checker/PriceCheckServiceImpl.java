@@ -20,9 +20,9 @@ import static org.apache.commons.lang3.StringUtils.trim;
 public class PriceCheckServiceImpl implements PriceCheckService {
 
     private final Excel excel;
-    private final Set<DataProvider> dataProviderStrategies;
+    private final Set<DataProvider> dataProviders;
     private final SiteChecker siteChecker;
-    private final DocumentExtractor documentExtractor;
+    private final Extractor extractor;
 
     @Override
     public Workbook checkPrice(byte[] bytes, int urlIndex, int insertIndex)
@@ -32,10 +32,10 @@ public class PriceCheckServiceImpl implements PriceCheckService {
             return excel.buildWorkBook(table);
         }
         table.parallelStream().forEach(row -> {
-            for (DataProvider dataProvider : emptyIfNull(dataProviderStrategies)) {
+            for (DataProvider dataProvider : emptyIfNull(dataProviders)) {
                 String url = retrieveUrl(row, urlIndex);
-                if (siteChecker.isThisMagazine(url, dataProvider.getProduct().getMagazine())) {
-                    insert(row, insertIndex, documentExtractor.extract(dataProvider, url));
+                if (siteChecker.isThisMagazine(url, dataProvider.getMagazine())) {
+                    insert(row, insertIndex, extractor.extract(dataProvider, url));
                 }
             }
         });
